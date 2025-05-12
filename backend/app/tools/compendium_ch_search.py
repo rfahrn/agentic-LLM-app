@@ -1,5 +1,11 @@
 
-api_key_tavily = st.secrets["tavily"]["TAVILY_API_KEY"]
+from tavily import TavilyClient
+import os
+import streamlit as st
+
+
+#api_key_tavily = st.secrets["tavily"]["TAVILY_API_KEY"]
+api_key_tavily = os.getenv("TAVILY_API_KEY")
 client = TavilyClient(api_key=api_key_tavily)
 
 def get_compendium_info(medication: str) -> str:
@@ -17,3 +23,5 @@ def get_compendium_info(medication: str) -> str:
         )
     
     return f"**Info:** {answer}\n\n🔗 Links:\n" + "\n".join(f"- {url}" for url in urls[:3])
+
+
