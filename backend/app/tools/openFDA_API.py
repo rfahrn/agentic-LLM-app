@@ -29,8 +29,7 @@ def load_local_fda_data():
     except Exception as e:
         print(f"❗ Fehler beim Laden der lokalen FDA-Daten: {e}")
         return []
-
-# === Combine all relevant fields nicely ===
+    
 def format_full_fda_entry(entry):
     """Format all important fields nicely together."""
     sections = []
@@ -63,7 +62,6 @@ def format_full_fda_entry(entry):
     else:
         return "❗ Keine relevanten Informationen gefunden."
 
-# === Local Search ===
 def search_openfda_local(query):
     """Search locally stored OpenFDA data and format full document."""
     results = load_local_fda_data()

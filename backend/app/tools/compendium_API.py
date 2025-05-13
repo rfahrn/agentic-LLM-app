@@ -36,9 +36,7 @@ if response.status_code == 200:
         name = BeautifulSoup(name_html.text, "html.parser").get_text()
         soup = BeautifulSoup(raw_html, "html.parser")
         print(soup.prettify())
-        #print(f"\n📦 **Product Name**: {name}")
-        #print("=" * 80)
-        #print("📜 **Content**:\n" + "=" * 80)
+
 
         for section in soup.select("div.paragraph"):
             for tag in section.descendants:
@@ -52,15 +50,13 @@ if response.status_code == 200:
                     if bold:
                         bold_text = bold.get_text(strip=True)
                         rest = tag.get_text(strip=True).replace(bold_text, "", 1)
-                        #print(f"• **{bold_text}**{rest}")
+
                     else:
-                        #print(f"• {tag.get_text(strip=True)}")
                         pass
 
                 elif tag.name == "p":
                     text = tag.get_text(strip=True)
                     if text:
-                        #print(f"• {text}")
                         pass
     print("=" * 80)
 else:
