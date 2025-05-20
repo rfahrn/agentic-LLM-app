@@ -19,7 +19,7 @@ load_dotenv()
 st.set_page_config(page_title="KING – Streamed Multi-Tool Agent", layout="wide")
 # --- SIDEBAR NAVIGATION ---
 page = st.sidebar.selectbox("Seite wählen:", ["Apotheker Assistent", " Post-Sendungen"])
-if page == "💊 Apotheker Assistent":
+if page == "Apotheker Assistent":
     # --- API Key & Tool Toggles ---
     st.sidebar.markdown("---")
     openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
