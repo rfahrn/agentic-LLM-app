@@ -38,7 +38,7 @@ if page == "Apotheker Assistent":
     # --- CHOICE: Strukturierte Frage vs. Freie Frage ---
     mode = st.radio(
         "Fragemodus wählen:",
-        ("Strukturierte Frage", "✏️ Freie Frage / offene Fragen")
+        ("Strukturierte Frage", " Freie Frage / offene Fragen")
     )
 
     if mode == "🔧 Strukturierte Frage":
