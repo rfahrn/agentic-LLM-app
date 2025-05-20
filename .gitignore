@@ -8,4 +8,9 @@ node_modules/
 dist/
 *.log
 .venv/
-data/
+
+backend/data/MedicationGuides_2025_05_19/
+backend/data/ATC-Code sortierte Textbausteine aktuell.xlsx
+backend/data/Medication_Guides.xlsx
+backend/data/Medication Guides.csv
+backend/data/Interaktionen nach IA-Nummern.xlsx

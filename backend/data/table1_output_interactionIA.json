@@ -1,0 +1,2094 @@
+[
+  {
+    "IA_Nr": 1,
+    "Interaktion": "ACE-Hemmer - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Lisinopril - Irfen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lisinopril und Irfen: Die blutdrucksenkende Wirkung von Lisinopril kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      },
+      {
+        "Name": "Perindopril - Vimovo",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Perindopril und Vimovo: Die blutdrucksenkende Wirkung von Perindopril kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      },
+      {
+        "Name": "Coveram plus - Irfen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Irfen: Die blutdrucksenkende Wirkung von Coveram plus kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      },
+      {
+        "Name": "Coveram plus - Ecofenac CR",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Ecofenac CR: Die blutdrucksenkende Wirkung von Coveram plus kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 9,
+    "Interaktion": "Antidepressiva - Alkoholhaltige Arzneimittel",
+    "Spezialitäten": [
+      {
+        "Name": "Trittico - Klosterfrau Melissengeist",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Trittico und Klosterfrau Melissengeist: Alkohol - auch in Arzneimitteln - kann während einer Behandlung mit Trittico die zentraldämpfenden Effekte verstärken. Die Konzentrationsfähigkeit (z. B. im Strassenverkehr) wird beeinträchtigt. Auch Blutdruckabfall und mehrstündige Gedächtnisverluste wurden schon nach dem Konsum geringer Alkoholmengen berichtet."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 28,
+    "Interaktion": "Antidiabetika - ACE-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Metfin - Enalapril",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Enalapril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "Name": "Jardiance - Perindopril",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Perindopril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "Name": "Insulin Levemir - Perindopril",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Insulin Levemir und Perindopril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "Name": "Jardiance Met - Lisitril",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance Met und Lisitril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "Name": "Invokana - Ramipril",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Invokana und Ramipril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "Name": "Forxiga - Perindopril-Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Forxiga und Perindopril-Indapamid: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "Name": "Jardiance - Ramipril",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Ramipril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 42,
+    "Interaktion": "Benzodiazepine - Alkoholhaltige Arzneimittel",
+    "Spezialitäten": [
+      {
+        "Name": "Xanax - Klosterfrau Melissengeist",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Xanax und Klosterfrau Melissengeist: Alkohol - auch in Arzneimitteln - kann während einer Behandlung mit Xanax verstärkte zentraldämpfende Wirkungen wie verstärkte Dämpfung, eingeschränkte Konzentrationsfähigkeit, Benommenheit, Schwindel, aber auch Herabsetzung der Atmung und Gedächtnisverlust hervorrufen. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 45,
+    "Interaktion": "Betablocker (Antihypertonika) - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Metoprolol - Voltaren",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Metoprolol und Voltaren: verminderte blutdrucksenkende Wirkung möglich."
+      },
+      {
+        "Name": "Bisoprolol - Voltaren",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Bisoprolol und Voltaren: verminderte blutdrucksenkende Wirkung möglich."
+      },
+      {
+        "Name": "Tenormin - Inflamac",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Tenormin und Inflamac: verminderte blutdrucksenkende Wirkung möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 61,
+    "Interaktion": "Alpha-2-Rezeptoragonisten - Beta-Blocker",
+    "Spezialitäten": [
+      {
+        "Name": "Simbrinza - Timogel",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Simbrinza und Timogel: bei gleichzeitiger Behandlung können sich die blutdrucksenkende Wirkung verstärken und der Herzschlag verlangsamen."
+      },
+      {
+        "Name": "Simbrinza - Duotrav",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Simbrinza und Duotrav: bei gleichzeitiger Behandlung können sich die blutdrucksenkende Wirkung verstärken und der Herzschlag verlangsamen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 79,
+    "Interaktion": "Alkoholhaltige Arzneimittel - Nitroimidazol-Derivate, Ketoconazol",
+    "Spezialitäten": [
+      {
+        "Name": "Klosterfrau Melissengeist - Flagyl",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Klosterfrau Melissengeist und Flagyl: Alkohol (auch in Klosterfrau Melissengeist) kann während einer Therapie mit Flagyll einen sogenannten Antabus-Effekt auslösen (Kopfschmerzen, Übelkeit und Blutdruckabfall)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 92,
+    "Interaktion": "Neuroleptika - Lithiumsalze",
+    "Spezialitäten": [
+      {
+        "Name": "Sequase - Quilonorm",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Sequase und Quilonorm: erhöhte Gefahr nervenschädigender und herzschädigender Wirkung möglich"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 111,
+    "Interaktion": "Beta-Sympathomimetika - Nicht kardioselektive Betablocker",
+    "Spezialitäten": [
+      {
+        "Name": "Ultibro - Timogel",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ultibro und Timogel: Der Wirkstoff von Timogel kann die bronchienerweiternden Eigenschaften von Ultibro abschwächen oder aufheben. "
+      },
+      {
+        "Name": "Seretide - Carvedilol",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Seretide und Carvedilol: Der Wirkstoff von Carvedilol kann die bronchienerweiternden Eigenschaften von Seretide abschwächen oder aufheben. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 130,
+    "Interaktion": "Methotrexat, Pemetrexed - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Metoject - Ibuprofen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Metoject und Ibuprofen: Ibuprofen verstärkt die unerwünschten Wirkungen von Metoject, z B. Fieber, Schleimhautentzündungen, Blutbildungsstörung mit Blutbildschäden, Nieren- und Lebertoxizität."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 140,
+    "Interaktion": "Neuroleptika - Anticholinergika",
+    "Spezialitäten": [
+      {
+        "Name": "Seroquel - Buscopan",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Seroquel und Buscopan: Bei gleichzeitiger Behandlung  kann eine verstärkte anticholinerge Wirkung auftreten wie Akkomodationsstörung beim Sehen, Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen. Bei älteren Patienten ist das Sturzrisiko erhöht."
+      },
+      {
+        "Name": "Zyprexa - Solifenacin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Zyprexa und Solifenacin: Bei gleichzeitiger Behandlung kann eine verstärkte anticholinerge Wirkung auftreten wie Akkomodationsstörung beim Sehen, Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen. Bei älteren Patienten ist das Sturzrisiko erhöht."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 144,
+    "Interaktion": "Colistin - Aminoglykosid-Antibiotika",
+    "Spezialitäten": [
+      {
+        "Name": "Colifin - Bramitob",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Colifin und Bramitob: es können verstärkte nierenschädigende Wirkung und  neuromuskulär blockierende Effekte (Atemlähmung) auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 146,
+    "Interaktion": "Alpha-1-Rezeptorantagonisten - Beta-Blocker",
+    "Spezialitäten": [
+      {
+        "Name": "Cardura - Bisoprolol",
+        "Beschreibung": "Wechselwirkung der Klasse 6 ( keine Interaktion zu erwarten-in der Regel keine Massnahmen erforderlich) zwischen Cardura und Bisoprolol: Während einer Therapie mit Bisoprolol kann bei beginndender Therapie mit Cardura der First-dose-Effekt (Blutdruckabfall mit Kollapsneigung) häufiger und stärker auftreten."
+      },
+      {
+        "Name": "Tamsulosin - Concor",
+        "Beschreibung": "Wechselwirkung der Klasse 6 ( keine Interaktion zu erwarten-in der Regel keine Massnahmen erforderlich) zwischen Tamsulosin und Concor: Während einer Therapie mit Concor kann bei beginndender Therapie mit Tamsulosin der First-dose-Effekt (Blutdruckabfall mit Kollapsneigung) häufiger und stärker auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 151,
+    "Interaktion": "Antiphlogistika, nicht steroidale - Alkoholhaltige Arzneimittel",
+    "Spezialitäten": [
+      {
+        "Name": "Aspirin Cardio - Vi-De 3 Monatsdosis",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Aspirin Cardio und Vi-De 3 Monatsdosis: Vermehrtes Auftreten von Geschwüren und Blutungen im Magen-Darm-Trakt."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 158,
+    "Interaktion": "Sulfonylharnstoffe - Fibrate",
+    "Spezialitäten": [
+      {
+        "Name": "Diamicron - Cedur (Bezafibrat)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Diamicron und Cedur: Kurz nach Beginn oder in den ersten Monaten der gleichzeitigen Behandlung kann eine verstärkte blutzuckersenkende Wirkung auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 164,
+    "Interaktion": "Antidiabetika - Thiazid-Diuretika und Analoge",
+    "Spezialitäten": [
+      {
+        "Name": "Jardiance Met - Cansartan Mepha plus",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance Met und Cansartan Mepha plus: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "Name": "Metfin - Micardis plus",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Micardis plus: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "Name": "Metformin - Enalapril HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Enalapril HCT: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "Name": "Metformin - Irbesartan HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Irbesartan HCT: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "Name": "Metformin - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Indapamid: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "Name": "Tresiba - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Tresiba und Exforge HCT: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "Name": "Rybelsus - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Rybelsus und Exforge HCT: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "Name": "Metfin - Losartan HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Losartan HCT: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "Name": "Metformin - Co-Valsartan",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Co-Valsartan: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "Name": "Sitagliptin - Bilol comp.",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Sitagliptin und Bilol comp.: verminderte blutzuckersenkende Wirkung möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 165,
+    "Interaktion": "Sympathomimetika - Antidepressiva, trizyklische, und Analoge",
+    "Spezialitäten": [
+      {
+        "Name": "Gutron - Saroten",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Gutron und Saroten: Die Wirkung von Gutron kann durch Saroten erheblich verstärkt werden. Herzfrequenz- und Blutdruckanstiege bis hin zu Hochdruckkrisen mit Kopfschmerzen, Sehstörungen und Verwirrtheit können auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 176,
+    "Interaktion": "Antidiabetika - Schilddrüsenhormone",
+    "Spezialitäten": [
+      {
+        "Name": "Januvia - Eltroxin",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Januvia und Eltroxin. Durch eine wahrscheinliche Wirkung auf den Glucosestoffwechsel kann die blutzuckersenkende Wirkung von Januvia möglicherweise vermindert sein."
+      },
+      {
+        "Name": "Jardiance Met - Euthyrox",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Jardiance Met und Euthyrox. Durch eine wahrscheinliche Wirkung auf den Glucosestoffwechsel kann die blutzuckersenkende Wirkung von Januvia möglicherweise vermindert sein."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 182,
+    "Interaktion": "Levothyroxin, Liothyronin - Enzyminduktoren",
+    "Spezialitäten": [
+      {
+        "Name": "Tirosint - Erleada (Apalutamid)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tirosint und Erleada: Bei gleichzeitiger Behandlung kann die Wirksamkeit von Tirosint vermindert werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 188,
+    "Interaktion": "Vitamin-K-Antagonisten - Paracetamol",
+    "Spezialitäten": [
+      {
+        "Name": "Marcoumar - Dafalgan",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Marcoumar und Dafalgan: Bei regelmässiger Einnahme von Paracetamol ergibt siche ein erhöhtes Blutungsrisiko durch verstärkte blutgerinnungshemmende Wirkung von Marcoumar."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 189,
+    "Interaktion": "Antiphlogistika, nicht steroidale - Glukokortikoide",
+    "Spezialitäten": [
+      {
+        "Name": "Aspirin Cardio - Spiricort",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin Cardio und Spiricort: Erhöhtes Risiko für Blutungen und Geschwürbildung im Magen-Darm-Trakt. Das Risiko steigt mit der Dauer der Behandlung."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 201,
+    "Interaktion": "Eisensalze - Aluminium-, Calcium- und Magnesiumsalze; Antazida",
+    "Spezialitäten": [
+      {
+        "Name": "Ferrum Hausmann - Magnesium Diasporal",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Eisen und Magnesium: Die gleichzeitige Einnahme vermindert die Aufnahme von Eisen bzw. Magnesium. Es sollte ein zeitlicher Abstand bei der Einnahme von mindestens 3 Stunden eingehalten werden. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 211,
+    "Interaktion": "Diuretika, kaliuretische - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Comilorid - Voltaren",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Comilorid und Voltaren: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "Name": "Indapamid - Vimovo",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Indapamid und Vimovo: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "Name": "Torasemid - Olfen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Olfen: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "Name": "Coveram plus - Irfen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Irfen: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "Name": "Blopress plus - Felden",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Blopress plus und Felden: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 224,
+    "Interaktion": "Kontrazeptiva, hormonale - Antibiotika",
+    "Spezialitäten": [
+      {
+        "Name": "Mercilon - Supracyclin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Mercilon und Supracyclin: Verminderte Wirksamkeit hormonaler Kontrazeptiva durch Antibiotika nicht auszuschliessen. Kein gesicherter Zusammenhang, aber Vorsichtsmassnahme."
+      },
+      {
+        "Name": "NuvaRing - Co-Amoxicillin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen NuvaRing und Co-Amoxicillin: Verminderte Wirksamkeit hormonaler Kontrazeptiva durch Antibiotika nicht auszuschliessen. Kein gesicherter Zusammenhang, aber Vorsichtsmassnahme."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 231,
+    "Interaktion": "Diuretika, kaliuretische - Gluko- bzw. Mineralokortikoide",
+    "Spezialitäten": [
+      {
+        "Name": "Exforge HCT - Prednison",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Exforge HCT und Prednison: verstärkter Kaliumverlust und erhöhte Gefahr einer Hypokaliämie (zu tiefer Kaliumspiegel). Symptome können Muskelschwäche, Schläfrigkeit und EKG-Veränderungen sein."
+      },
+      {
+        "Name": "Torasemid - Prednisolon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Prednisolon: verstärkter Kaliumverlust und erhöhte Gefahr einer Hypokaliämie (zu tiefer Kaliumspiegel). Symptome können Muskelschwäche, Schläfrigkeit und EKG-Veränderungen sein."
+      },
+      {
+        "Name": "Sevikar-HCT - Spiricort",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sevikar HCT und Spiricort: Bei gleichzeitiger Dauertherapie ist die Gefahr einer Hypokaliämie im Verlauf der Behandlung erhöht. Symptome der Hypokaliämie sind Muskelschwäche und -krämpfe, verminderte Reflexe, Herzklopfen, Verstopfung und EKG-Veränderungen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 232,
+    "Interaktion": "ACE-Hemmer - Diuretika, kaliuretische",
+    "Spezialitäten": [
+      {
+        "Name": "Ramipril - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Ramipril und Torasemid: unter Behandlung mit Torasemid kann zu Beginn einer Therapie mit Ramipril in Einzelfällen ein starker Blutdruckabfall mit Benommenheit und Schwindel sowie eine Verschlechterung der Nierenfunktion auftreten."
+      },
+      {
+        "Name": "Perindopril/Amlodipin- Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Perindopril-Amlodipin und Torasemid: unter Behandlung mit Torasemid kann zu Beginn einer Therapie mit Ramipril in Einzelfällen ein starker Blutdruckabfall mit Benommenheit und Schwindel sowie eine Verschlechterung der Nierenfunktion auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 256,
+    "Interaktion": "Antidiabetika - Sympathomimetika",
+    "Spezialitäten": [
+      {
+        "Name": "Vokanamet - Relvar Ellipta",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Vokanamet und Relvar Ellipta: die blutzuckersenkende Wirkung kann durch Relvar Ellipta dosisabhängig abgeschwächt werden."
+      },
+      {
+        "Name": "Fiasp - Ventolin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Fiasp und Ventolin: die blutzuckersenkende Wirkung kann durch Ventolin dosisabhängig abgeschwächt werden."
+      },
+      {
+        "Name": "Metformin - Trimbow",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Trimbow: die blutzuckersenkende Wirkung kann durch Trimbow dosisabhängig abgeschwächt werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 288,
+    "Interaktion": "ACE-Hemmer - Allopurinol",
+    "Spezialitäten": [
+      {
+        "Name": "Lisinopril - Allopur",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lisinopril und Allopur: Bei gleichzeitiger Behandlung ist das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Gelenkschmerz, Leukopenie (Mangel an weissen Blutkörperchen) und Stevens-Johnson-Syndrom (Hauterkrankung) sowie für Infektionen erhöht."
+      },
+      {
+        "Name": "Ramipril - Allopurinol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ramipril und Allopurinol: Bei gleichzeitiger Behandlung ist das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Gelenkschmerz, Leukopenie (Mangel an weissen Blutkörperchen) und Stevens-Johnson-Syndrom (Hauterkrankung) sowie für Infektionen erhöht."
+      },
+      {
+        "Name": "Coveram plus - Allopurinol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Allopurinol: bei gleichzeitiger Behandlung erhöht sich das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Leukopenie (Abfall der weissen Blutkörperchen) und für Infektionen. Immunologische Reaktionen traten jeweils auf, kurz nachdem die Patienten während einer Perindopril-Behandlung (Wirkstoff von Coveram plus) mit der Anwendung von Allopurinol begonnen hatten."
+      },
+      {
+        "Name": "Perindopril - Zyloric",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Perindopril und Zyloric: bei gleichzeitiger Behandlung erhöht sich das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Leukopenie (Abfall der weissen Blutkörperchen) und für Infektionen. Immunologische Reaktionen traten jeweils auf, kurz nachdem die Patienten während einer Perindopril-Behandlung (Wirkstoff von Coveram plus) mit der Anwendung von Allopurinol begonnen hatten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 326,
+    "Interaktion": "Diuretika, kaliumretinierende - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Comilorid - Voltaren",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Comilorid und Voltaren: zu hohe Kaliumwerte und Nierenversagen möglich"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 387,
+    "Interaktion": "Typhus-Lebendimpfstoff, oral - Antiinfektiva",
+    "Spezialitäten": [
+      {
+        "Name": "Vivotif - Co-Amoxicillin",
+        "Beschreibung": "Die gleichzeitige Anwendung kann den Impferfolg (Vivotif) beeinträchtigen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 393,
+    "Interaktion": "Insuline - Kardioselektiv bzw. vasodilatierende Betablocker",
+    "Spezialitäten": [
+      {
+        "Name": "Lantus - Bisoprolol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lantus und Bisoprolol: die blutzuckersenkende Wirkung von Lantus kann verstärkt werden. Ausserdem können sie die typischen Warnsymptome einer Hypoglykämie (Tremor, Tachykardie, Unruhe, Hungergefühl, Kopfschmerzen) maskieren, Schwitzen als Warnsymptom dagegen verstärken."
+      },
+      {
+        "Name": "Tresiba - Bilol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tresiba und Bilol: die blutzuckersenkende Wirkung von Tresiba kann verstärkt werden. Ausserdem können sie die typischen Warnsymptome einer Hypoglykämie (Tremor, Tachykardie, Unruhe, Hungergefühl, Kopfschmerzen) maskieren, Schwitzen als Warnsymptom dagegen verstärken."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 442,
+    "Interaktion": "Nahrungsmittelinteraktion Nifedipin-Derivate - Grapefruit",
+    "Spezialitäten": [
+      {
+        "Name": "Amlodipin - Grapefruit",
+        "Beschreibung": "Verstärkte Wirkung möglich. Effekte wie verstärkte Blutdrucksenkung, erhöhte Herzfrequenz, verstärkte Gefässerweiterung und dadurch bedingte Symptome wie Kopfschmerzen können vermehrt auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 453,
+    "Interaktion": "Beta-Blocker - Nifedipin und -Derivate",
+    "Spezialitäten": [
+      {
+        "Name": "Meto Zerok - Amlodipin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Meto Zerok und Amlodipin: verstärkte Blutdrucksenkung möglich"
+      },
+      {
+        "Name": "Nebivolol - Amlodipin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Nebivolol und Amlodipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "Name": "Bilol - Amlodipin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Amlodipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "Name": "Bilol - Coveram plus",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Coveram plus: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "Name": "Bilol - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Exforge HCT: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "Name": "Bilol - Sevikar",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Sevikar: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "Name": "Concor - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Concor und Exforge HCT: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "Name": "Beloc Zok - Lercanidipin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Beloc Zok und Lercanidipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "Name": "Bilol - Lercanidipin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Lercanidipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 464,
+    "Interaktion": "Neuroleptika - Serotonin-Reuptake-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Quetiapin - Venlafaxin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Quetiapin und Venlafaxin: vermehrtes Auftreten schwerer unerwünschter Wirkungen möglich, Zittern, Muskelsteifheit und Bewegungsunruhe können auftreten. Zudem erhöhtes Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes, wodurch symptomatische Schwindel- oder Ohnmachtsanfälle auftreten können."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 478,
+    "Interaktion": "Angiotensin-II-Antagonisten - Amilorid, Triamteren",
+    "Spezialitäten": [
+      {
+        "Name": "Edarbi - Comilorid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Edarbi und Comilorid: erhöhtes Risiko für zu hohe Kaliumwerte, zu Beginn der Behandlung starker Blutdruckabfall möglich"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 479,
+    "Interaktion": "Kaliumsalze - Angiotensin-II-Antagonisten",
+    "Spezialitäten": [
+      {
+        "Name": "KCl Hausmann - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen KCl Hausmann und Exforge HCT: Gefahr von zu hohen Kaliumwerten (Hyperkaliämie)"
+      },
+      {
+        "Name": "KCL Hausmann - Amlodipin-Valsartan-HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen KCl Hausmann und Amlodipin-Valsartan-HCT: Gefahr von zu hohen Kaliumwerten (Hyperkaliämie)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 486,
+    "Interaktion": "Diuretika, kaliuretische - Laxantien",
+    "Spezialitäten": [
+      {
+        "Name": "Torasemid - Laxoberon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Laxoberon: die Gefahr einer Hypokaliämie (zu niedrige Kaliumwerte) im Verlauf der Behandlung ist erhöht. Symptome der Hypokaliämie sind Muskelschwäche und -krämpfe, verminderte Reflexe, Herzklopfen, Verstopfung und EKG-Veränderungen."
+      },
+      {
+        "Name": "Torasemid - Movicol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Movicol: die Gefahr einer Hypokaliämie (zu niedrige Kaliumwerte) im Verlauf der Behandlung ist erhöht. Symptome der Hypokaliämie sind Muskelschwäche und -krämpfe, verminderte Reflexe, Herzklopfen, Verstopfung und EKG-Veränderungen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 488,
+    "Interaktion": "Vitamin-K-Antagonisten - Statine",
+    "Spezialitäten": [
+      {
+        "Name": "Marcoumar - Rosuvastatin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Marcoumar und Rosuvastatin: Bei gleichzeitiger Behandlung kann die Wirkung von Marcoumar verstärkt werden. Blutungskomplikationen wie Nasenbluten, Hämatome und rektale Blutungen könnten auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 511,
+    "Interaktion": "Thrombozytenaggregationshemmer - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Clopidogrel - Arcoxia (Etoricoxib)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Clopidogrel und Arcoxia: Bei gleichzeitiger Behandlung kann das Risiko von Auftreten und Stärke von Blutungskomplikationen erhöht werden. Besonders das Risiko für gastrointestinale Blutungen ist erhöht."
+      },
+      {
+        "Name": "Clopidogrel - Celecoxib",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Clopidogrel und Celecoxib: Bei gleichzeitiger Behandlung kann das Risiko von Auftreten und Stärke von Blutungskomplikationen erhöht werden. Besonders das Risiko für gastrointestinale Blutungen ist erhöht."
+      },
+      {
+        "Name": "Clopidogrel - Felden (Piroxicam)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Clopidogrel und Felden: Bei gleichzeitiger Behandlung kann das Risiko von Auftreten und Stärke von Blutungskomplikationen erhöht werden. Besonders das Risiko für gastrointestinale Blutungen ist erhöht."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 516,
+    "Interaktion": "Vitamin-K-Antagonisten - Protonenpumpeninhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Marcoumar - Pantoprazol",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Marcoumar und Pantoprazol: Bei gleichzeitiger Behandlung sind in Einzelfällen nach einigen Tagen verlängerte Blutungszeiten mit verstärkter Blutungsneigung aufgetreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 528,
+    "Interaktion": "Antikoagulantien - Serotonin-Reuptake-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "ASS cardio - Venlafaxin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen ASS cardio und Venlafaxin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "Name": "ASS cardio - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen ASS cardio und Escitalopram: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "Name": "Aspirin  Cardio - Sertralin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin cardio und Sertralin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "Name": "Clopidogrel - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Clopidogrel und Escitalopram: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "Name": "Aspirin Cardio - Duloxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin Cardio und Duloxetin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "Name": "Xarelto - Sertralin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Xarelto und Sertralin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "Name": "Aspirin Cardio - Brintellix",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin Cardio und Brintellix: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 549,
+    "Interaktion": "Vitamin-K-Antagonisten - Tramadol",
+    "Spezialitäten": [
+      {
+        "Name": "Marcoumar - Tramadol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Marcoumar und Tramadol: Die blutgerinnungshemmende Wirkung von Marcoumar kanndurch Tramadol verstärkt werden. Blutungskomplikationen können vorkommen."
+      },
+      {
+        "Name": "Sintrom - Tramadol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sintrom und Tramadol: Die blutgerinnungshemmende Wirkung von Marcoumar kanndurch Tramadol verstärkt werden. Blutungskomplikationen können vorkommen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 564,
+    "Interaktion": "Levothyroxin - Kationen, polyvalente",
+    "Spezialitäten": [
+      {
+        "Name": "Eltroxin - Calcimagon",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Eltroxin und Calcimagon. Die Einnahme von Eltroxin zusammen mit Calciumsalzen kann die Wirksamkeit der Schilddrüsenhormone vermindern. Laut Fachinformation von Eltroxin soll die Einnahme von Calciumpräparaten frühestens 2 Stunden nach Eltroxin erfolgen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 569,
+    "Interaktion": "Opioide - CYP3A-Induktoren",
+    "Spezialitäten": [
+      {
+        "Name": "Tramadol - Tegretol (Carbamazepin)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (mittelschwer - Überwachung nötig) zwischen Tramadol und Tegretol: Bei gleichzeitiger Behandlung kann die Wirksamkeit und Wirkdauer von Tramadol vermindert werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 573,
+    "Interaktion": "Nahrungsmittelinteraktion Grapefruit - Statine",
+    "Spezialitäten": [
+      {
+        "Name": "Grapefruit - Simvastatin",
+        "Beschreibung": "Einnahme von Grapefruits (Citrus paradisi L.) bzw. Grapefruitsaft während einer Therapie mit Simvastatin oder Atorvastatin kann die Plasmakonzentrationen der betroffenen Statine stark erhöhen. "
+      },
+      {
+        "Name": "Grapefruit - Atorvastatin",
+        "Beschreibung": "Einnahme von Grapefruits (Citrus paradisi L.) bzw. Grapefruitsaft während einer Therapie mit Simvastatin oder Atorvastatin kann die Plasmakonzentrationen der betroffenen Statine stark erhöhen. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 592,
+    "Interaktion": "Methotrexat - Salicylate",
+    "Spezialitäten": [
+      {
+        "Name": "Metoject - Aspirin Cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Metoject und Aspirin Cardio: Salicylate können die Wirkung von Methotrexat verstärken. Unerwünschte Wirkungen wie z.B. Schleimhautentzündungen (Stomatitis, Ösophagitis u.a.), Nieren- und Lebertoxizität können verstärkt oder vermehrt auftreten."
+      },
+      {
+        "Name": "Methotrexat - Aspirin Cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Methotrexat und Aspirin Cardio: Salicylate können die Wirkung von Methotrexat verstärken. Unerwünschte Wirkungen wie z.B. Schleimhautentzündungen (Stomatitis, Ösophagitis u.a.), Nieren- und Lebertoxizität können verstärkt oder vermehrt auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 663,
+    "Interaktion": "Vitamin D und -Derivate - Thiazid-Diuretika",
+    "Spezialitäten": [
+      {
+        "Name": "Vitamin D3 - Cansartan Mepha plus",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vitamin D3 und Cansartan Mepha plus: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "Name": "Calcimagon - Coveram plus",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Calcimagon und Coveram plus: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "Name": "Calcimagon - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Calcimagon und Exforge HCT: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "Name": "Calcitriol - Edarbyclor",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Calcitriol und Edarbyclor: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "Name": "Vitamin D3 - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vitamin D3 und Indapamid: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "Name": "Vi-De 3 - Esidrex",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vi-De 3 und Esidrex: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 749,
+    "Interaktion": "Antidepressiva, trizyklische, und Analoge - H1-Blocker (Antiallergika)",
+    "Spezialitäten": [
+      {
+        "Name": "Trittico - Desloratadin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Desloratadin: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. Auch anticholinerge Effekte wie Mundtrockenheit, Verstopfung, Herzrasen können vermehrt und verstärkt auftreten."
+      },
+      {
+        "Name": "Trittico - Cetirizin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Cetirizin: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. Auch anticholinerge Effekte wie Mundtrockenheit, Verstopfung, Herzrasen können vermehrt und verstärkt auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 766,
+    "Interaktion": "QT-verlängernde Substanzen - Antidepressiva, trizyklische, und Analoge",
+    "Spezialitäten": [
+      {
+        "Name": "Atomoxetin - Trittico",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atomoxetin und Trittico: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 767,
+    "Interaktion": "QT-verlängernde Substanzen - H1-Blocker",
+    "Spezialitäten": [
+      {
+        "Name": "Domperidon - Benocten (Diphenhydramin)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Domperidon und Benocten: Bei gleichzeitiger Behandlung ist das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 768,
+    "Interaktion": "QT-verlängernde Substanzen - Lithiumsalze",
+    "Spezialitäten": [
+      {
+        "Name": "Atomoxetin - Quilonorm",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atomoxetin und Quilonorm: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 771,
+    "Interaktion": "QT-verlängernde Substanzen - Citalopram, Escitalopram",
+    "Spezialitäten": [
+      {
+        "Name": "Zofran (Ondansetron) - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Zofran und Escitalopram: Bei gleichzeitiger Behandlung entsteht ein erhöhtes Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes, wodurch symptomatische Schwindel- oder Ohnmachtsanfälle auftreten können."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 792,
+    "Interaktion": "Bupropion - Arzneimittel, die die Krampfschwelle senken",
+    "Spezialitäten": [
+      {
+        "Name": "Wellbutrin - Concerta",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Concerta: beide Medikamente senken die Krampschwelle, erhöht das Risiko von Krampfanfällen."
+      },
+      {
+        "Name": "Wellblutrin - Trittico",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Trittico: beide Medikamente senken die Krampschwelle, erhöht das Risiko von Krampfanfällen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 797,
+    "Interaktion": "Vitamin-K-Antagonisten - Acetylsalicylsäure (niedrig dosiert)",
+    "Spezialitäten": [
+      {
+        "Name": "Marcoumar - Aspirin Cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Marcoumar und Aspirin Cardio: Die gerinnungshemmende Wirkung von Marcoumar kann durch Aspirin Cardio verstärkt werden. Vor allem Blutungen im Magen-Darm-Trakt, aber auch Hämatome, Nasenbluten und andere Blutungen können vermehrt und verstärkt auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 831,
+    "Interaktion": "Serotonin-Reuptake-Hemmer - Opioide",
+    "Spezialitäten": [
+      {
+        "Name": "Mirtazapin - Palexia",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Mirtazapin und Palexia: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und einer allgemeinen Dämpfung."
+      },
+      {
+        "Name": "Duloxetin - Palexia",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Duloxetin und Palexia: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und einer allgemeinen Dämpfung."
+      },
+      {
+        "Name": "Cymbalta - Fentanyl",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Cymbalta und Fentanyl: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und einer allgemeinen Dämpfung."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 836,
+    "Interaktion": "Antikoagulantien - Phytopharmaka (Ginkgo, Ingwer, Knoblauch)",
+    "Spezialitäten": [
+      {
+        "Name": "Xarelto - Ginkgo Mepha",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Xarelto und Ginkgo Mepha: Die gleichzeitige Behandlung kann die Blutgerinnung verändern. Seltene Einzelfälle von Blutungskomplikationen sind nicht auszuschliessen."
+      },
+      {
+        "Name": "Lixiana - Tebokan",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Lixiana und Tebokan: Die gleichzeitige Behandlung kann die Blutgerinnung verändern. Seltene Einzelfälle von Blutungskomplikationen sind nicht auszuschliessen."
+      },
+      {
+        "Name": "Aspirin Cardio - Tebokan",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin Cardio und Tebokan: Die gleichzeitige Behandlung kann die Blutgerinnung verändern. Seltene Einzelfälle von Blutungskomplikationen sind nicht auszuschliessen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 858,
+    "Interaktion": "Estrogene - COX-2-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Estrofem-Etoricoxib",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Estrofem und Etoricoxib: die gleichzeitige Behandlung  kann möglicherweise vermehrt unerwünschte Effekte von Estrofem hervorrufen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 915,
+    "Interaktion": "Angiotensin-II-Antagonisten - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Edarbi - Voltaren",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Edarbi und Voltaren: verminderte Blutdrucksenkung, zu hohe Kaliumwerte, Niereninsuffizienz möglich"
+      },
+      {
+        "Name": "Sevikar - Optifen",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Sevikar und Optifen: verminderte Blutdrucksenkung, zu hohe Kaliumwerte, Niereninsuffizienz möglich"
+      },
+      {
+        "Name": "Cansartan - Voltaren",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Cansartan und Voltaren: verminderte Blutdrucksenkung, zu hohe Kaliumwerte, Niereninsuffizienz möglich"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 935,
+    "Interaktion": "Duloxetin - Serotonin-Reuptake-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Duloxetin - Trittico",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Duloxetin und Trittico: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      },
+      {
+        "Name": "Duloxetin - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Duloxetin und Escitalopram: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 962,
+    "Interaktion": "Atomoxetin - Starke CYP2D6-Inhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Strattera - Fluoxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Strattera und Fluoxetin: Die gleichzeitige Behandlung mit Fluoxetin kann verstärkte unerwünschte Wirkungen von Strattera hervorrufen."
+      },
+      {
+        "Name": "Atomoxetin - Paroxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Atomoxetin und Paroxetin: Die gleichzeitige Behandlung mit Paroxetin kann verstärkte unerwünschte Wirkungen von Atomoxetin hervorrufen."
+      },
+      {
+        "Name": "Atomoxetin - Terbinafin (oral)",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Atomoxetin und Terbinafin: Die gleichzeitige Behandlung mit Terbinafin kann verstärkte unerwünschte Wirkungen von Atomoxetin hervorrufen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 966,
+    "Interaktion": "Parasympatholytika - Neuroleptika",
+    "Spezialitäten": [
+      {
+        "Name": "Buscopan - Seroquel",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Buscopan und Seroquel: Bei gleichzeitiger Therapie können sogenannte anticholinerge Effekte vermehrt bzw. verstärkt auftreten: Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen, Schweissminderung. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 989,
+    "Interaktion": "Antidiabetika, orale - Kardioselektiv bzw. vasodilatierende Betablocker",
+    "Spezialitäten": [
+      {
+        "Name": "Novonorm - Bisoprolol",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Novonorm und Bisoprolol: verstärkte und verlängerte blutzuckersenkende Wirkung möglich, Warnsymptome einer Unterzuckerung (Zittern, Herzrasen, Unruhe, Hungergefühl, Kopfschmerzen) können maskiert werden."
+      },
+      {
+        "Name": "Diamicron - Bisoprolol",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Diamicron und Bisoprolol: verstärkte und verlängerte blutzuckersenkende Wirkung möglich, Warnsymptome einer Unterzuckerung (Zittern, Herzrasen, Unruhe, Hungergefühl, Kopfschmerzen) können maskiert werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1010,
+    "Interaktion": "Statine - CYP3A-Induktoren",
+    "Spezialitäten": [
+      {
+        "Name": "Atorvastatin - Tegretol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Atorvastatin und Tegretol: verminderte cholesterinsenkende Wirkung möglich."
+      },
+      {
+        "Name": "Simvastatin - Tegretol (Carbamazepin)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Simvastatin und Tegretol: verminderte cholesterinsenkende Wirkung möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1056,
+    "Interaktion": "Atomoxetin - QT-verlängernde Substanzen",
+    "Spezialitäten": [
+      {
+        "Name": "Strattera - Fluoxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Strattera und Fluoxetin: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      },
+      {
+        "Name": "Atomoxetin - Motilium",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Atomoxetin und Motilium: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1126,
+    "Interaktion": "Domperidon - QT-verlängernde starke CYP3A-Inhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Motilium - Clarithromycin",
+        "Beschreibung": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Motilium  und Clarithromycin: Durch die gleichzeitige Behandlung können die Wirkungen von Motilium verstärkt werden und das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes ist erhöht. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      },
+      {
+        "Name": "Motilium - Sporanox (Itraconazol)",
+        "Beschreibung": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Motilium  und Sporanox: Durch die gleichzeitige Behandlung können die Wirkungen von Motilium verstärkt werden und das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes ist erhöht. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1145,
+    "Interaktion": "Antiphlogistika, nicht steroidale - Serotonin-Reuptake-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Aspirin S - Sertralin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin S und Sertralin: Erhöhtes Risiko von gastrointestinalen Blutungen (Blutungen im Magen-Darm-Trakt) sowie anderer Blutungen."
+      },
+      {
+        "Name": "Irfen - Citalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Irfen und Citalopram: Erhöhtes Risiko von gastrointestinalen Blutungen (Blutungen im Magen-Darm-Trakt) sowie anderer Blutungen."
+      },
+      {
+        "Name": "Inflamac - Citalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Inflamac und Citalopram: Erhöhtes Risiko von gastrointestinalen Blutungen (Blutungen im Magen-Darm-Trakt) sowie anderer Blutungen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1219,
+    "Interaktion": "Antidiarrhoika, motilitätshemmende - Quellmittel",
+    "Spezialitäten": [
+      {
+        "Name": "Loperamid - Metamucil Regular",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Loperamid und Metamucil Regular: Die gleichzeitige Behandlung begünstigt einen mechanischen Darmverschluss (krampfartige Bauchschmerzen, Übelkeit, Erbrechen, Blähbauch, Stuhlverhalt)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1251,
+    "Interaktion": "Calciumsalze - Thiazid-Diuretika",
+    "Spezialitäten": [
+      {
+        "Name": "Calcimagon - Coveram plus",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Calcimagon und Coveram plus: Erhöhtes Risiko einer Hyperkalziämie (zu hoher Calciumspiegel)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1278,
+    "Interaktion": "Diuretika, kaliuretische - Beta-Sympathomimetik",
+    "Spezialitäten": [
+      {
+        "Name": "Torasemid - Symbicort",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Symbicort: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "Name": "Torasemid - Ultibro",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Ultibro: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "Name": "Coveram plus - Relvar Ellipta",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Coveram plus und Relvar Ellipta: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "Name": "Cansartan Mepha plus - Ultibro",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Cansartan Mepha plus und Ultibro: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "Name": "Exforge HCT - Trimbow",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Exforge HCT und Trimbow: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "Name": "Indapamid - Ventolin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Indapamid und Ventolin: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "Name": "Torasemid - Seretide",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Seretide: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "Name": "Torasemid - Ventolin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Ventolin: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1279,
+    "Interaktion": "Tramadol - Antidepressiva, trizyklische",
+    "Spezialitäten": [
+      {
+        "Name": "Tramadol - Anafranil",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tramadol und Anafranil: Die gleichzeitige Behandlung kann das Risiko von Krampfanfällen erhöhen. Ausserdem ist die Gefahr eines Serotonin-Syndroms erhöht (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      },
+      {
+        "Name": "Tramadol - Surmontil (Trimipramin)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tramadol und Surmontil: Die gleichzeitige Behandlung kann das Risiko von Krampfanfällen erhöhen. Ausserdem ist die Gefahr eines Serotonin-Syndroms erhöht (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      },
+      {
+        "Name": "Tramadol - Saroten (Amitriptylin)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tramadol und Saroten: Die gleichzeitige Behandlung kann das Risiko von Krampfanfällen erhöhen. Ausserdem ist die Gefahr eines Serotonin-Syndroms erhöht (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1303,
+    "Interaktion": "Antidepressiva, trizyklische - Venlafaxin",
+    "Spezialitäten": [
+      {
+        "Name": "Doxepin - Venlafaxin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Doxepin und Venlafaxin: verstärkte Wirkungen von Doxepin möglich (Urinretention, Verwirrung, Darmverschluss, Serotoninsyndrom, Krampfanfälle)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1330,
+    "Interaktion": "Antidiabetika - Glukokortikoide, inhalative",
+    "Spezialitäten": [
+      {
+        "Name": "Vokanamet - Relvar Ellipta",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Vokanamet und Relvar Ellipta: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "Name": "Metformin - Trimbow",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Trimbow: verminderte blutzuckersenkende Wirkung möglich"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1343,
+    "Interaktion": "QT-verlängernde Substanzen - Neuroleptika",
+    "Spezialitäten": [
+      {
+        "Name": "Betmiga - Sequase",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Betmiga und Sequase: erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes)"
+      },
+      {
+        "Name": "Donepezil - Sequase",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Donepezil und Sequase: erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes)"
+      },
+      {
+        "Name": "Betmiga - Zyprexa",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Betmiga und Zyprexa: erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1384,
+    "Interaktion": "Antidepressiva, trizyklische - Serotonin-Reuptake-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Trimipramin - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig zwischen Trimipramin und Escitalopram): Erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes), diese  können mit Schwindel oder Ohnmachtsanfällen einhergehen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1400,
+    "Interaktion": "Angiotensin-II-Antagonisten - Diuretika, kaliuretische",
+    "Spezialitäten": [
+      {
+        "Name": "Edarbi - Comilorid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Edarbi und Comilorid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "Name": "Votum - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Votum und Torasemid: es kann in Einzelfällen der sogenannte First-dose-Effekt mit starkem Blutdruckabfall, Benommenheit und Schwindel auftreten."
+      },
+      {
+        "Name": "Entresto - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Entresto und Torasemid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "Name": "Cansartan - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Cansartan und Torasemid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "Name": "Cansartan - Fludex (Indapamid)",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Cansartan und Fludex: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "Name": "Olmesartan -Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Olmesartan und Torasemid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "Name": "Valsartan - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Valsartan und Indapamid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "Name": "Losartan - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Losartan und Indapamid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1434,
+    "Interaktion": "Diuretika - SGLT2-Inhibitor",
+    "Spezialitäten": [
+      {
+        "Name": "Torasemid - Jardiance",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Jardiance: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "Name": "Cansartan Mepha plus - Jardiance Met",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Cansartan Mepha plus und Jardiance Met: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "Name": "Irbesartan HCT - Forxiga",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Irbesartan HCT und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "Name": "Exforge - Forxiga",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Exforge und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "Name": "Losartan HCT - Forxiga",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Losartan HCT und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "Name": "Perindopril-Indapamid Mepha - Forxiga",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Perindopril-Indapamid und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1442,
+    "Interaktion": "Apixaban, Rivaroxaban - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Xarelto - Irfen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Xarelto und Irfen: Bei gleichzeitiger Behandlung ist eine erhöhte Blutungsneigung möglich."
+      },
+      {
+        "Name": "Eliquis - Ibuprofen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Ibuprofen: Bei gleichzeitiger Behandlung ist eine erhöhte Blutungsneigung möglich."
+      },
+      {
+        "Name": "Eliquis - Vimovo",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Vimovo: Bei gleichzeitiger Behandlung ist eine erhöhte Blutungsneigung möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1478,
+    "Interaktion": "Faktor-Xa-Inhibitoren - Thrombozytenaggregationshemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Xarelto - Aspirin Cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Xarelto und Aspirin Cardio: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      },
+      {
+        "Name": "Eliquis - Aspirin Cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Aspirin Cardio: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      },
+      {
+        "Name": "Eliquis - Plavix",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Plavix: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      },
+      {
+        "Name": "Lixiana - Aspirin Cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Lixiana und Aspirin Cardio: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1525,
+    "Interaktion": "Protonenpumpeninhibitoren - Diuretika",
+    "Spezialitäten": [
+      {
+        "Name": "Pantoprazol - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Torasemid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "Name": "Esomeprazol  - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Esomeprazol und Torasemid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "Name": "Esomeprazol  - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Esomeprazol und Exforge HCT: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "Name": "Pantoprazol - Fludex (Indapamid)",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Fludex: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "Name": "Dexilant - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Dexilant und Torasemid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "Name": "Esomep - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Esomep und Indapamid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "Name": "Pantoprazol - Losartan HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Losartan HCT: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "Name": "Pantoprazol - Coveram plus",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Coveram plus: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "Name": "Panprax - Bilol comp.",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Panprax und Bilol comp.: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "Name": "Pantoprazol - Sevikar HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Sevikar HCT.: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1547,
+    "Interaktion": "Domperidon - QT-verlängernde Substanzen",
+    "Spezialitäten": [
+      {
+        "Name": "Domperidon - Loperamid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Domperidon und Loperamid: Erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes), diese  können mit Schwindel oder Ohnmachtsanfällen einhergehen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1587,
+    "Interaktion": "Schilddrüsenhormone - Estrogene",
+    "Spezialitäten": [
+      {
+        "Name": "Euthyrox - Yasminelle",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Euthyrox und Yasminelle: Verminderte Wirksamkeit der Schilddrüsenhormone (Euthyrox) möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1619,
+    "Interaktion": "Pseudoephedrin - Sympathomimetika",
+    "Spezialitäten": [
+      {
+        "Name": "Aspirin Complex - Ritalin",
+        "Beschreibung": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Aspirin Complex und Ritalin LA: bei gleichzeitiger Behandlung sind ein starker Blutdruckanstieg, eventuell mit einer hypertensiven Krise, oder ischämische Ereignisse (Durchblutungsausfall eines Gewebes, eines Körperteils oder Organs) nicht auszuschliessen. Beide Medikamente dürfen nicht zusammen eingenommen werden."
+      },
+      {
+        "Name": "Aspirin Complex - Elvanse",
+        "Beschreibung": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Aspirin Complex und Elvanse: bei gleichzeitiger Behandlung sind ein starker Blutdruckanstieg, eventuell mit einer hypertensiven Krise, oder ischämische Ereignisse (Durchblutungsausfall eines Gewebes, eines Körperteils oder Organs) nicht auszuschliessen. Beide Medikamente dürfen nicht zusammen eingenommen werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1625,
+    "Interaktion": "ACE-Hemmer - Valsartan, Candesartan",
+    "Spezialitäten": [
+      {
+        "Name": "Ramipril - Candesartan",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ramipril und Candesartan: Die gleichzeitige Behandlung erhöht im Vergleich zur Monotherapie das Risiko für unerwünschte Wirkungen wie Hyperkaliämie (erhöhte Kaliumwerte), symptomatische Hypotonie (tiefer Blutdruck) und Verschlechterung der Nierenfunktion."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1631,
+    "Interaktion": "ACE-Hemmer - Eplerenon",
+    "Spezialitäten": [
+      {
+        "Name": "Perindopril - Eplerenon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Perindopril und Eplerenon: erhöhtes Risiko für eine Hyperkaliämie (zu hoher Kaliumspiegel)."
+      },
+      {
+        "Name": "Ramipril - Eplerenon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Ramipril und Eplerenon: erhöhtes Risiko für eine Hyperkaliämie (zu hoher Kaliumspiegel)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1632,
+    "Interaktion": "Angiotensin-II-Antagonisten - Eplerenon",
+    "Spezialitäten": [
+      {
+        "Name": "Entresto - Eplerenon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Entresto und Eplerenon: erhöhtes Risiko für eine Hyperkaliämie (zu hoher Kaliumspiegel)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1684,
+    "Interaktion": "Tramadol - 5-HT3-Antagonisten",
+    "Spezialitäten": [
+      {
+        "Name": "Tramadol - Zofran (Ondansetron)",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Tramadol und Zofran: Bei gleichzeitiger Behandlung kann möglicherweise die schmerzlindernde Wirksamkeit von Tramadol beeinträchtigt werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1764,
+    "Interaktion": "Calciumantagonisten - Starke oder mässige CYP3A-Induktoren",
+    "Spezialitäten": [
+      {
+        "Name": "Felodipin - Symfona",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Felodipin und Symfona: Die gleichzeitige Behandlung kann die Wirksamkeit von Felodipin beeinträchtigen. Möglicherweise muss dessen Dosierung erhöht werden."
+      },
+      {
+        "Name": "Amlodipin-Valsartan - Erleada",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Amlodipin-Valsartan und Erleada: Die gleichzeitige Behandlung kann die Wirksamkeit von Amlodipin beeinträchtigen. Möglicherweise muss dessen Dosierung erhöht werden."
+      },
+      {
+        "Name": "Lercanidipin - Ginkgo Mepha",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lercanidipin und Ginkgo Mepha: Die gleichzeitige Behandlung kann die Wirksamkeit von Lercanidipin beeinträchtigen. Möglicherweise muss dessen Dosierung erhöht werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1784,
+    "Interaktion": "5-HT3-Antagonisten - Serotonin-Reuptake-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Ondansetron - Venlafaxin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Ondansetron und Venlafaxin: in Einzelfällen kann ein Serotoninsyndrom ausgelöst werden (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      },
+      {
+        "Name": "Zofran - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Zofran und Escitalopram: in Einzelfällen kann ein Serotoninsyndrom ausgelöst werden (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1817,
+    "Interaktion": "Antidiabetika - Serotonin-Reuptake-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Jardiance - Venlafaxin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Venlafaxin: Venlafaxin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Insulin Levemir - Venlafaxin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Insulin Levemir und Venlafaxin: Venlafaxin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Jardiance - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Escitalopram: Escitalopram kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Ozempic - Sertralin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Ozempic und Sertralin: Sertralin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Metfin - Sertralin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Sertralin: Sertralin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Saxenda - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Saxenda und Escitalopram: Escitalopram kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Metfin - Duloxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Duloxetin: Duloxetin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Tresiba - Duloxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Tresiba und Duloxetin: Duloxetin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Metfin - Mirtazapin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Mirtazapin: Mirtazapin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "Name": "Metformin - Fluoxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Fluoxetin: Fluoxetin kann die Wirkung von Metformin verstärken oder abschwächen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1834,
+    "Interaktion": "Substrate (CYP2D6) - Duloxetin",
+    "Spezialitäten": [
+      {
+        "Name": "Risperidon - Duloxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Risperidon und Duloxetin: Die gleichzeitige Behandlung kann die Wirkungen und Nebenwirkungen von Risperidon verstärken."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1860,
+    "Interaktion": "ACE-Hemmer - Gliptine",
+    "Spezialitäten": [
+      {
+        "Name": "Ramipril - Janumet",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Ramipril und Janumet: Bei gleichzeitiger Behandlung ist das Risiko für ein Angioödem erhöht. Dies sind rasch sich entwickelnde Schwellungen der Schleimhaut und angrenzender Gewebe, vorwiegend an Augenlidern, Lippen, Kinn, Wangen, Zunge). Zudem kann in Einzelfällen zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Symptome sind Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1949,
+    "Interaktion": "Eisensalze - Protonenpumpeninhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Maltofer - Pantoprazol",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Maltofer und Pantoprazol: Die Aufnahme von Eisen kann durch die Einnahme von Pantoprazol möglicherweise geringer sein."
+      },
+      {
+        "Name": "gyno-Tardyferon - Esomeprazol",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen gyno-Tardyferon und Esomeprazol: Die Aufnahme von Eisen kann durch die Einnahme von Esomeprazol möglicherweise geringer sein."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1953,
+    "Interaktion": "Acetylsalicylsäure (niedrig dosiert) - Metamizol",
+    "Spezialitäten": [
+      {
+        "Name": "ASS cardio - Novalgin",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen ASS cardio und Novalgin: Die gleichzeitige Dauerbehandlung kann die blutverdünnende Wirkung von ASS cardio beeinträchtigen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1962,
+    "Interaktion": "Chinin - QT-verlängernde Substanzen",
+    "Spezialitäten": [
+      {
+        "Name": "Limptar N (Import) - Trittico",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Limptar N und Trittico: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 1998,
+    "Interaktion": "Protonenpumpeninhibitoren - Enzyminhibitoren (CYP2C19)",
+    "Spezialitäten": [
+      {
+        "Name": "Esomep - Fluoxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Esomep und Fluoxetin: Bei gleichzeitiger Behandlung treten erhöhte Blutkonzentrationen von Esomeprazol (Esomep) auf. Unerwünschte Wirkungen wie Diarrhoe, Müdigkeit und Kopfschmerzen könnten vermehrt auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2077,
+    "Interaktion": "Antidepressiva - Diuretika",
+    "Spezialitäten": [
+      {
+        "Name": "Trittico - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Torasemid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Trittico - Edarbyclor",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Edarbyclor: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Sertralin - Coveram plus (Indapamid)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sertralin und Coveram plus: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Escitalopram - Torasemid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Escitalopram und Torasemid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Trittico - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Indapamid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Fluoxetin - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Fluoxetin und Indapamid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Venlafaxin - Exforge HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Venlafaxin und Exforge HCT: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Brintellix - Co Candesartan",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Brintellix und Co Candesartan: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Sertralin - Cansartan Mepha plus",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sertralin und Cansartan Mepha plus: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "Name": "Venlafaxin - Indapamid",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Venlafaxin und Indapamid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2096,
+    "Interaktion": "Bupropion - Neuroleptika",
+    "Spezialitäten": [
+      {
+        "Name": "Wellbutrin - Olanzapin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Olanzapin: Die gleichzeitige Behandlung erhöht das Risiko von Krampfanfällen. "
+      },
+      {
+        "Name": "Wellbutrin - Abilify (Aripiprazol)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Abilify: Die gleichzeitige Behandlung erhöht das Risiko von Krampfanfällen. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2121,
+    "Interaktion": "Methotrexat - Folate",
+    "Spezialitäten": [
+      {
+        "Name": "Metoject - Acidum folicum",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Metoject und Acidum folicum: verminderte Wirksamkeit von Metoject möglich. Meist wird bei einer Metoject-Therapie aber zusätzlich Folsäure verschrieben, um die Nebenwirkungen von Metoject zu verringern. Bitte halten Sie sich hier an die genauen Einnahmehinweise Ihres Arztes/Ihrer Ärztin."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2128,
+    "Interaktion": "ACE-Hemmer - Spironolacton",
+    "Spezialitäten": [
+      {
+        "Name": "Perindopril-Indapamid Mepha - Aldactone",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Perindopril-Indapamid Mepha und Aldactone: Bei gleichzeitiger Behandlung kann eine schwere Hyperkaliämie (zu hohe Kaliumwerte) auftreten. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2144,
+    "Interaktion": "Angiotensin-II-Antagonisten - Spironolacton",
+    "Spezialitäten": [
+      {
+        "Name": "Entresto - Aldactone",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Entresto und Aldactone: Auftreten einer schweren Hyperkaliämie (zu hohe Kaliumwerte) möglich. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      },
+      {
+        "Name": "Valsartan - Aldactone",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Valsartan und Aldactone: Auftreten einer schweren Hyperkaliämie (zu hohe Kaliumwerte) möglich. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      },
+      {
+        "Name": "Cansartan - Aldactone",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Cansartan und Aldactone: Auftreten einer schweren Hyperkaliämie (zu hohe Kaliumwerte) möglich. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2145,
+    "Interaktion": "Tramadol - MAO-Hemmer",
+    "Spezialitäten": [
+      {
+        "Name": "Tramadol - Aurorix (Moclobemid)",
+        "Beschreibung": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Tramadol und Aurorix: Die gleichzeitige Behandlung erhöht das Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und unerwünschter Herz-Kreislauf-Wirkungen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2175,
+    "Interaktion": "Verschiedene Arzneimittel - Flohsamen",
+    "Spezialitäten": [
+      {
+        "Name": "Quilonorm - Metamucil Regular",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Quilonorm und Metamucil Regular: Die gleichzeitige Behandlung mit Flohsamen-haltigen Quellmitteln (Metamucil Regular) kann die Wirksamkeit von Quilonorm beeinträchtigen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2176,
+    "Interaktion": "Domperidon - Stoffe, die den Magen-pH erhöhen",
+    "Spezialitäten": [
+      {
+        "Name": "Domperidon - Esomeprazol",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Domperidon und Esomeprazol: Die gleichzeitige Behandlung kann die Wirksamkeit von Domperidon möglicherweise beeinträchtigen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2185,
+    "Interaktion": "Opioide - Benzodiazepine, Z-Drugs",
+    "Spezialitäten": [
+      {
+        "Name": "Palexia - Stilnox",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Palexia und Stilnox: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "Name": "Oxynorm - Zolpidem",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Oxynorm und Zolpidem: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "Name": "Targin - Temesta",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tagin und Temesta: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "Name": "MST - Lexotanil",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen MST continus und Lexotanil: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "Name": "Oxynorm - Xanax",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Oxynorm und Xanax: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2187,
+    "Interaktion": "Psychostimulantien - Alkoholhaltige Arzneimittel",
+    "Spezialitäten": [
+      {
+        "Name": "Ritalin - Klosterfrau Melissengeist",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ritalin und Klosterfrau Melissengeist: bei gleichzeitiger Behandlung / Einnahme verstärkte zentralnervöse Wirkungen möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2333,
+    "Interaktion": "Serotonin-Reuptake-Hemmer - Amphetamin-Derivate",
+    "Spezialitäten": [
+      {
+        "Name": "Trittico - Elvanse",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Trittico und Elvanse: Risiko für ein Serotonin-Syndrom ist erhöht (Symptome sind Angst, Verwirrtheit, Bluthochdruck, Schwindel, Durchfall, Übelkeit, Erbrechen und andere)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2395,
+    "Interaktion": "Antidepressiva, tetrazyklische, und Analoge - Citalopram, Escitalopram",
+    "Spezialitäten": [
+      {
+        "Name": "Trittico - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Trittico und Escitalopram: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Zudem erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2402,
+    "Interaktion": "Antiphlogistika, nicht steroidale - Acetylsalicylsäure (niedrig dosiert)",
+    "Spezialitäten": [
+      {
+        "Name": "Voltaren - ASS cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Voltaren und ASS cardio: Die gleichzeitige längerfristige Behandlung  kann vermehrt  Blutungen bzw. Störungen im Magen-Darm  hervorrufen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2767,
+    "Interaktion": "Ipratropiumbromid - Beta-Sympathomimetika",
+    "Spezialitäten": [
+      {
+        "Name": "Atrovent - Ventolin",
+        "Beschreibung": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Atrovent und Ventolin: Gefahr eines akuten Engwinkelglaukoms (gesteigerter Augeninnendruck) bei Patienten mit bestehendem Engwinkelglaukom und vor allem bei  Anwendung der Wirkstoffe in einem Vernebler."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2954,
+    "Interaktion": "Methylphenidat, Dexmethylphenidat - Serotonerge Substanzen",
+    "Spezialitäten": [
+      {
+        "Name": "Ritalin - Trittico",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ritalin und Trittico: Risiko für ein Serotonin-Syndrom ist erhöht (Symptome sind Angst, Verwirrtheit, Bluthochdruck, Schwindel, Durchfall, Übelkeit, Erbrechen und andere). Der Schweregrad des Serotonin-Syndroms ist dosisabhängig."
+      },
+      {
+        "Name": "Medikinet - Imigran",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Medikinet und Imigran: Risiko für ein Serotonin-Syndrom ist erhöht (Symptome sind Angst, Verwirrtheit, Bluthochdruck, Schwindel, Durchfall, Übelkeit, Erbrechen und andere). Der Schweregrad des Serotonin-Syndroms ist dosisabhängig."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2985,
+    "Interaktion": "Domperidon - Starke oder mässige CYP3A-Inhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Motilium - Daktarin (Miconazol)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Motilium und Daktarin: Die gleichzeitige Behandlungkann die Wirkungen von Domperidon verstärken. Zudem kann das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2992,
+    "Interaktion": "Rosuvastatin - Clopidogrel",
+    "Spezialitäten": [
+      {
+        "Name": "Ezetimib-Rosuvastatin - Clopidogrel",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ezetimib-Rosuvastatin und Clopidogrel: erhöhtes Risiko für Muskelschmerzen und Rhabdomyolyse (Auflösen der quergestreiften Skelettmuskulatur) mit Nierenversagen."
+      },
+      {
+        "Name": "Rosuvastatin - Clopidogrel",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Rosuvastatin und Clopidogrel: erhöhtes Risiko für Muskelschmerzen und Rhabdomyolyse (Auflösen der quergestreiften Skelettmuskulatur) mit Nierenversagen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 2996,
+    "Interaktion": "Ranolazin - QT-verlängernde Substanzen",
+    "Spezialitäten": [
+      {
+        "Name": "Ranexa - Tramal",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ranexa und Tramal: Bei gleichzeitiger Behandlung kann sich das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöhen. Diese können mit Schwindel oder Ohnmachtsanfällen einhergehen. "
+      },
+      {
+        "Name": "Ranexa - Pantoprazol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ranexa und Pantoprazol: Bei gleichzeitiger Behandlung kann sich das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöhen. Diese können mit Schwindel oder Ohnmachtsanfällen einhergehen. "
+      },
+      {
+        "Name": "Ranexa - Bilol comp.",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ranexa und Bilol comp.: Bei gleichzeitiger Behandlung kann sich das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöhen. Diese können mit Schwindel oder Ohnmachtsanfällen einhergehen. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3040,
+    "Interaktion": "Beta-Sympathomimetika - Kardioselektive Betablocker",
+    "Spezialitäten": [
+      {
+        "Name": "Symbicort - Mezo Zerok",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Symbicort und Meto Zerok: bronchienerweitende Wirkung von Symbicort kann vermindert sein."
+      },
+      {
+        "Name": "Trimbow - Concor (Bisoprolol)",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Trimbow und Concor: bronchienerweitende Wirkung von Trimbow kann vermindert sein."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3041,
+    "Interaktion": "Salbutamol - Nicht kardioselektive Betablocker",
+    "Spezialitäten": [
+      {
+        "Name": "Ventolin - Carvedilol",
+        "Beschreibung": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Ventolin und Carvedilol: Carvedilol kann die bronchienerweiternden Wirkungen von Ventolin abschwächen oder aufheben. Bei Asthmatikern kann dies zu schweren Anfällen und bei COPD zu einer Abnahme der Lungenfunktion führen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3173,
+    "Interaktion": "Benzodiazepine, «Z-Drugs» - Melatonin",
+    "Spezialitäten": [
+      {
+        "Name": "Zolpidem - Melatonin",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Zolpidem und Melatonin: Melatonin kann die Wirkung von Zolpidem verstärken."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3259,
+    "Interaktion": "Bupropion - Neuroleptika",
+    "Spezialitäten": [
+      {
+        "Name": "Wellbutrin - Dipiperon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Wellbutrin und Dipiperon: Die gleichzeitige Behandlung erhöht das Risiko von Krampfanfällen. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3267,
+    "Interaktion": "Levetiracetam - QT-verlängernde Substanzen",
+    "Spezialitäten": [
+      {
+        "Name": "Keppra - Trittico",
+        "Beschreibung": " Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Keppra und Trittico: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      },
+      {
+        "Name": "Keppra - Motilium lingual",
+        "Beschreibung": " Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Keppra und Motiium lingual: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3321,
+    "Interaktion": "Levothyroxin - Protonenpumpeninhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Eltroxin - Pantoprazol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Eltroxin und Pantoprazol: Die gleichzeitige Behandlung mit Protonenpumpeninhibitoren kann die Wirksamkeit von Levothyroxin möglicherweise beeinträchtigen."
+      },
+      {
+        "Name": "Euthyrox - Pantoprazol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Euthyrox und Pantoprazol: Die gleichzeitige Behandlung mit Protonenpumpeninhibitoren kann die Wirksamkeit von Levothyroxin möglicherweise beeinträchtigen."
+      },
+      {
+        "Name": "Euthyrox - Dexilant",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Euthyrox und Dexilant: Die gleichzeitige Behandlung mit Protonenpumpeninhibitoren kann die Wirksamkeit von Levothyroxin möglicherweise beeinträchtigen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3326,
+    "Interaktion": "QT-verlängernde trizyklische Antidepressiva - Neuroleptika",
+    "Spezialitäten": [
+      {
+        "Name": "Mirtazapin - Sequase",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Mirtazapin und Sequase: verstärkte anticholinerge Nebenwirkungen wie Mundtrockenheit, Verstopfung, Probleme bei der Blasenentleerung) und vermehrtes Auftreten von Herzrhythmusstörungen (Torsades de pointes)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3395,
+    "Interaktion": "Neuroleptika - Solifenacin",
+    "Spezialitäten": [
+      {
+        "Name": "Zyprexa - Solifenacin",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Zyprexa und Solifenacin: Bei gleichzeitiger Behandlung kann eine verstärkte anticholinerge Wirkung auftreten wie Akkomodationsstörung beim Sehen, Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen. Bei älteren Patienten ist das Sturzrisiko erhöht."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3432,
+    "Interaktion": "Domperidon - QT-verlängernde mässige CYP3A-Inhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Domperidon - Fluconazol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Domperidon und Fluconazol: Die gleichzeitige Behandlungkann die Wirkungen von Domperidon verstärken. Zudem ist das Risiko für EKG-Veränderungen und Herzrhythmusstörungen erhöht."
+      },
+      {
+        "Name": "Motilium - Dilzem",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Motilium und Dilzem: Die gleichzeitige Behandlungkann die Wirkungen von Domperidon verstärken. Zudem ist das Risiko für EKG-Veränderungen und Herzrhythmusstörungen erhöht."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3470,
+    "Interaktion": "Statine - Bempedoinsäure",
+    "Spezialitäten": [
+      {
+        "Name": "Atorvastatin - Nilemdo",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atorvastatin und Nilemdo: erhöhtes Risiko für Myopathie (Entzündung von Muskelgewebe) und Rhabdomyolyse (Zerfall von Muskelfasern)."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3533,
+    "Interaktion": "Cholecalciferol - CYP3A-induzierende Antiepileptika",
+    "Spezialitäten": [
+      {
+        "Name": "Vitamin D3 - Tegretol (Carbamazepin)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vitamin D3 und Tegretol: Bei gleichzeitiger Behandlung ist eine verminderte Wirkung von Vitamin D3 möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3589,
+    "Interaktion": "Rosuvastatin - Leflunomid",
+    "Spezialitäten": [
+      {
+        "Name": "Rosuvastatin - Leflunomid",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Rosuvastatin und Leflunomid: Bei gleichzeitiger Behandlung werden vermehrt Myopathien (Entzündung im Muskelgewebe)und Rhabdomyolysen (Zerfall der quergestreiften Muskulatur) befürchtet."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3671,
+    "Interaktion": "Bupropion - Arzneimittel, die die Krampfschwelle senken",
+    "Spezialitäten": [
+      {
+        "Name": "Zyban - Trittico",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Zyban und Trittico: erhöhtes Risiko von Krampfanfällen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3688,
+    "Interaktion": "Acetylsalicylsäure (analgetische Dosierung) - Antiphlogistika, nicht steroidale",
+    "Spezialitäten": [
+      {
+        "Name": "Aspirin - Saridon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin und Saridon: Die gleichzeitige Behandlung kann die unerwünschten Wirkungen verstärken, wie z.B. gastrointestinale Blutungen, Ulzerationen oder Perforationen."
+      },
+      {
+        "Name": "Aspirin Complex - Ibuprofen",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin Complex und Ibuprofen: Die gleichzeitige Behandlung kann die unerwünschten Wirkungen verstärken, wie z.B. gastrointestinale Blutungen, Ulzerationen oder Perforationen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3691,
+    "Interaktion": "Piroxicam - Acetylsalicylsäure",
+    "Spezialitäten": [
+      {
+        "Name": "Felden - ASS cardio",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Felden und ASS cardio: Die gleichzeitige Behandlung kann die unerwünschten Wirkungen verstärken, wie z.B. Blutungen oder Geschwürbildung im Magendarmtrakt."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3925,
+    "Interaktion": "Lacosamid - Arzneimittel mit Einfluss auf die kardiale Erregungsleitung",
+    "Spezialitäten": [
+      {
+        "Name": "Vimpat - Nexium",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vimpat und Nexium: Das Risiko, dass Herzarrhythmien ausgelöst werden, kann sich erhöhen."
+      },
+      {
+        "Name": "Vimpat - Motilium lingual",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vimpat und Motilium lingual: Das Risiko, dass Herzarrhythmien ausgelöst werden, kann sich erhöhen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3965,
+    "Interaktion": "Atorvastatin - Ranolazin",
+    "Spezialitäten": [
+      {
+        "Name": "Atorvastatin - Ranexa",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atorvastatin und Ranexa: Die gleichzeitige Behandlung kann die Plasmakonzentration von Atorvastatin erhöhen und damit auch das Risiko für Myopathien (Muskelschwund) mit Muskelschmerzen und -schwäche. "
+      }
+    ]
+  },
+  {
+    "IA_Nr": 3996,
+    "Interaktion": "QT-verlängernde Substanzen - Citalopram, Escitalopram",
+    "Spezialitäten": [
+      {
+        "Name": "Sirdalud - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Sirdalud und Escitalopram: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      },
+      {
+        "Name": "Keppra - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Keppra und Escitalopram: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4009,
+    "Interaktion": "Lansoprazol, Pantoprazol - Citalopram, Escitalopram",
+    "Spezialitäten": [
+      {
+        "Name": "Pantoprazol - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Pantoprazol und Escitalopram: bei gleichzeitiger Behandlung steigt die Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4076,
+    "Interaktion": "Neuroleptika - Citalopram, Escitalopram",
+    "Spezialitäten": [
+      {
+        "Name": "Sequase - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sequase und Escitalopram: Bei gleichzeitiger Behandlung können bei einzelnen Patienten verstärkte extrapyramidal-motorische Nebenwirkungen wie Tremor (Zittern), Rigor (Muskelsteifheit) und Akathisie (Sitzunruhe, Rastlosigkeit) auftreten. Ausserdem ist das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      },
+      {
+        "Name": "Risperidon - Escitalopram",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Risperidon und Escitalopram: Bei gleichzeitiger Behandlung können bei einzelnen Patienten verstärkte extrapyramidal-motorische Nebenwirkungen wie Tremor (Zittern), Rigor (Muskelsteifheit) und Akathisie (Sitzunruhe, Rastlosigkeit) auftreten. Ausserdem ist das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4109,
+    "Interaktion": "Serotonerge Antidepressiva - Oxycodon",
+    "Spezialitäten": [
+      {
+        "Name": "Escitalopram - Oxycodon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Escitalopram und Oxycodon: Bei gleichzeitiger Behandlung kann sich in seltenen Fällen ein Serotonin-Syndrom entwickeln. Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      },
+      {
+        "Name": "Trittico - Oxycodon/Naloxon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Oxycodon-Naloxon: Bei gleichzeitiger Behandlung kann sich in seltenen Fällen ein Serotonin-Syndrom entwickeln. Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      },
+      {
+        "Name": "Mirtazapin - Oxycodon/Naloxon",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Mirtazapin und Oxycodon-Naloxon: Bei gleichzeitiger Behandlung kann sich in seltenen Fällen ein Serotonin-Syndrom entwickeln. Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4113,
+    "Interaktion": "Oxycodon - Serotonerge, starke CYP2D6-Inhibitoren",
+    "Spezialitäten": [
+      {
+        "Name": "Oxynorm - Wellbutrin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Oxynorm und Wellbutrin: erhöhtes Risiko eines Serotoninsyndroms Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      },
+      {
+        "Name": "Targin - Deroxat (Paroxetin)",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Targin und Deroxat: erhöhtes Risiko eines Serotoninsyndroms Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4139,
+    "Interaktion": "Kaliumsalze - Olmesartan",
+    "Spezialitäten": [
+      {
+        "Name": "KCl Hausmann - Olmesartan",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen KCl Hausmann und Olmesartan: Die gleichzeitige Behandlung kann eine Hyperkaliämie (zu hoher Kaliumspiegel) begünstigen. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie und EKG-Veränderungen. Eine schwere Hyperkaliämie ist lebensbedrohend."
+      },
+      {
+        "Name": "KCl Hausmann - Sevikar HCT",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen KCl Hausmann und Sevikar HCT: Die gleichzeitige Behandlung kann eine Hyperkaliämie (zu hoher Kaliumspiegel) begünstigen. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie und EKG-Veränderungen. Eine schwere Hyperkaliämie ist lebensbedrohend."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4395,
+    "Interaktion": "Moxonidin - Antidepressiva",
+    "Spezialitäten": [
+      {
+        "Name": "Physiotens - Trittico",
+        "Beschreibung": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Physiotens und Trittico: Bei gleichzeitiger Behandlung kann die blutdrucksenkende Wirkung von Physiotens stark abgeschwächt oder aufgehoben werden. Zudem kann nach Absetzen von Physiotens ein vertärkter Entzungshochdruck auftreten. Ausserdem kann die beruhigende Wirkung von Trittico bei gleichzeitiger Einnahme verstärkt werden."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4453,
+    "Interaktion": "Antihypertensiva - Amphetamin-Derivate",
+    "Spezialitäten": [
+      {
+        "Name": "Candesartan - Atomoxetin",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Candesartan und Atomoxetin: Die gleichzeitige Behandlung könnte die Wirksamkeit der Antihypertensiva beeinträchtigen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4454,
+    "Interaktion": "Antihypertensiva - Methylphenidat, Dexmethylphenidat",
+    "Spezialitäten": [
+      {
+        "Name": "Lisitril - Medikinet",
+        "Beschreibung": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Lisitril und Medikinet: Die gleichzeitige Behandlung könnte die Wirksamkeit von Lisitril beeinträchtigen."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4514,
+    "Interaktion": "Ondansetron - Starke CYP3A-Induktoren",
+    "Spezialitäten": [
+      {
+        "Name": "Zofran - Tegretol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Zofran und Tegretol: Bei gleichzeitiger Behandlung ist eine verminderte Wirksamkeit von Zofran möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4536,
+    "Interaktion": "Apixaban, Rivaroxaban - Metamizol",
+    "Spezialitäten": [
+      {
+        "Name": "Eliquis - Minalgin",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Eliquis und Minalgin: Bei gleichzeitiger Bahandlung ist eine erhöhte Blutungsneigung möglich."
+      }
+    ]
+  },
+  {
+    "IA_Nr": 4539,
+    "Interaktion": "Levothyroxin, Liothyronin - Carbamazepin",
+    "Spezialitäten": [
+      {
+        "Name": "Euthyrox - Tegretol",
+        "Beschreibung": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Euthyrox und Tegretol: Tegretol kann die Wirksamkeit der Schilddrüsenhormone in Euthyrox vermindern. Ausserdem kann das Risiko für Herzrythmusstörungen erhöht sein."
+      }
+    ]
+  }
+]

@@ -1,0 +1,4085 @@
+[
+  {
+    "IA_Nr": 1,
+    "DrugCategoryPair": "ACE-Hemmer - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Lisinopril - Irfen",
+        "Substances": [
+          "Lisinopril",
+          "Irfen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lisinopril und Irfen: Die blutdrucksenkende Wirkung von Lisinopril kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      },
+      {
+        "DrugPair": "Perindopril - Vimovo",
+        "Substances": [
+          "Perindopril",
+          "Vimovo"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Perindopril und Vimovo: Die blutdrucksenkende Wirkung von Perindopril kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      },
+      {
+        "DrugPair": "Coveram plus - Irfen",
+        "Substances": [
+          "Coveram plus",
+          "Irfen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Irfen: Die blutdrucksenkende Wirkung von Coveram plus kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      },
+      {
+        "DrugPair": "Coveram plus - Ecofenac CR",
+        "Substances": [
+          "Coveram plus",
+          "Ecofenac CR"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Ecofenac CR: Die blutdrucksenkende Wirkung von Coveram plus kann abgeschwächt werden, der Blutdruck kann ansteigen, bei Patienten mit Niereninsuffizienz kann sich die Nierenfunktion verschlechtern, das Risiko für zu hohe Kaliumwerte ist erhöht."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 9,
+    "DrugCategoryPair": "Antidepressiva - Alkoholhaltige Arzneimittel",
+    "Interactions": [
+      {
+        "DrugPair": "Trittico - Klosterfrau Melissengeist",
+        "Substances": [
+          "Trittico",
+          "Klosterfrau Melissengeist"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Trittico und Klosterfrau Melissengeist: Alkohol - auch in Arzneimitteln - kann während einer Behandlung mit Trittico die zentraldämpfenden Effekte verstärken. Die Konzentrationsfähigkeit (z. B. im Strassenverkehr) wird beeinträchtigt. Auch Blutdruckabfall und mehrstündige Gedächtnisverluste wurden schon nach dem Konsum geringer Alkoholmengen berichtet."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 28,
+    "DrugCategoryPair": "Antidiabetika - ACE-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Metfin - Enalapril",
+        "Substances": [
+          "Metfin",
+          "Enalapril"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Enalapril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "DrugPair": "Jardiance - Perindopril",
+        "Substances": [
+          "Jardiance",
+          "Perindopril"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Perindopril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "DrugPair": "Insulin Levemir - Perindopril",
+        "Substances": [
+          "Insulin Levemir",
+          "Perindopril"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Insulin Levemir und Perindopril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "DrugPair": "Jardiance Met - Lisitril",
+        "Substances": [
+          "Jardiance Met",
+          "Lisitril"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance Met und Lisitril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "DrugPair": "Invokana - Ramipril",
+        "Substances": [
+          "Invokana",
+          "Ramipril"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Invokana und Ramipril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "DrugPair": "Forxiga - Perindopril-Indapamid",
+        "Substances": [
+          "Forxiga",
+          "Perindopril",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Forxiga und Perindopril-Indapamid: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      },
+      {
+        "DrugPair": "Jardiance - Ramipril",
+        "Substances": [
+          "Jardiance",
+          "Ramipril"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Ramipril: In Einzelfällen kann zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 42,
+    "DrugCategoryPair": "Benzodiazepine - Alkoholhaltige Arzneimittel",
+    "Interactions": [
+      {
+        "DrugPair": "Xanax - Klosterfrau Melissengeist",
+        "Substances": [
+          "Xanax",
+          "Klosterfrau Melissengeist"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Xanax und Klosterfrau Melissengeist: Alkohol - auch in Arzneimitteln - kann während einer Behandlung mit Xanax verstärkte zentraldämpfende Wirkungen wie verstärkte Dämpfung, eingeschränkte Konzentrationsfähigkeit, Benommenheit, Schwindel, aber auch Herabsetzung der Atmung und Gedächtnisverlust hervorrufen. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 45,
+    "DrugCategoryPair": "Betablocker (Antihypertonika) - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Metoprolol - Voltaren",
+        "Substances": [
+          "Metoprolol",
+          "Voltaren"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Metoprolol und Voltaren: verminderte blutdrucksenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Bisoprolol - Voltaren",
+        "Substances": [
+          "Bisoprolol",
+          "Voltaren"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Bisoprolol und Voltaren: verminderte blutdrucksenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Tenormin - Inflamac",
+        "Substances": [
+          "Tenormin",
+          "Inflamac"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Tenormin und Inflamac: verminderte blutdrucksenkende Wirkung möglich."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 61,
+    "DrugCategoryPair": "Alpha-2-Rezeptoragonisten - Beta-Blocker",
+    "Interactions": [
+      {
+        "DrugPair": "Simbrinza - Timogel",
+        "Substances": [
+          "Simbrinza",
+          "Timogel"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Simbrinza und Timogel: bei gleichzeitiger Behandlung können sich die blutdrucksenkende Wirkung verstärken und der Herzschlag verlangsamen."
+      },
+      {
+        "DrugPair": "Simbrinza - Duotrav",
+        "Substances": [
+          "Simbrinza",
+          "Duotrav"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Simbrinza und Duotrav: bei gleichzeitiger Behandlung können sich die blutdrucksenkende Wirkung verstärken und der Herzschlag verlangsamen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 79,
+    "DrugCategoryPair": "Alkoholhaltige Arzneimittel - Nitroimidazol-Derivate, Ketoconazol",
+    "Interactions": [
+      {
+        "DrugPair": "Klosterfrau Melissengeist - Flagyl",
+        "Substances": [
+          "Klosterfrau Melissengeist",
+          "Flagyl"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Klosterfrau Melissengeist und Flagyl: Alkohol (auch in Klosterfrau Melissengeist) kann während einer Therapie mit Flagyll einen sogenannten Antabus-Effekt auslösen (Kopfschmerzen, Übelkeit und Blutdruckabfall)."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 92,
+    "DrugCategoryPair": "Neuroleptika - Lithiumsalze",
+    "Interactions": [
+      {
+        "DrugPair": "Sequase - Quilonorm",
+        "Substances": [
+          "Sequase",
+          "Quilonorm"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Sequase und Quilonorm: erhöhte Gefahr nervenschädigender und herzschädigender Wirkung möglich"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 111,
+    "DrugCategoryPair": "Beta-Sympathomimetika - Nicht kardioselektive Betablocker",
+    "Interactions": [
+      {
+        "DrugPair": "Ultibro - Timogel",
+        "Substances": [
+          "Ultibro",
+          "Timogel"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ultibro und Timogel: Der Wirkstoff von Timogel kann die bronchienerweiternden Eigenschaften von Ultibro abschwächen oder aufheben. "
+      },
+      {
+        "DrugPair": "Seretide - Carvedilol",
+        "Substances": [
+          "Seretide",
+          "Carvedilol"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Seretide und Carvedilol: Der Wirkstoff von Carvedilol kann die bronchienerweiternden Eigenschaften von Seretide abschwächen oder aufheben. "
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 130,
+    "DrugCategoryPair": "Methotrexat, Pemetrexed - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Metoject - Ibuprofen",
+        "Substances": [
+          "Metoject",
+          "Ibuprofen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Metoject und Ibuprofen: Ibuprofen verstärkt die unerwünschten Wirkungen von Metoject, z B. Fieber, Schleimhautentzündungen, Blutbildungsstörung mit Blutbildschäden, Nieren- und Lebertoxizität."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 140,
+    "DrugCategoryPair": "Neuroleptika - Anticholinergika",
+    "Interactions": [
+      {
+        "DrugPair": "Seroquel - Buscopan",
+        "Substances": [
+          "Seroquel",
+          "Buscopan"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Seroquel und Buscopan: Bei gleichzeitiger Behandlung  kann eine verstärkte anticholinerge Wirkung auftreten wie Akkomodationsstörung beim Sehen, Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen. Bei älteren Patienten ist das Sturzrisiko erhöht."
+      },
+      {
+        "DrugPair": "Zyprexa - Solifenacin",
+        "Substances": [
+          "Zyprexa",
+          "Solifenacin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Zyprexa und Solifenacin: Bei gleichzeitiger Behandlung kann eine verstärkte anticholinerge Wirkung auftreten wie Akkomodationsstörung beim Sehen, Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen. Bei älteren Patienten ist das Sturzrisiko erhöht."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 144,
+    "DrugCategoryPair": "Colistin - Aminoglykosid-Antibiotika",
+    "Interactions": [
+      {
+        "DrugPair": "Colifin - Bramitob",
+        "Substances": [
+          "Colifin",
+          "Bramitob"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Colifin und Bramitob: es können verstärkte nierenschädigende Wirkung und  neuromuskulär blockierende Effekte (Atemlähmung) auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 146,
+    "DrugCategoryPair": "Alpha-1-Rezeptorantagonisten - Beta-Blocker",
+    "Interactions": [
+      {
+        "DrugPair": "Cardura - Bisoprolol",
+        "Substances": [
+          "Cardura",
+          "Bisoprolol"
+        ],
+        "InteractionClassExtracted": 6,
+        "InteractionDescription": "Wechselwirkung der Klasse 6 ( keine Interaktion zu erwarten-in der Regel keine Massnahmen erforderlich) zwischen Cardura und Bisoprolol: Während einer Therapie mit Bisoprolol kann bei beginndender Therapie mit Cardura der First-dose-Effekt (Blutdruckabfall mit Kollapsneigung) häufiger und stärker auftreten."
+      },
+      {
+        "DrugPair": "Tamsulosin - Concor",
+        "Substances": [
+          "Tamsulosin",
+          "Concor"
+        ],
+        "InteractionClassExtracted": 6,
+        "InteractionDescription": "Wechselwirkung der Klasse 6 ( keine Interaktion zu erwarten-in der Regel keine Massnahmen erforderlich) zwischen Tamsulosin und Concor: Während einer Therapie mit Concor kann bei beginndender Therapie mit Tamsulosin der First-dose-Effekt (Blutdruckabfall mit Kollapsneigung) häufiger und stärker auftreten."
+      }
+    ],
+    "ClassLevel": [
+      6.0
+    ]
+  },
+  {
+    "IA_Nr": 151,
+    "DrugCategoryPair": "Antiphlogistika, nicht steroidale - Alkoholhaltige Arzneimittel",
+    "Interactions": [
+      {
+        "DrugPair": "Aspirin Cardio - Vi-De 3 Monatsdosis",
+        "Substances": [
+          "Aspirin Cardio",
+          "Vi",
+          "De 3 Monatsdosis"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Aspirin Cardio und Vi-De 3 Monatsdosis: Vermehrtes Auftreten von Geschwüren und Blutungen im Magen-Darm-Trakt."
+      }
+    ],
+    "ClassLevel": [
+      "No data"
+    ]
+  },
+  {
+    "IA_Nr": 158,
+    "DrugCategoryPair": "Sulfonylharnstoffe - Fibrate",
+    "Interactions": [
+      {
+        "DrugPair": "Diamicron - Cedur (Bezafibrat)",
+        "Substances": [
+          "Diamicron",
+          "Cedur (Bezafibrat)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Diamicron und Cedur: Kurz nach Beginn oder in den ersten Monaten der gleichzeitigen Behandlung kann eine verstärkte blutzuckersenkende Wirkung auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 164,
+    "DrugCategoryPair": "Antidiabetika - Thiazid-Diuretika und Analoge",
+    "Interactions": [
+      {
+        "DrugPair": "Jardiance Met - Cansartan Mepha plus",
+        "Substances": [
+          "Jardiance Met",
+          "Cansartan Mepha plus"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance Met und Cansartan Mepha plus: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Metfin - Micardis plus",
+        "Substances": [
+          "Metfin",
+          "Micardis plus"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Micardis plus: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Metformin - Enalapril HCT",
+        "Substances": [
+          "Metformin",
+          "Enalapril HCT"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Enalapril HCT: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Metformin - Irbesartan HCT",
+        "Substances": [
+          "Metformin",
+          "Irbesartan HCT"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Irbesartan HCT: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Metformin - Indapamid",
+        "Substances": [
+          "Metformin",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Indapamid: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Tresiba - Exforge HCT",
+        "Substances": [
+          "Tresiba",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Tresiba und Exforge HCT: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Rybelsus - Exforge HCT",
+        "Substances": [
+          "Rybelsus",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Rybelsus und Exforge HCT: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Metfin - Losartan HCT",
+        "Substances": [
+          "Metfin",
+          "Losartan HCT"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Losartan HCT: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Metformin - Co-Valsartan",
+        "Substances": [
+          "Metformin",
+          "Co",
+          "Valsartan"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Co-Valsartan: verminderte blutzuckersenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Sitagliptin - Bilol comp.",
+        "Substances": [
+          "Sitagliptin",
+          "Bilol comp."
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Sitagliptin und Bilol comp.: verminderte blutzuckersenkende Wirkung möglich."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 165,
+    "DrugCategoryPair": "Sympathomimetika - Antidepressiva, trizyklische, und Analoge",
+    "Interactions": [
+      {
+        "DrugPair": "Gutron - Saroten",
+        "Substances": [
+          "Gutron",
+          "Saroten"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Gutron und Saroten: Die Wirkung von Gutron kann durch Saroten erheblich verstärkt werden. Herzfrequenz- und Blutdruckanstiege bis hin zu Hochdruckkrisen mit Kopfschmerzen, Sehstörungen und Verwirrtheit können auftreten."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 176,
+    "DrugCategoryPair": "Antidiabetika - Schilddrüsenhormone",
+    "Interactions": [
+      {
+        "DrugPair": "Januvia - Eltroxin",
+        "Substances": [
+          "Januvia",
+          "Eltroxin"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Januvia und Eltroxin. Durch eine wahrscheinliche Wirkung auf den Glucosestoffwechsel kann die blutzuckersenkende Wirkung von Januvia möglicherweise vermindert sein."
+      },
+      {
+        "DrugPair": "Jardiance Met - Euthyrox",
+        "Substances": [
+          "Jardiance Met",
+          "Euthyrox"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Jardiance Met und Euthyrox. Durch eine wahrscheinliche Wirkung auf den Glucosestoffwechsel kann die blutzuckersenkende Wirkung von Januvia möglicherweise vermindert sein."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 182,
+    "DrugCategoryPair": "Levothyroxin, Liothyronin - Enzyminduktoren",
+    "Interactions": [
+      {
+        "DrugPair": "Tirosint - Erleada (Apalutamid)",
+        "Substances": [
+          "Tirosint",
+          "Erleada (Apalutamid)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tirosint und Erleada: Bei gleichzeitiger Behandlung kann die Wirksamkeit von Tirosint vermindert werden."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 188,
+    "DrugCategoryPair": "Vitamin-K-Antagonisten - Paracetamol",
+    "Interactions": [
+      {
+        "DrugPair": "Marcoumar - Dafalgan",
+        "Substances": [
+          "Marcoumar",
+          "Dafalgan"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Marcoumar und Dafalgan: Bei regelmässiger Einnahme von Paracetamol ergibt siche ein erhöhtes Blutungsrisiko durch verstärkte blutgerinnungshemmende Wirkung von Marcoumar."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 189,
+    "DrugCategoryPair": "Antiphlogistika, nicht steroidale - Glukokortikoide",
+    "Interactions": [
+      {
+        "DrugPair": "Aspirin Cardio - Spiricort",
+        "Substances": [
+          "Aspirin Cardio",
+          "Spiricort"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin Cardio und Spiricort: Erhöhtes Risiko für Blutungen und Geschwürbildung im Magen-Darm-Trakt. Das Risiko steigt mit der Dauer der Behandlung."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 201,
+    "DrugCategoryPair": "Eisensalze - Aluminium-, Calcium- und Magnesiumsalze; Antazida",
+    "Interactions": [
+      {
+        "DrugPair": "Ferrum Hausmann - Magnesium Diasporal",
+        "Substances": [
+          "Ferrum Hausmann",
+          "Magnesium Diasporal"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Eisen und Magnesium: Die gleichzeitige Einnahme vermindert die Aufnahme von Eisen bzw. Magnesium. Es sollte ein zeitlicher Abstand bei der Einnahme von mindestens 3 Stunden eingehalten werden. "
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 211,
+    "DrugCategoryPair": "Diuretika, kaliuretische - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Comilorid - Voltaren",
+        "Substances": [
+          "Comilorid",
+          "Voltaren"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Comilorid und Voltaren: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Indapamid - Vimovo",
+        "Substances": [
+          "Indapamid",
+          "Vimovo"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Indapamid und Vimovo: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Torasemid - Olfen",
+        "Substances": [
+          "Torasemid",
+          "Olfen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Olfen: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Coveram plus - Irfen",
+        "Substances": [
+          "Coveram plus",
+          "Irfen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Irfen: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Blopress plus - Felden",
+        "Substances": [
+          "Blopress plus",
+          "Felden"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Blopress plus und Felden: verminderte entwässernde und blutdrucksenkende Wirkung möglich"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 224,
+    "DrugCategoryPair": "Kontrazeptiva, hormonale - Antibiotika",
+    "Interactions": [
+      {
+        "DrugPair": "Mercilon - Supracyclin",
+        "Substances": [
+          "Mercilon",
+          "Supracyclin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Mercilon und Supracyclin: Verminderte Wirksamkeit hormonaler Kontrazeptiva durch Antibiotika nicht auszuschliessen. Kein gesicherter Zusammenhang, aber Vorsichtsmassnahme."
+      },
+      {
+        "DrugPair": "NuvaRing - Co-Amoxicillin",
+        "Substances": [
+          "NuvaRing",
+          "Co",
+          "Amoxicillin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen NuvaRing und Co-Amoxicillin: Verminderte Wirksamkeit hormonaler Kontrazeptiva durch Antibiotika nicht auszuschliessen. Kein gesicherter Zusammenhang, aber Vorsichtsmassnahme."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 231,
+    "DrugCategoryPair": "Diuretika, kaliuretische - Gluko- bzw. Mineralokortikoide",
+    "Interactions": [
+      {
+        "DrugPair": "Exforge HCT - Prednison",
+        "Substances": [
+          "Exforge HCT",
+          "Prednison"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Exforge HCT und Prednison: verstärkter Kaliumverlust und erhöhte Gefahr einer Hypokaliämie (zu tiefer Kaliumspiegel). Symptome können Muskelschwäche, Schläfrigkeit und EKG-Veränderungen sein."
+      },
+      {
+        "DrugPair": "Torasemid - Prednisolon",
+        "Substances": [
+          "Torasemid",
+          "Prednisolon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Prednisolon: verstärkter Kaliumverlust und erhöhte Gefahr einer Hypokaliämie (zu tiefer Kaliumspiegel). Symptome können Muskelschwäche, Schläfrigkeit und EKG-Veränderungen sein."
+      },
+      {
+        "DrugPair": "Sevikar-HCT - Spiricort",
+        "Substances": [
+          "Sevikar",
+          "HCT",
+          "Spiricort"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sevikar HCT und Spiricort: Bei gleichzeitiger Dauertherapie ist die Gefahr einer Hypokaliämie im Verlauf der Behandlung erhöht. Symptome der Hypokaliämie sind Muskelschwäche und -krämpfe, verminderte Reflexe, Herzklopfen, Verstopfung und EKG-Veränderungen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 232,
+    "DrugCategoryPair": "ACE-Hemmer - Diuretika, kaliuretische",
+    "Interactions": [
+      {
+        "DrugPair": "Ramipril - Torasemid",
+        "Substances": [
+          "Ramipril",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Ramipril und Torasemid: unter Behandlung mit Torasemid kann zu Beginn einer Therapie mit Ramipril in Einzelfällen ein starker Blutdruckabfall mit Benommenheit und Schwindel sowie eine Verschlechterung der Nierenfunktion auftreten."
+      },
+      {
+        "DrugPair": "Perindopril/Amlodipin- Torasemid",
+        "Substances": [
+          "Perindopril/Amlodipin",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Perindopril-Amlodipin und Torasemid: unter Behandlung mit Torasemid kann zu Beginn einer Therapie mit Ramipril in Einzelfällen ein starker Blutdruckabfall mit Benommenheit und Schwindel sowie eine Verschlechterung der Nierenfunktion auftreten."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 256,
+    "DrugCategoryPair": "Antidiabetika - Sympathomimetika",
+    "Interactions": [
+      {
+        "DrugPair": "Vokanamet - Relvar Ellipta",
+        "Substances": [
+          "Vokanamet",
+          "Relvar Ellipta"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Vokanamet und Relvar Ellipta: die blutzuckersenkende Wirkung kann durch Relvar Ellipta dosisabhängig abgeschwächt werden."
+      },
+      {
+        "DrugPair": "Fiasp - Ventolin",
+        "Substances": [
+          "Fiasp",
+          "Ventolin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Fiasp und Ventolin: die blutzuckersenkende Wirkung kann durch Ventolin dosisabhängig abgeschwächt werden."
+      },
+      {
+        "DrugPair": "Metformin - Trimbow",
+        "Substances": [
+          "Metformin",
+          "Trimbow"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Trimbow: die blutzuckersenkende Wirkung kann durch Trimbow dosisabhängig abgeschwächt werden."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 288,
+    "DrugCategoryPair": "ACE-Hemmer - Allopurinol",
+    "Interactions": [
+      {
+        "DrugPair": "Lisinopril - Allopur",
+        "Substances": [
+          "Lisinopril",
+          "Allopur"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lisinopril und Allopur: Bei gleichzeitiger Behandlung ist das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Gelenkschmerz, Leukopenie (Mangel an weissen Blutkörperchen) und Stevens-Johnson-Syndrom (Hauterkrankung) sowie für Infektionen erhöht."
+      },
+      {
+        "DrugPair": "Ramipril - Allopurinol",
+        "Substances": [
+          "Ramipril",
+          "Allopurinol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ramipril und Allopurinol: Bei gleichzeitiger Behandlung ist das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Gelenkschmerz, Leukopenie (Mangel an weissen Blutkörperchen) und Stevens-Johnson-Syndrom (Hauterkrankung) sowie für Infektionen erhöht."
+      },
+      {
+        "DrugPair": "Coveram plus - Allopurinol",
+        "Substances": [
+          "Coveram plus",
+          "Allopurinol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Coveram plus und Allopurinol: bei gleichzeitiger Behandlung erhöht sich das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Leukopenie (Abfall der weissen Blutkörperchen) und für Infektionen. Immunologische Reaktionen traten jeweils auf, kurz nachdem die Patienten während einer Perindopril-Behandlung (Wirkstoff von Coveram plus) mit der Anwendung von Allopurinol begonnen hatten."
+      },
+      {
+        "DrugPair": "Perindopril - Zyloric",
+        "Substances": [
+          "Perindopril",
+          "Zyloric"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Perindopril und Zyloric: bei gleichzeitiger Behandlung erhöht sich das Risiko für immunologische Reaktionen wie Hautreaktionen, Fieber, Leukopenie (Abfall der weissen Blutkörperchen) und für Infektionen. Immunologische Reaktionen traten jeweils auf, kurz nachdem die Patienten während einer Perindopril-Behandlung (Wirkstoff von Coveram plus) mit der Anwendung von Allopurinol begonnen hatten."
+      }
+    ],
+    "ClassLevel": [
+      3.0,
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 326,
+    "DrugCategoryPair": "Diuretika, kaliumretinierende - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Comilorid - Voltaren",
+        "Substances": [
+          "Comilorid",
+          "Voltaren"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Comilorid und Voltaren: zu hohe Kaliumwerte und Nierenversagen möglich"
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 387,
+    "DrugCategoryPair": "Typhus-Lebendimpfstoff, oral - Antiinfektiva",
+    "Interactions": [
+      {
+        "DrugPair": "Vivotif - Co-Amoxicillin",
+        "Substances": [
+          "Vivotif",
+          "Co",
+          "Amoxicillin"
+        ],
+        "InteractionClassExtracted": null,
+        "InteractionDescription": "Die gleichzeitige Anwendung kann den Impferfolg (Vivotif) beeinträchtigen."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 393,
+    "DrugCategoryPair": "Insuline - Kardioselektiv bzw. vasodilatierende Betablocker",
+    "Interactions": [
+      {
+        "DrugPair": "Lantus - Bisoprolol",
+        "Substances": [
+          "Lantus",
+          "Bisoprolol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lantus und Bisoprolol: die blutzuckersenkende Wirkung von Lantus kann verstärkt werden. Ausserdem können sie die typischen Warnsymptome einer Hypoglykämie (Tremor, Tachykardie, Unruhe, Hungergefühl, Kopfschmerzen) maskieren, Schwitzen als Warnsymptom dagegen verstärken."
+      },
+      {
+        "DrugPair": "Tresiba - Bilol",
+        "Substances": [
+          "Tresiba",
+          "Bilol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tresiba und Bilol: die blutzuckersenkende Wirkung von Tresiba kann verstärkt werden. Ausserdem können sie die typischen Warnsymptome einer Hypoglykämie (Tremor, Tachykardie, Unruhe, Hungergefühl, Kopfschmerzen) maskieren, Schwitzen als Warnsymptom dagegen verstärken."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 442,
+    "DrugCategoryPair": "Nahrungsmittelinteraktion Nifedipin-Derivate - Grapefruit",
+    "Interactions": [
+      {
+        "DrugPair": "Amlodipin - Grapefruit",
+        "Substances": [
+          "Amlodipin",
+          "Grapefruit"
+        ],
+        "InteractionClassExtracted": null,
+        "InteractionDescription": "Verstärkte Wirkung möglich. Effekte wie verstärkte Blutdrucksenkung, erhöhte Herzfrequenz, verstärkte Gefässerweiterung und dadurch bedingte Symptome wie Kopfschmerzen können vermehrt auftreten."
+      }
+    ],
+    "ClassLevel": [
+      "No data"
+    ]
+  },
+  {
+    "IA_Nr": 453,
+    "DrugCategoryPair": "Beta-Blocker - Nifedipin und -Derivate",
+    "Interactions": [
+      {
+        "DrugPair": "Meto Zerok - Amlodipin",
+        "Substances": [
+          "Meto Zerok",
+          "Amlodipin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Meto Zerok und Amlodipin: verstärkte Blutdrucksenkung möglich"
+      },
+      {
+        "DrugPair": "Nebivolol - Amlodipin",
+        "Substances": [
+          "Nebivolol",
+          "Amlodipin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Nebivolol und Amlodipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "DrugPair": "Bilol - Amlodipin",
+        "Substances": [
+          "Bilol",
+          "Amlodipin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Amlodipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "DrugPair": "Bilol - Coveram plus",
+        "Substances": [
+          "Bilol",
+          "Coveram plus"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Coveram plus: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "DrugPair": "Bilol - Exforge HCT",
+        "Substances": [
+          "Bilol",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Exforge HCT: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "DrugPair": "Bilol - Sevikar",
+        "Substances": [
+          "Bilol",
+          "Sevikar"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Sevikar: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "DrugPair": "Concor - Exforge HCT",
+        "Substances": [
+          "Concor",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Concor und Exforge HCT: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "DrugPair": "Beloc Zok - Lercanidipin",
+        "Substances": [
+          "Beloc Zok",
+          "Lercanidipin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Beloc Zok und Lercanidipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      },
+      {
+        "DrugPair": "Bilol - Lercanidipin",
+        "Substances": [
+          "Bilol",
+          "Lercanidipin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Bilol und Lercanidipin: Die gleichzeitige Behandlung kann eine verstärkte Blutdrucksenkung hervorrufen- besonders zu Beginn der Behandlung; in Einzelfällen kann es bei Patienten mit latenter (versteckter) Herzleistungsschwäche zu Herzinsuffizienz (ungenügende Herzleistung) kommen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 464,
+    "DrugCategoryPair": "Neuroleptika - Serotonin-Reuptake-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Quetiapin - Venlafaxin",
+        "Substances": [
+          "Quetiapin",
+          "Venlafaxin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Quetiapin und Venlafaxin: vermehrtes Auftreten schwerer unerwünschter Wirkungen möglich, Zittern, Muskelsteifheit und Bewegungsunruhe können auftreten. Zudem erhöhtes Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes, wodurch symptomatische Schwindel- oder Ohnmachtsanfälle auftreten können."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 478,
+    "DrugCategoryPair": "Angiotensin-II-Antagonisten - Amilorid, Triamteren",
+    "Interactions": [
+      {
+        "DrugPair": "Edarbi - Comilorid",
+        "Substances": [
+          "Edarbi",
+          "Comilorid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Edarbi und Comilorid: erhöhtes Risiko für zu hohe Kaliumwerte, zu Beginn der Behandlung starker Blutdruckabfall möglich"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 479,
+    "DrugCategoryPair": "Kaliumsalze - Angiotensin-II-Antagonisten",
+    "Interactions": [
+      {
+        "DrugPair": "KCl Hausmann - Exforge HCT",
+        "Substances": [
+          "KCl Hausmann",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen KCl Hausmann und Exforge HCT: Gefahr von zu hohen Kaliumwerten (Hyperkaliämie)"
+      },
+      {
+        "DrugPair": "KCL Hausmann - Amlodipin-Valsartan-HCT",
+        "Substances": [
+          "KCL Hausmann",
+          "Amlodipin",
+          "Valsartan",
+          "HCT"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen KCl Hausmann und Amlodipin-Valsartan-HCT: Gefahr von zu hohen Kaliumwerten (Hyperkaliämie)"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 486,
+    "DrugCategoryPair": "Diuretika, kaliuretische - Laxantien",
+    "Interactions": [
+      {
+        "DrugPair": "Torasemid - Laxoberon",
+        "Substances": [
+          "Torasemid",
+          "Laxoberon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Laxoberon: die Gefahr einer Hypokaliämie (zu niedrige Kaliumwerte) im Verlauf der Behandlung ist erhöht. Symptome der Hypokaliämie sind Muskelschwäche und -krämpfe, verminderte Reflexe, Herzklopfen, Verstopfung und EKG-Veränderungen."
+      },
+      {
+        "DrugPair": "Torasemid - Movicol",
+        "Substances": [
+          "Torasemid",
+          "Movicol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Torasemid und Movicol: die Gefahr einer Hypokaliämie (zu niedrige Kaliumwerte) im Verlauf der Behandlung ist erhöht. Symptome der Hypokaliämie sind Muskelschwäche und -krämpfe, verminderte Reflexe, Herzklopfen, Verstopfung und EKG-Veränderungen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 488,
+    "DrugCategoryPair": "Vitamin-K-Antagonisten - Statine",
+    "Interactions": [
+      {
+        "DrugPair": "Marcoumar - Rosuvastatin",
+        "Substances": [
+          "Marcoumar",
+          "Rosuvastatin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Marcoumar und Rosuvastatin: Bei gleichzeitiger Behandlung kann die Wirkung von Marcoumar verstärkt werden. Blutungskomplikationen wie Nasenbluten, Hämatome und rektale Blutungen könnten auftreten."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 511,
+    "DrugCategoryPair": "Thrombozytenaggregationshemmer - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Clopidogrel - Arcoxia (Etoricoxib)",
+        "Substances": [
+          "Clopidogrel",
+          "Arcoxia (Etoricoxib)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Clopidogrel und Arcoxia: Bei gleichzeitiger Behandlung kann das Risiko von Auftreten und Stärke von Blutungskomplikationen erhöht werden. Besonders das Risiko für gastrointestinale Blutungen ist erhöht."
+      },
+      {
+        "DrugPair": "Clopidogrel - Celecoxib",
+        "Substances": [
+          "Clopidogrel",
+          "Celecoxib"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Clopidogrel und Celecoxib: Bei gleichzeitiger Behandlung kann das Risiko von Auftreten und Stärke von Blutungskomplikationen erhöht werden. Besonders das Risiko für gastrointestinale Blutungen ist erhöht."
+      },
+      {
+        "DrugPair": "Clopidogrel - Felden (Piroxicam)",
+        "Substances": [
+          "Clopidogrel",
+          "Felden (Piroxicam)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Clopidogrel und Felden: Bei gleichzeitiger Behandlung kann das Risiko von Auftreten und Stärke von Blutungskomplikationen erhöht werden. Besonders das Risiko für gastrointestinale Blutungen ist erhöht."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 516,
+    "DrugCategoryPair": "Vitamin-K-Antagonisten - Protonenpumpeninhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Marcoumar - Pantoprazol",
+        "Substances": [
+          "Marcoumar",
+          "Pantoprazol"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Marcoumar und Pantoprazol: Bei gleichzeitiger Behandlung sind in Einzelfällen nach einigen Tagen verlängerte Blutungszeiten mit verstärkter Blutungsneigung aufgetreten."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 528,
+    "DrugCategoryPair": "Antikoagulantien - Serotonin-Reuptake-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "ASS cardio - Venlafaxin",
+        "Substances": [
+          "ASS cardio",
+          "Venlafaxin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen ASS cardio und Venlafaxin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "DrugPair": "ASS cardio - Escitalopram",
+        "Substances": [
+          "ASS cardio",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen ASS cardio und Escitalopram: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "DrugPair": "Aspirin  Cardio - Sertralin",
+        "Substances": [
+          "Aspirin  Cardio",
+          "Sertralin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin cardio und Sertralin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "DrugPair": "Clopidogrel - Escitalopram",
+        "Substances": [
+          "Clopidogrel",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Clopidogrel und Escitalopram: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "DrugPair": "Aspirin Cardio - Duloxetin",
+        "Substances": [
+          "Aspirin Cardio",
+          "Duloxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin Cardio und Duloxetin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "DrugPair": "Xarelto - Sertralin",
+        "Substances": [
+          "Xarelto",
+          "Sertralin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Xarelto und Sertralin: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      },
+      {
+        "DrugPair": "Aspirin Cardio - Brintellix",
+        "Substances": [
+          "Aspirin Cardio",
+          "Brintellix"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin Cardio und Brintellix: In Einzelfällen Blutungskomplikationen wie gastrointestinale Blutungen, Vaginalblutungen, Hämaturie, Nasenbluten und Hirnblutungen möglich."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 549,
+    "DrugCategoryPair": "Vitamin-K-Antagonisten - Tramadol",
+    "Interactions": [
+      {
+        "DrugPair": "Marcoumar - Tramadol",
+        "Substances": [
+          "Marcoumar",
+          "Tramadol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Marcoumar und Tramadol: Die blutgerinnungshemmende Wirkung von Marcoumar kanndurch Tramadol verstärkt werden. Blutungskomplikationen können vorkommen."
+      },
+      {
+        "DrugPair": "Sintrom - Tramadol",
+        "Substances": [
+          "Sintrom",
+          "Tramadol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sintrom und Tramadol: Die blutgerinnungshemmende Wirkung von Marcoumar kanndurch Tramadol verstärkt werden. Blutungskomplikationen können vorkommen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 564,
+    "DrugCategoryPair": "Levothyroxin - Kationen, polyvalente",
+    "Interactions": [
+      {
+        "DrugPair": "Eltroxin - Calcimagon",
+        "Substances": [
+          "Eltroxin",
+          "Calcimagon"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Eltroxin und Calcimagon. Die Einnahme von Eltroxin zusammen mit Calciumsalzen kann die Wirksamkeit der Schilddrüsenhormone vermindern. Laut Fachinformation von Eltroxin soll die Einnahme von Calciumpräparaten frühestens 2 Stunden nach Eltroxin erfolgen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 569,
+    "DrugCategoryPair": "Opioide - CYP3A-Induktoren",
+    "Interactions": [
+      {
+        "DrugPair": "Tramadol - Tegretol (Carbamazepin)",
+        "Substances": [
+          "Tramadol",
+          "Tegretol (Carbamazepin)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (mittelschwer - Überwachung nötig) zwischen Tramadol und Tegretol: Bei gleichzeitiger Behandlung kann die Wirksamkeit und Wirkdauer von Tramadol vermindert werden."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 573,
+    "DrugCategoryPair": "Nahrungsmittelinteraktion Grapefruit - Statine",
+    "Interactions": [
+      {
+        "DrugPair": "Grapefruit - Simvastatin",
+        "Substances": [
+          "Grapefruit",
+          "Simvastatin"
+        ],
+        "InteractionClassExtracted": null,
+        "InteractionDescription": "Einnahme von Grapefruits (Citrus paradisi L.) bzw. Grapefruitsaft während einer Therapie mit Simvastatin oder Atorvastatin kann die Plasmakonzentrationen der betroffenen Statine stark erhöhen. "
+      },
+      {
+        "DrugPair": "Grapefruit - Atorvastatin",
+        "Substances": [
+          "Grapefruit",
+          "Atorvastatin"
+        ],
+        "InteractionClassExtracted": null,
+        "InteractionDescription": "Einnahme von Grapefruits (Citrus paradisi L.) bzw. Grapefruitsaft während einer Therapie mit Simvastatin oder Atorvastatin kann die Plasmakonzentrationen der betroffenen Statine stark erhöhen. "
+      }
+    ],
+    "ClassLevel": [
+      "No data"
+    ]
+  },
+  {
+    "IA_Nr": 592,
+    "DrugCategoryPair": "Methotrexat - Salicylate",
+    "Interactions": [
+      {
+        "DrugPair": "Metoject - Aspirin Cardio",
+        "Substances": [
+          "Metoject",
+          "Aspirin Cardio"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Metoject und Aspirin Cardio: Salicylate können die Wirkung von Methotrexat verstärken. Unerwünschte Wirkungen wie z.B. Schleimhautentzündungen (Stomatitis, Ösophagitis u.a.), Nieren- und Lebertoxizität können verstärkt oder vermehrt auftreten."
+      },
+      {
+        "DrugPair": "Methotrexat - Aspirin Cardio",
+        "Substances": [
+          "Methotrexat",
+          "Aspirin Cardio"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Methotrexat und Aspirin Cardio: Salicylate können die Wirkung von Methotrexat verstärken. Unerwünschte Wirkungen wie z.B. Schleimhautentzündungen (Stomatitis, Ösophagitis u.a.), Nieren- und Lebertoxizität können verstärkt oder vermehrt auftreten."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 663,
+    "DrugCategoryPair": "Vitamin D und -Derivate - Thiazid-Diuretika",
+    "Interactions": [
+      {
+        "DrugPair": "Vitamin D3 - Cansartan Mepha plus",
+        "Substances": [
+          "Vitamin D3",
+          "Cansartan Mepha plus"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vitamin D3 und Cansartan Mepha plus: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "DrugPair": "Calcimagon - Coveram plus",
+        "Substances": [
+          "Calcimagon",
+          "Coveram plus"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Calcimagon und Coveram plus: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "DrugPair": "Calcimagon - Exforge HCT",
+        "Substances": [
+          "Calcimagon",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Calcimagon und Exforge HCT: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "DrugPair": "Calcitriol - Edarbyclor",
+        "Substances": [
+          "Calcitriol",
+          "Edarbyclor"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Calcitriol und Edarbyclor: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "DrugPair": "Vitamin D3 - Indapamid",
+        "Substances": [
+          "Vitamin D3",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vitamin D3 und Indapamid: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      },
+      {
+        "DrugPair": "Vi-De 3 - Esidrex",
+        "Substances": [
+          "Vi",
+          "De 3",
+          "Esidrex"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vi-De 3 und Esidrex: erhöhtes Risiko von zu hohen Calciumwerten (Hypercalciämie)"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 749,
+    "DrugCategoryPair": "Antidepressiva, trizyklische, und Analoge - H1-Blocker (Antiallergika)",
+    "Interactions": [
+      {
+        "DrugPair": "Trittico - Desloratadin",
+        "Substances": [
+          "Trittico",
+          "Desloratadin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Desloratadin: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. Auch anticholinerge Effekte wie Mundtrockenheit, Verstopfung, Herzrasen können vermehrt und verstärkt auftreten."
+      },
+      {
+        "DrugPair": "Trittico - Cetirizin",
+        "Substances": [
+          "Trittico",
+          "Cetirizin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Cetirizin: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. Auch anticholinerge Effekte wie Mundtrockenheit, Verstopfung, Herzrasen können vermehrt und verstärkt auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 766,
+    "DrugCategoryPair": "QT-verlängernde Substanzen - Antidepressiva, trizyklische, und Analoge",
+    "Interactions": [
+      {
+        "DrugPair": "Atomoxetin - Trittico",
+        "Substances": [
+          "Atomoxetin",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atomoxetin und Trittico: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 767,
+    "DrugCategoryPair": "QT-verlängernde Substanzen - H1-Blocker",
+    "Interactions": [
+      {
+        "DrugPair": "Domperidon - Benocten (Diphenhydramin)",
+        "Substances": [
+          "Domperidon",
+          "Benocten (Diphenhydramin)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Domperidon und Benocten: Bei gleichzeitiger Behandlung ist das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 768,
+    "DrugCategoryPair": "QT-verlängernde Substanzen - Lithiumsalze",
+    "Interactions": [
+      {
+        "DrugPair": "Atomoxetin - Quilonorm",
+        "Substances": [
+          "Atomoxetin",
+          "Quilonorm"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atomoxetin und Quilonorm: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 771,
+    "DrugCategoryPair": "QT-verlängernde Substanzen - Citalopram, Escitalopram",
+    "Interactions": [
+      {
+        "DrugPair": "Zofran (Ondansetron) - Escitalopram",
+        "Substances": [
+          "Zofran (Ondansetron)",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 1,
+        "InteractionDescription": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Zofran und Escitalopram: Bei gleichzeitiger Behandlung entsteht ein erhöhtes Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes, wodurch symptomatische Schwindel- oder Ohnmachtsanfälle auftreten können."
+      }
+    ],
+    "ClassLevel": [
+      1.0
+    ]
+  },
+  {
+    "IA_Nr": 792,
+    "DrugCategoryPair": "Bupropion - Arzneimittel, die die Krampfschwelle senken",
+    "Interactions": [
+      {
+        "DrugPair": "Wellbutrin - Concerta",
+        "Substances": [
+          "Wellbutrin",
+          "Concerta"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Concerta: beide Medikamente senken die Krampschwelle, erhöht das Risiko von Krampfanfällen."
+      },
+      {
+        "DrugPair": "Wellblutrin - Trittico",
+        "Substances": [
+          "Wellblutrin",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Trittico: beide Medikamente senken die Krampschwelle, erhöht das Risiko von Krampfanfällen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 797,
+    "DrugCategoryPair": "Vitamin-K-Antagonisten - Acetylsalicylsäure (niedrig dosiert)",
+    "Interactions": [
+      {
+        "DrugPair": "Marcoumar - Aspirin Cardio",
+        "Substances": [
+          "Marcoumar",
+          "Aspirin Cardio"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Marcoumar und Aspirin Cardio: Die gerinnungshemmende Wirkung von Marcoumar kann durch Aspirin Cardio verstärkt werden. Vor allem Blutungen im Magen-Darm-Trakt, aber auch Hämatome, Nasenbluten und andere Blutungen können vermehrt und verstärkt auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 831,
+    "DrugCategoryPair": "Serotonin-Reuptake-Hemmer - Opioide",
+    "Interactions": [
+      {
+        "DrugPair": "Mirtazapin - Palexia",
+        "Substances": [
+          "Mirtazapin",
+          "Palexia"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Mirtazapin und Palexia: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und einer allgemeinen Dämpfung."
+      },
+      {
+        "DrugPair": "Duloxetin - Palexia",
+        "Substances": [
+          "Duloxetin",
+          "Palexia"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Duloxetin und Palexia: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und einer allgemeinen Dämpfung."
+      },
+      {
+        "DrugPair": "Cymbalta - Fentanyl",
+        "Substances": [
+          "Cymbalta",
+          "Fentanyl"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Cymbalta und Fentanyl: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und einer allgemeinen Dämpfung."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 836,
+    "DrugCategoryPair": "Antikoagulantien - Phytopharmaka (Ginkgo, Ingwer, Knoblauch)",
+    "Interactions": [
+      {
+        "DrugPair": "Xarelto - Ginkgo Mepha",
+        "Substances": [
+          "Xarelto",
+          "Ginkgo Mepha"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Xarelto und Ginkgo Mepha: Die gleichzeitige Behandlung kann die Blutgerinnung verändern. Seltene Einzelfälle von Blutungskomplikationen sind nicht auszuschliessen."
+      },
+      {
+        "DrugPair": "Lixiana - Tebokan",
+        "Substances": [
+          "Lixiana",
+          "Tebokan"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Lixiana und Tebokan: Die gleichzeitige Behandlung kann die Blutgerinnung verändern. Seltene Einzelfälle von Blutungskomplikationen sind nicht auszuschliessen."
+      },
+      {
+        "DrugPair": "Aspirin Cardio - Tebokan",
+        "Substances": [
+          "Aspirin Cardio",
+          "Tebokan"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Aspirin Cardio und Tebokan: Die gleichzeitige Behandlung kann die Blutgerinnung verändern. Seltene Einzelfälle von Blutungskomplikationen sind nicht auszuschliessen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 858,
+    "DrugCategoryPair": "Estrogene - COX-2-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Estrofem-Etoricoxib",
+        "Substances": [
+          "Estrofem",
+          "Etoricoxib"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Estrofem und Etoricoxib: die gleichzeitige Behandlung  kann möglicherweise vermehrt unerwünschte Effekte von Estrofem hervorrufen."
+      }
+    ],
+    "ClassLevel": [
+      "No data"
+    ]
+  },
+  {
+    "IA_Nr": 915,
+    "DrugCategoryPair": "Angiotensin-II-Antagonisten - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Edarbi - Voltaren",
+        "Substances": [
+          "Edarbi",
+          "Voltaren"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Edarbi und Voltaren: verminderte Blutdrucksenkung, zu hohe Kaliumwerte, Niereninsuffizienz möglich"
+      },
+      {
+        "DrugPair": "Sevikar - Optifen",
+        "Substances": [
+          "Sevikar",
+          "Optifen"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Sevikar und Optifen: verminderte Blutdrucksenkung, zu hohe Kaliumwerte, Niereninsuffizienz möglich"
+      },
+      {
+        "DrugPair": "Cansartan - Voltaren",
+        "Substances": [
+          "Cansartan",
+          "Voltaren"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Cansartan und Voltaren: verminderte Blutdrucksenkung, zu hohe Kaliumwerte, Niereninsuffizienz möglich"
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 935,
+    "DrugCategoryPair": "Duloxetin - Serotonin-Reuptake-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Duloxetin - Trittico",
+        "Substances": [
+          "Duloxetin",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Duloxetin und Trittico: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      },
+      {
+        "DrugPair": "Duloxetin - Escitalopram",
+        "Substances": [
+          "Duloxetin",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Duloxetin und Escitalopram: erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 962,
+    "DrugCategoryPair": "Atomoxetin - Starke CYP2D6-Inhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Strattera - Fluoxetin",
+        "Substances": [
+          "Strattera",
+          "Fluoxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Strattera und Fluoxetin: Die gleichzeitige Behandlung mit Fluoxetin kann verstärkte unerwünschte Wirkungen von Strattera hervorrufen."
+      },
+      {
+        "DrugPair": "Atomoxetin - Paroxetin",
+        "Substances": [
+          "Atomoxetin",
+          "Paroxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Atomoxetin und Paroxetin: Die gleichzeitige Behandlung mit Paroxetin kann verstärkte unerwünschte Wirkungen von Atomoxetin hervorrufen."
+      },
+      {
+        "DrugPair": "Atomoxetin - Terbinafin (oral)",
+        "Substances": [
+          "Atomoxetin",
+          "Terbinafin (oral)"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Atomoxetin und Terbinafin: Die gleichzeitige Behandlung mit Terbinafin kann verstärkte unerwünschte Wirkungen von Atomoxetin hervorrufen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 966,
+    "DrugCategoryPair": "Parasympatholytika - Neuroleptika",
+    "Interactions": [
+      {
+        "DrugPair": "Buscopan - Seroquel",
+        "Substances": [
+          "Buscopan",
+          "Seroquel"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Buscopan und Seroquel: Bei gleichzeitiger Therapie können sogenannte anticholinerge Effekte vermehrt bzw. verstärkt auftreten: Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen, Schweissminderung. "
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 989,
+    "DrugCategoryPair": "Antidiabetika, orale - Kardioselektiv bzw. vasodilatierende Betablocker",
+    "Interactions": [
+      {
+        "DrugPair": "Novonorm - Bisoprolol",
+        "Substances": [
+          "Novonorm",
+          "Bisoprolol"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Novonorm und Bisoprolol: verstärkte und verlängerte blutzuckersenkende Wirkung möglich, Warnsymptome einer Unterzuckerung (Zittern, Herzrasen, Unruhe, Hungergefühl, Kopfschmerzen) können maskiert werden."
+      },
+      {
+        "DrugPair": "Diamicron - Bisoprolol",
+        "Substances": [
+          "Diamicron",
+          "Bisoprolol"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Diamicron und Bisoprolol: verstärkte und verlängerte blutzuckersenkende Wirkung möglich, Warnsymptome einer Unterzuckerung (Zittern, Herzrasen, Unruhe, Hungergefühl, Kopfschmerzen) können maskiert werden."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1010,
+    "DrugCategoryPair": "Statine - CYP3A-Induktoren",
+    "Interactions": [
+      {
+        "DrugPair": "Atorvastatin - Tegretol",
+        "Substances": [
+          "Atorvastatin",
+          "Tegretol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Atorvastatin und Tegretol: verminderte cholesterinsenkende Wirkung möglich."
+      },
+      {
+        "DrugPair": "Simvastatin - Tegretol (Carbamazepin)",
+        "Substances": [
+          "Simvastatin",
+          "Tegretol (Carbamazepin)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Simvastatin und Tegretol: verminderte cholesterinsenkende Wirkung möglich."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1056,
+    "DrugCategoryPair": "Atomoxetin - QT-verlängernde Substanzen",
+    "Interactions": [
+      {
+        "DrugPair": "Strattera - Fluoxetin",
+        "Substances": [
+          "Strattera",
+          "Fluoxetin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Strattera und Fluoxetin: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      },
+      {
+        "DrugPair": "Atomoxetin - Motilium",
+        "Substances": [
+          "Atomoxetin",
+          "Motilium"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Atomoxetin und Motilium: erhöhtes Risiko für Herzrhythmusstörungen vom Typ Torsades de pointes. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1126,
+    "DrugCategoryPair": "Domperidon - QT-verlängernde starke CYP3A-Inhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Motilium - Clarithromycin",
+        "Substances": [
+          "Motilium",
+          "Clarithromycin"
+        ],
+        "InteractionClassExtracted": 1,
+        "InteractionDescription": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Motilium  und Clarithromycin: Durch die gleichzeitige Behandlung können die Wirkungen von Motilium verstärkt werden und das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes ist erhöht. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      },
+      {
+        "DrugPair": "Motilium - Sporanox (Itraconazol)",
+        "Substances": [
+          "Motilium",
+          "Sporanox (Itraconazol)"
+        ],
+        "InteractionClassExtracted": 1,
+        "InteractionDescription": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Motilium  und Sporanox: Durch die gleichzeitige Behandlung können die Wirkungen von Motilium verstärkt werden und das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes ist erhöht. Symptome sind Herzklopfen, Benommenheit, Schwindel und Ohnmachtsanfälle. "
+      }
+    ],
+    "ClassLevel": [
+      1.0
+    ]
+  },
+  {
+    "IA_Nr": 1145,
+    "DrugCategoryPair": "Antiphlogistika, nicht steroidale - Serotonin-Reuptake-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Aspirin S - Sertralin",
+        "Substances": [
+          "Aspirin S",
+          "Sertralin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin S und Sertralin: Erhöhtes Risiko von gastrointestinalen Blutungen (Blutungen im Magen-Darm-Trakt) sowie anderer Blutungen."
+      },
+      {
+        "DrugPair": "Irfen - Citalopram",
+        "Substances": [
+          "Irfen",
+          "Citalopram"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Irfen und Citalopram: Erhöhtes Risiko von gastrointestinalen Blutungen (Blutungen im Magen-Darm-Trakt) sowie anderer Blutungen."
+      },
+      {
+        "DrugPair": "Inflamac - Citalopram",
+        "Substances": [
+          "Inflamac",
+          "Citalopram"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Inflamac und Citalopram: Erhöhtes Risiko von gastrointestinalen Blutungen (Blutungen im Magen-Darm-Trakt) sowie anderer Blutungen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1219,
+    "DrugCategoryPair": "Antidiarrhoika, motilitätshemmende - Quellmittel",
+    "Interactions": [
+      {
+        "DrugPair": "Loperamid - Metamucil Regular",
+        "Substances": [
+          "Loperamid",
+          "Metamucil Regular"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Loperamid und Metamucil Regular: Die gleichzeitige Behandlung begünstigt einen mechanischen Darmverschluss (krampfartige Bauchschmerzen, Übelkeit, Erbrechen, Blähbauch, Stuhlverhalt)."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1251,
+    "DrugCategoryPair": "Calciumsalze - Thiazid-Diuretika",
+    "Interactions": [
+      {
+        "DrugPair": "Calcimagon - Coveram plus",
+        "Substances": [
+          "Calcimagon",
+          "Coveram plus"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Calcimagon und Coveram plus: Erhöhtes Risiko einer Hyperkalziämie (zu hoher Calciumspiegel)"
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1278,
+    "DrugCategoryPair": "Diuretika, kaliuretische - Beta-Sympathomimetik",
+    "Interactions": [
+      {
+        "DrugPair": "Torasemid - Symbicort",
+        "Substances": [
+          "Torasemid",
+          "Symbicort"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Symbicort: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "DrugPair": "Torasemid - Ultibro",
+        "Substances": [
+          "Torasemid",
+          "Ultibro"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Ultibro: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "DrugPair": "Coveram plus - Relvar Ellipta",
+        "Substances": [
+          "Coveram plus",
+          "Relvar Ellipta"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Coveram plus und Relvar Ellipta: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "DrugPair": "Cansartan Mepha plus - Ultibro",
+        "Substances": [
+          "Cansartan Mepha plus",
+          "Ultibro"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Cansartan Mepha plus und Ultibro: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "DrugPair": "Exforge HCT - Trimbow",
+        "Substances": [
+          "Exforge HCT",
+          "Trimbow"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Exforge HCT und Trimbow: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "DrugPair": "Indapamid - Ventolin",
+        "Substances": [
+          "Indapamid",
+          "Ventolin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Indapamid und Ventolin: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "DrugPair": "Torasemid - Seretide",
+        "Substances": [
+          "Torasemid",
+          "Seretide"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Seretide: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      },
+      {
+        "DrugPair": "Torasemid - Ventolin",
+        "Substances": [
+          "Torasemid",
+          "Ventolin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Ventolin: Risiko von Hypokaliämien erhöht (zu niedrige Kaliumwerte)"
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1279,
+    "DrugCategoryPair": "Tramadol - Antidepressiva, trizyklische",
+    "Interactions": [
+      {
+        "DrugPair": "Tramadol - Anafranil",
+        "Substances": [
+          "Tramadol",
+          "Anafranil"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tramadol und Anafranil: Die gleichzeitige Behandlung kann das Risiko von Krampfanfällen erhöhen. Ausserdem ist die Gefahr eines Serotonin-Syndroms erhöht (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      },
+      {
+        "DrugPair": "Tramadol - Surmontil (Trimipramin)",
+        "Substances": [
+          "Tramadol",
+          "Surmontil (Trimipramin)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tramadol und Surmontil: Die gleichzeitige Behandlung kann das Risiko von Krampfanfällen erhöhen. Ausserdem ist die Gefahr eines Serotonin-Syndroms erhöht (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      },
+      {
+        "DrugPair": "Tramadol - Saroten (Amitriptylin)",
+        "Substances": [
+          "Tramadol",
+          "Saroten (Amitriptylin)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tramadol und Saroten: Die gleichzeitige Behandlung kann das Risiko von Krampfanfällen erhöhen. Ausserdem ist die Gefahr eines Serotonin-Syndroms erhöht (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1303,
+    "DrugCategoryPair": "Antidepressiva, trizyklische - Venlafaxin",
+    "Interactions": [
+      {
+        "DrugPair": "Doxepin - Venlafaxin",
+        "Substances": [
+          "Doxepin",
+          "Venlafaxin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Doxepin und Venlafaxin: verstärkte Wirkungen von Doxepin möglich (Urinretention, Verwirrung, Darmverschluss, Serotoninsyndrom, Krampfanfälle)"
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1330,
+    "DrugCategoryPair": "Antidiabetika - Glukokortikoide, inhalative",
+    "Interactions": [
+      {
+        "DrugPair": "Vokanamet - Relvar Ellipta",
+        "Substances": [
+          "Vokanamet",
+          "Relvar Ellipta"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Vokanamet und Relvar Ellipta: verminderte blutzuckersenkende Wirkung möglich"
+      },
+      {
+        "DrugPair": "Metformin - Trimbow",
+        "Substances": [
+          "Metformin",
+          "Trimbow"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Trimbow: verminderte blutzuckersenkende Wirkung möglich"
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1343,
+    "DrugCategoryPair": "QT-verlängernde Substanzen - Neuroleptika",
+    "Interactions": [
+      {
+        "DrugPair": "Betmiga - Sequase",
+        "Substances": [
+          "Betmiga",
+          "Sequase"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Betmiga und Sequase: erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes)"
+      },
+      {
+        "DrugPair": "Donepezil - Sequase",
+        "Substances": [
+          "Donepezil",
+          "Sequase"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Donepezil und Sequase: erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes)"
+      },
+      {
+        "DrugPair": "Betmiga - Zyprexa",
+        "Substances": [
+          "Betmiga",
+          "Zyprexa"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Betmiga und Zyprexa: erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes)"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1384,
+    "DrugCategoryPair": "Antidepressiva, trizyklische - Serotonin-Reuptake-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Trimipramin - Escitalopram",
+        "Substances": [
+          "Trimipramin",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig zwischen Trimipramin und Escitalopram): Erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes), diese  können mit Schwindel oder Ohnmachtsanfällen einhergehen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1400,
+    "DrugCategoryPair": "Angiotensin-II-Antagonisten - Diuretika, kaliuretische",
+    "Interactions": [
+      {
+        "DrugPair": "Edarbi - Comilorid",
+        "Substances": [
+          "Edarbi",
+          "Comilorid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Edarbi und Comilorid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "DrugPair": "Votum - Torasemid",
+        "Substances": [
+          "Votum",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Votum und Torasemid: es kann in Einzelfällen der sogenannte First-dose-Effekt mit starkem Blutdruckabfall, Benommenheit und Schwindel auftreten."
+      },
+      {
+        "DrugPair": "Entresto - Torasemid",
+        "Substances": [
+          "Entresto",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Entresto und Torasemid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "DrugPair": "Cansartan - Torasemid",
+        "Substances": [
+          "Cansartan",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Cansartan und Torasemid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "DrugPair": "Cansartan - Fludex (Indapamid)",
+        "Substances": [
+          "Cansartan",
+          "Fludex (Indapamid)"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Cansartan und Fludex: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "DrugPair": "Olmesartan -Torasemid",
+        "Substances": [
+          "Olmesartan",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Olmesartan und Torasemid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "DrugPair": "Valsartan - Indapamid",
+        "Substances": [
+          "Valsartan",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Valsartan und Indapamid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      },
+      {
+        "DrugPair": "Losartan - Indapamid",
+        "Substances": [
+          "Losartan",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Losartan und Indapamid: zu Beginn der Behandlung starker Blutdruckabfall möglich mit Benommenheit und Schwindel."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 1434,
+    "DrugCategoryPair": "Diuretika - SGLT2-Inhibitor",
+    "Interactions": [
+      {
+        "DrugPair": "Torasemid - Jardiance",
+        "Substances": [
+          "Torasemid",
+          "Jardiance"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Torasemid und Jardiance: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "DrugPair": "Cansartan Mepha plus - Jardiance Met",
+        "Substances": [
+          "Cansartan Mepha plus",
+          "Jardiance Met"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Cansartan Mepha plus und Jardiance Met: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "DrugPair": "Irbesartan HCT - Forxiga",
+        "Substances": [
+          "Irbesartan HCT",
+          "Forxiga"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Irbesartan HCT und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "DrugPair": "Exforge - Forxiga",
+        "Substances": [
+          "Exforge",
+          "Forxiga"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Exforge und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "DrugPair": "Losartan HCT - Forxiga",
+        "Substances": [
+          "Losartan HCT",
+          "Forxiga"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Losartan HCT und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      },
+      {
+        "DrugPair": "Perindopril-Indapamid Mepha - Forxiga",
+        "Substances": [
+          "Perindopril",
+          "Indapamid Mepha",
+          "Forxiga"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Perindopril-Indapamid und Forxiga: verstärkte entwässernde Wirkung möglich. Erhöhtes Risiko für Dehydrierung und Blutdruckabfall mit Schwindel."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1442,
+    "DrugCategoryPair": "Apixaban, Rivaroxaban - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Xarelto - Irfen",
+        "Substances": [
+          "Xarelto",
+          "Irfen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Xarelto und Irfen: Bei gleichzeitiger Behandlung ist eine erhöhte Blutungsneigung möglich."
+      },
+      {
+        "DrugPair": "Eliquis - Ibuprofen",
+        "Substances": [
+          "Eliquis",
+          "Ibuprofen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Ibuprofen: Bei gleichzeitiger Behandlung ist eine erhöhte Blutungsneigung möglich."
+      },
+      {
+        "DrugPair": "Eliquis - Vimovo",
+        "Substances": [
+          "Eliquis",
+          "Vimovo"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Vimovo: Bei gleichzeitiger Behandlung ist eine erhöhte Blutungsneigung möglich."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1478,
+    "DrugCategoryPair": "Faktor-Xa-Inhibitoren - Thrombozytenaggregationshemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Xarelto - Aspirin Cardio",
+        "Substances": [
+          "Xarelto",
+          "Aspirin Cardio"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Xarelto und Aspirin Cardio: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      },
+      {
+        "DrugPair": "Eliquis - Aspirin Cardio",
+        "Substances": [
+          "Eliquis",
+          "Aspirin Cardio"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Aspirin Cardio: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      },
+      {
+        "DrugPair": "Eliquis - Plavix",
+        "Substances": [
+          "Eliquis",
+          "Plavix"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Eliquis und Plavix: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      },
+      {
+        "DrugPair": "Lixiana - Aspirin Cardio",
+        "Substances": [
+          "Lixiana",
+          "Aspirin Cardio"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Lixiana und Aspirin Cardio: Die gleichzeitige Anwendung kann das Blutungsrisiko erhöhen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1525,
+    "DrugCategoryPair": "Protonenpumpeninhibitoren - Diuretika",
+    "Interactions": [
+      {
+        "DrugPair": "Pantoprazol - Torasemid",
+        "Substances": [
+          "Pantoprazol",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Torasemid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "DrugPair": "Esomeprazol  - Torasemid",
+        "Substances": [
+          "Esomeprazol",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Esomeprazol und Torasemid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "DrugPair": "Esomeprazol  - Exforge HCT",
+        "Substances": [
+          "Esomeprazol",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Esomeprazol und Exforge HCT: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "DrugPair": "Pantoprazol - Fludex (Indapamid)",
+        "Substances": [
+          "Pantoprazol",
+          "Fludex (Indapamid)"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Fludex: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "DrugPair": "Dexilant - Torasemid",
+        "Substances": [
+          "Dexilant",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Dexilant und Torasemid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "DrugPair": "Esomep - Indapamid",
+        "Substances": [
+          "Esomep",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Esomep und Indapamid: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "DrugPair": "Pantoprazol - Losartan HCT",
+        "Substances": [
+          "Pantoprazol",
+          "Losartan HCT"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Losartan HCT: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein"
+      },
+      {
+        "DrugPair": "Pantoprazol - Coveram plus",
+        "Substances": [
+          "Pantoprazol",
+          "Coveram plus"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Coveram plus: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "DrugPair": "Panprax - Bilol comp.",
+        "Substances": [
+          "Panprax",
+          "Bilol comp."
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Panprax und Bilol comp.: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      },
+      {
+        "DrugPair": "Pantoprazol - Sevikar HCT",
+        "Substances": [
+          "Pantoprazol",
+          "Sevikar HCT"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (Gering-in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Pantoprazol und Sevikar HCT.: das Risiko von schweren Hypomagnesiämien (zu niedrige Magnesiumwerte) ist offenbar erhöht. Diese können mit Erschöpfungszuständen und Herzrhythmusstörungen verbunden sein."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 1547,
+    "DrugCategoryPair": "Domperidon - QT-verlängernde Substanzen",
+    "Interactions": [
+      {
+        "DrugPair": "Domperidon - Loperamid",
+        "Substances": [
+          "Domperidon",
+          "Loperamid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Domperidon und Loperamid: Erhöhtes Risiko für Herzrhythmusstörungen (Torsades de pointes), diese  können mit Schwindel oder Ohnmachtsanfällen einhergehen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1587,
+    "DrugCategoryPair": "Schilddrüsenhormone - Estrogene",
+    "Interactions": [
+      {
+        "DrugPair": "Euthyrox - Yasminelle",
+        "Substances": [
+          "Euthyrox",
+          "Yasminelle"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Euthyrox und Yasminelle: Verminderte Wirksamkeit der Schilddrüsenhormone (Euthyrox) möglich."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 1619,
+    "DrugCategoryPair": "Pseudoephedrin - Sympathomimetika",
+    "Interactions": [
+      {
+        "DrugPair": "Aspirin Complex - Ritalin",
+        "Substances": [
+          "Aspirin Complex",
+          "Ritalin"
+        ],
+        "InteractionClassExtracted": 1,
+        "InteractionDescription": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Aspirin Complex und Ritalin LA: bei gleichzeitiger Behandlung sind ein starker Blutdruckanstieg, eventuell mit einer hypertensiven Krise, oder ischämische Ereignisse (Durchblutungsausfall eines Gewebes, eines Körperteils oder Organs) nicht auszuschliessen. Beide Medikamente dürfen nicht zusammen eingenommen werden."
+      },
+      {
+        "DrugPair": "Aspirin Complex - Elvanse",
+        "Substances": [
+          "Aspirin Complex",
+          "Elvanse"
+        ],
+        "InteractionClassExtracted": 1,
+        "InteractionDescription": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Aspirin Complex und Elvanse: bei gleichzeitiger Behandlung sind ein starker Blutdruckanstieg, eventuell mit einer hypertensiven Krise, oder ischämische Ereignisse (Durchblutungsausfall eines Gewebes, eines Körperteils oder Organs) nicht auszuschliessen. Beide Medikamente dürfen nicht zusammen eingenommen werden."
+      }
+    ],
+    "ClassLevel": [
+      1.0
+    ]
+  },
+  {
+    "IA_Nr": 1625,
+    "DrugCategoryPair": "ACE-Hemmer - Valsartan, Candesartan",
+    "Interactions": [
+      {
+        "DrugPair": "Ramipril - Candesartan",
+        "Substances": [
+          "Ramipril",
+          "Candesartan"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ramipril und Candesartan: Die gleichzeitige Behandlung erhöht im Vergleich zur Monotherapie das Risiko für unerwünschte Wirkungen wie Hyperkaliämie (erhöhte Kaliumwerte), symptomatische Hypotonie (tiefer Blutdruck) und Verschlechterung der Nierenfunktion."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1631,
+    "DrugCategoryPair": "ACE-Hemmer - Eplerenon",
+    "Interactions": [
+      {
+        "DrugPair": "Perindopril - Eplerenon",
+        "Substances": [
+          "Perindopril",
+          "Eplerenon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Perindopril und Eplerenon: erhöhtes Risiko für eine Hyperkaliämie (zu hoher Kaliumspiegel)."
+      },
+      {
+        "DrugPair": "Ramipril - Eplerenon",
+        "Substances": [
+          "Ramipril",
+          "Eplerenon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Ramipril und Eplerenon: erhöhtes Risiko für eine Hyperkaliämie (zu hoher Kaliumspiegel)."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1632,
+    "DrugCategoryPair": "Angiotensin-II-Antagonisten - Eplerenon",
+    "Interactions": [
+      {
+        "DrugPair": "Entresto - Eplerenon",
+        "Substances": [
+          "Entresto",
+          "Eplerenon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Entresto und Eplerenon: erhöhtes Risiko für eine Hyperkaliämie (zu hoher Kaliumspiegel)."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1684,
+    "DrugCategoryPair": "Tramadol - 5-HT3-Antagonisten",
+    "Interactions": [
+      {
+        "DrugPair": "Tramadol - Zofran (Ondansetron)",
+        "Substances": [
+          "Tramadol",
+          "Zofran (Ondansetron)"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Tramadol und Zofran: Bei gleichzeitiger Behandlung kann möglicherweise die schmerzlindernde Wirksamkeit von Tramadol beeinträchtigt werden."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1764,
+    "DrugCategoryPair": "Calciumantagonisten - Starke oder mässige CYP3A-Induktoren",
+    "Interactions": [
+      {
+        "DrugPair": "Felodipin - Symfona",
+        "Substances": [
+          "Felodipin",
+          "Symfona"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Felodipin und Symfona: Die gleichzeitige Behandlung kann die Wirksamkeit von Felodipin beeinträchtigen. Möglicherweise muss dessen Dosierung erhöht werden."
+      },
+      {
+        "DrugPair": "Amlodipin-Valsartan - Erleada",
+        "Substances": [
+          "Amlodipin",
+          "Valsartan",
+          "Erleada"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Amlodipin-Valsartan und Erleada: Die gleichzeitige Behandlung kann die Wirksamkeit von Amlodipin beeinträchtigen. Möglicherweise muss dessen Dosierung erhöht werden."
+      },
+      {
+        "DrugPair": "Lercanidipin - Ginkgo Mepha",
+        "Substances": [
+          "Lercanidipin",
+          "Ginkgo Mepha"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Lercanidipin und Ginkgo Mepha: Die gleichzeitige Behandlung kann die Wirksamkeit von Lercanidipin beeinträchtigen. Möglicherweise muss dessen Dosierung erhöht werden."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 1784,
+    "DrugCategoryPair": "5-HT3-Antagonisten - Serotonin-Reuptake-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Ondansetron - Venlafaxin",
+        "Substances": [
+          "Ondansetron",
+          "Venlafaxin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Ondansetron und Venlafaxin: in Einzelfällen kann ein Serotoninsyndrom ausgelöst werden (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      },
+      {
+        "DrugPair": "Zofran - Escitalopram",
+        "Substances": [
+          "Zofran",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Zofran und Escitalopram: in Einzelfällen kann ein Serotoninsyndrom ausgelöst werden (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)"
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1817,
+    "DrugCategoryPair": "Antidiabetika - Serotonin-Reuptake-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Jardiance - Venlafaxin",
+        "Substances": [
+          "Jardiance",
+          "Venlafaxin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Venlafaxin: Venlafaxin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Insulin Levemir - Venlafaxin",
+        "Substances": [
+          "Insulin Levemir",
+          "Venlafaxin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Insulin Levemir und Venlafaxin: Venlafaxin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Jardiance - Escitalopram",
+        "Substances": [
+          "Jardiance",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Jardiance und Escitalopram: Escitalopram kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Ozempic - Sertralin",
+        "Substances": [
+          "Ozempic",
+          "Sertralin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Ozempic und Sertralin: Sertralin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Metfin - Sertralin",
+        "Substances": [
+          "Metfin",
+          "Sertralin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Sertralin: Sertralin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Saxenda - Escitalopram",
+        "Substances": [
+          "Saxenda",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Saxenda und Escitalopram: Escitalopram kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Metfin - Duloxetin",
+        "Substances": [
+          "Metfin",
+          "Duloxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Duloxetin: Duloxetin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Tresiba - Duloxetin",
+        "Substances": [
+          "Tresiba",
+          "Duloxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Tresiba und Duloxetin: Duloxetin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Metfin - Mirtazapin",
+        "Substances": [
+          "Metfin",
+          "Mirtazapin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metfin und Mirtazapin: Mirtazapin kann die Wirkung der Antidiabetika verstärken oder abschwächen."
+      },
+      {
+        "DrugPair": "Metformin - Fluoxetin",
+        "Substances": [
+          "Metformin",
+          "Fluoxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Metformin und Fluoxetin: Fluoxetin kann die Wirkung von Metformin verstärken oder abschwächen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1834,
+    "DrugCategoryPair": "Substrate (CYP2D6) - Duloxetin",
+    "Interactions": [
+      {
+        "DrugPair": "Risperidon - Duloxetin",
+        "Substances": [
+          "Risperidon",
+          "Duloxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Risperidon und Duloxetin: Die gleichzeitige Behandlung kann die Wirkungen und Nebenwirkungen von Risperidon verstärken."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1860,
+    "DrugCategoryPair": "ACE-Hemmer - Gliptine",
+    "Interactions": [
+      {
+        "DrugPair": "Ramipril - Janumet",
+        "Substances": [
+          "Ramipril",
+          "Janumet"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Ramipril und Janumet: Bei gleichzeitiger Behandlung ist das Risiko für ein Angioödem erhöht. Dies sind rasch sich entwickelnde Schwellungen der Schleimhaut und angrenzender Gewebe, vorwiegend an Augenlidern, Lippen, Kinn, Wangen, Zunge). Zudem kann in Einzelfällen zu Beginn einer gleichzeitigen Behandlung eine Hypoglykämie (Unterzuckerung) auftreten (Symptome sind Herzrasen, Heisshunger, Zittern, Schwitzen)."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1949,
+    "DrugCategoryPair": "Eisensalze - Protonenpumpeninhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Maltofer - Pantoprazol",
+        "Substances": [
+          "Maltofer",
+          "Pantoprazol"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Maltofer und Pantoprazol: Die Aufnahme von Eisen kann durch die Einnahme von Pantoprazol möglicherweise geringer sein."
+      },
+      {
+        "DrugPair": "gyno-Tardyferon - Esomeprazol",
+        "Substances": [
+          "gyno",
+          "Tardyferon",
+          "Esomeprazol"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen gyno-Tardyferon und Esomeprazol: Die Aufnahme von Eisen kann durch die Einnahme von Esomeprazol möglicherweise geringer sein."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 1953,
+    "DrugCategoryPair": "Acetylsalicylsäure (niedrig dosiert) - Metamizol",
+    "Interactions": [
+      {
+        "DrugPair": "ASS cardio - Novalgin",
+        "Substances": [
+          "ASS cardio",
+          "Novalgin"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen ASS cardio und Novalgin: Die gleichzeitige Dauerbehandlung kann die blutverdünnende Wirkung von ASS cardio beeinträchtigen."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 1962,
+    "DrugCategoryPair": "Chinin - QT-verlängernde Substanzen",
+    "Interactions": [
+      {
+        "DrugPair": "Limptar N (Import) - Trittico",
+        "Substances": [
+          "Limptar N (Import)",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Limptar N und Trittico: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 1998,
+    "DrugCategoryPair": "Protonenpumpeninhibitoren - Enzyminhibitoren (CYP2C19)",
+    "Interactions": [
+      {
+        "DrugPair": "Esomep - Fluoxetin",
+        "Substances": [
+          "Esomep",
+          "Fluoxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Esomep und Fluoxetin: Bei gleichzeitiger Behandlung treten erhöhte Blutkonzentrationen von Esomeprazol (Esomep) auf. Unerwünschte Wirkungen wie Diarrhoe, Müdigkeit und Kopfschmerzen könnten vermehrt auftreten."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 2077,
+    "DrugCategoryPair": "Antidepressiva - Diuretika",
+    "Interactions": [
+      {
+        "DrugPair": "Trittico - Torasemid",
+        "Substances": [
+          "Trittico",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Torasemid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Trittico - Edarbyclor",
+        "Substances": [
+          "Trittico",
+          "Edarbyclor"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Edarbyclor: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Sertralin - Coveram plus (Indapamid)",
+        "Substances": [
+          "Sertralin",
+          "Coveram plus (Indapamid)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sertralin und Coveram plus: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Escitalopram - Torasemid",
+        "Substances": [
+          "Escitalopram",
+          "Torasemid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Escitalopram und Torasemid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Trittico - Indapamid",
+        "Substances": [
+          "Trittico",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Indapamid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Fluoxetin - Indapamid",
+        "Substances": [
+          "Fluoxetin",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Fluoxetin und Indapamid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Venlafaxin - Exforge HCT",
+        "Substances": [
+          "Venlafaxin",
+          "Exforge HCT"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Venlafaxin und Exforge HCT: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Brintellix - Co Candesartan",
+        "Substances": [
+          "Brintellix",
+          "Co Candesartan"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Brintellix und Co Candesartan: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Sertralin - Cansartan Mepha plus",
+        "Substances": [
+          "Sertralin",
+          "Cansartan Mepha plus"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sertralin und Cansartan Mepha plus: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      },
+      {
+        "DrugPair": "Venlafaxin - Indapamid",
+        "Substances": [
+          "Venlafaxin",
+          "Indapamid"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Venlafaxin und Indapamid: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Erhöhtes Risiko von Hyponatriämie (zu tiefer Natriumspiegel im Blut) mit Kopfschmerzen, Übelkeit, Verwirrtheit, Schwäche."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2096,
+    "DrugCategoryPair": "Bupropion - Neuroleptika",
+    "Interactions": [
+      {
+        "DrugPair": "Wellbutrin - Olanzapin",
+        "Substances": [
+          "Wellbutrin",
+          "Olanzapin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Olanzapin: Die gleichzeitige Behandlung erhöht das Risiko von Krampfanfällen. "
+      },
+      {
+        "DrugPair": "Wellbutrin - Abilify (Aripiprazol)",
+        "Substances": [
+          "Wellbutrin",
+          "Abilify (Aripiprazol)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Wellbutrin und Abilify: Die gleichzeitige Behandlung erhöht das Risiko von Krampfanfällen. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2121,
+    "DrugCategoryPair": "Methotrexat - Folate",
+    "Interactions": [
+      {
+        "DrugPair": "Metoject - Acidum folicum",
+        "Substances": [
+          "Metoject",
+          "Acidum folicum"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Metoject und Acidum folicum: verminderte Wirksamkeit von Metoject möglich. Meist wird bei einer Metoject-Therapie aber zusätzlich Folsäure verschrieben, um die Nebenwirkungen von Metoject zu verringern. Bitte halten Sie sich hier an die genauen Einnahmehinweise Ihres Arztes/Ihrer Ärztin."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2128,
+    "DrugCategoryPair": "ACE-Hemmer - Spironolacton",
+    "Interactions": [
+      {
+        "DrugPair": "Perindopril-Indapamid Mepha - Aldactone",
+        "Substances": [
+          "Perindopril",
+          "Indapamid Mepha",
+          "Aldactone"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Perindopril-Indapamid Mepha und Aldactone: Bei gleichzeitiger Behandlung kann eine schwere Hyperkaliämie (zu hohe Kaliumwerte) auftreten. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2144,
+    "DrugCategoryPair": "Angiotensin-II-Antagonisten - Spironolacton",
+    "Interactions": [
+      {
+        "DrugPair": "Entresto - Aldactone",
+        "Substances": [
+          "Entresto",
+          "Aldactone"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Entresto und Aldactone: Auftreten einer schweren Hyperkaliämie (zu hohe Kaliumwerte) möglich. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      },
+      {
+        "DrugPair": "Valsartan - Aldactone",
+        "Substances": [
+          "Valsartan",
+          "Aldactone"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Valsartan und Aldactone: Auftreten einer schweren Hyperkaliämie (zu hohe Kaliumwerte) möglich. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      },
+      {
+        "DrugPair": "Cansartan - Aldactone",
+        "Substances": [
+          "Cansartan",
+          "Aldactone"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Cansartan und Aldactone: Auftreten einer schweren Hyperkaliämie (zu hohe Kaliumwerte) möglich. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie (verlangsamter Herzschlag) und EKG-Veränderungen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2145,
+    "DrugCategoryPair": "Tramadol - MAO-Hemmer",
+    "Interactions": [
+      {
+        "DrugPair": "Tramadol - Aurorix (Moclobemid)",
+        "Substances": [
+          "Tramadol",
+          "Aurorix (Moclobemid)"
+        ],
+        "InteractionClassExtracted": 1,
+        "InteractionDescription": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Tramadol und Aurorix: Die gleichzeitige Behandlung erhöht das Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung) und unerwünschter Herz-Kreislauf-Wirkungen."
+      }
+    ],
+    "ClassLevel": [
+      1.0
+    ]
+  },
+  {
+    "IA_Nr": 2175,
+    "DrugCategoryPair": "Verschiedene Arzneimittel - Flohsamen",
+    "Interactions": [
+      {
+        "DrugPair": "Quilonorm - Metamucil Regular",
+        "Substances": [
+          "Quilonorm",
+          "Metamucil Regular"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Quilonorm und Metamucil Regular: Die gleichzeitige Behandlung mit Flohsamen-haltigen Quellmitteln (Metamucil Regular) kann die Wirksamkeit von Quilonorm beeinträchtigen."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 2176,
+    "DrugCategoryPair": "Domperidon - Stoffe, die den Magen-pH erhöhen",
+    "Interactions": [
+      {
+        "DrugPair": "Domperidon - Esomeprazol",
+        "Substances": [
+          "Domperidon",
+          "Esomeprazol"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Domperidon und Esomeprazol: Die gleichzeitige Behandlung kann die Wirksamkeit von Domperidon möglicherweise beeinträchtigen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 2185,
+    "DrugCategoryPair": "Opioide - Benzodiazepine, Z-Drugs",
+    "Interactions": [
+      {
+        "DrugPair": "Palexia - Stilnox",
+        "Substances": [
+          "Palexia",
+          "Stilnox"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Palexia und Stilnox: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "DrugPair": "Oxynorm - Zolpidem",
+        "Substances": [
+          "Oxynorm",
+          "Zolpidem"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Oxynorm und Zolpidem: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "DrugPair": "Targin - Temesta",
+        "Substances": [
+          "Targin",
+          "Temesta"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Tagin und Temesta: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "DrugPair": "MST - Lexotanil",
+        "Substances": [
+          "MST",
+          "Lexotanil"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen MST continus und Lexotanil: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      },
+      {
+        "DrugPair": "Oxynorm - Xanax",
+        "Substances": [
+          "Oxynorm",
+          "Xanax"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Oxynorm und Xanax: verstärkte Sedierung (Dämpfung) und Atemdepression (Abflachung und Herabsetzung der Atmung)"
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2187,
+    "DrugCategoryPair": "Psychostimulantien - Alkoholhaltige Arzneimittel",
+    "Interactions": [
+      {
+        "DrugPair": "Ritalin - Klosterfrau Melissengeist",
+        "Substances": [
+          "Ritalin",
+          "Klosterfrau Melissengeist"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ritalin und Klosterfrau Melissengeist: bei gleichzeitiger Behandlung / Einnahme verstärkte zentralnervöse Wirkungen möglich."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 2333,
+    "DrugCategoryPair": "Serotonin-Reuptake-Hemmer - Amphetamin-Derivate",
+    "Interactions": [
+      {
+        "DrugPair": "Trittico - Elvanse",
+        "Substances": [
+          "Trittico",
+          "Elvanse"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Trittico und Elvanse: Risiko für ein Serotonin-Syndrom ist erhöht (Symptome sind Angst, Verwirrtheit, Bluthochdruck, Schwindel, Durchfall, Übelkeit, Erbrechen und andere)."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 2395,
+    "DrugCategoryPair": "Antidepressiva, tetrazyklische, und Analoge - Citalopram, Escitalopram",
+    "Interactions": [
+      {
+        "DrugPair": "Trittico - Escitalopram",
+        "Substances": [
+          "Trittico",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Trittico und Escitalopram: Risiko erhöht für Herzrhythmusstörungen vom Typ Torsades de pointes, diese können mit Schwindel und Ohnmachtsanfällen einhergehen. Zudem erhöhtes Risiko eines Serotonin-Syndroms (Angst, Verwirrtheit, Schwindel, Übelkeit, Durchfall, Zittern, Koordinationsstörung)."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 2402,
+    "DrugCategoryPair": "Antiphlogistika, nicht steroidale - Acetylsalicylsäure (niedrig dosiert)",
+    "Interactions": [
+      {
+        "DrugPair": "Voltaren - ASS cardio",
+        "Substances": [
+          "Voltaren",
+          "ASS cardio"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Voltaren und ASS cardio: Die gleichzeitige längerfristige Behandlung  kann vermehrt  Blutungen bzw. Störungen im Magen-Darm  hervorrufen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2767,
+    "DrugCategoryPair": "Ipratropiumbromid - Beta-Sympathomimetika",
+    "Interactions": [
+      {
+        "DrugPair": "Atrovent - Ventolin",
+        "Substances": [
+          "Atrovent",
+          "Ventolin"
+        ],
+        "InteractionClassExtracted": 4,
+        "InteractionDescription": "Wechselwirkung der Klasse 4 (gering - in bestimmten Fällen Überwachung bzw. Anpassung nötig) zwischen Atrovent und Ventolin: Gefahr eines akuten Engwinkelglaukoms (gesteigerter Augeninnendruck) bei Patienten mit bestehendem Engwinkelglaukom und vor allem bei  Anwendung der Wirkstoffe in einem Vernebler."
+      }
+    ],
+    "ClassLevel": [
+      4.0
+    ]
+  },
+  {
+    "IA_Nr": 2954,
+    "DrugCategoryPair": "Methylphenidat, Dexmethylphenidat - Serotonerge Substanzen",
+    "Interactions": [
+      {
+        "DrugPair": "Ritalin - Trittico",
+        "Substances": [
+          "Ritalin",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ritalin und Trittico: Risiko für ein Serotonin-Syndrom ist erhöht (Symptome sind Angst, Verwirrtheit, Bluthochdruck, Schwindel, Durchfall, Übelkeit, Erbrechen und andere). Der Schweregrad des Serotonin-Syndroms ist dosisabhängig."
+      },
+      {
+        "DrugPair": "Medikinet - Imigran",
+        "Substances": [
+          "Medikinet",
+          "Imigran"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Medikinet und Imigran: Risiko für ein Serotonin-Syndrom ist erhöht (Symptome sind Angst, Verwirrtheit, Bluthochdruck, Schwindel, Durchfall, Übelkeit, Erbrechen und andere). Der Schweregrad des Serotonin-Syndroms ist dosisabhängig."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 2985,
+    "DrugCategoryPair": "Domperidon - Starke oder mässige CYP3A-Inhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Motilium - Daktarin (Miconazol)",
+        "Substances": [
+          "Motilium",
+          "Daktarin (Miconazol)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Motilium und Daktarin: Die gleichzeitige Behandlungkann die Wirkungen von Domperidon verstärken. Zudem kann das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht werden."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 2992,
+    "DrugCategoryPair": "Rosuvastatin - Clopidogrel",
+    "Interactions": [
+      {
+        "DrugPair": "Ezetimib-Rosuvastatin - Clopidogrel",
+        "Substances": [
+          "Ezetimib",
+          "Rosuvastatin",
+          "Clopidogrel"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Ezetimib-Rosuvastatin und Clopidogrel: erhöhtes Risiko für Muskelschmerzen und Rhabdomyolyse (Auflösen der quergestreiften Skelettmuskulatur) mit Nierenversagen."
+      },
+      {
+        "DrugPair": "Rosuvastatin - Clopidogrel",
+        "Substances": [
+          "Rosuvastatin",
+          "Clopidogrel"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Rosuvastatin und Clopidogrel: erhöhtes Risiko für Muskelschmerzen und Rhabdomyolyse (Auflösen der quergestreiften Skelettmuskulatur) mit Nierenversagen."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 2996,
+    "DrugCategoryPair": "Ranolazin - QT-verlängernde Substanzen",
+    "Interactions": [
+      {
+        "DrugPair": "Ranexa - Tramal",
+        "Substances": [
+          "Ranexa",
+          "Tramal"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ranexa und Tramal: Bei gleichzeitiger Behandlung kann sich das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöhen. Diese können mit Schwindel oder Ohnmachtsanfällen einhergehen. "
+      },
+      {
+        "DrugPair": "Ranexa - Pantoprazol",
+        "Substances": [
+          "Ranexa",
+          "Pantoprazol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ranexa und Pantoprazol: Bei gleichzeitiger Behandlung kann sich das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöhen. Diese können mit Schwindel oder Ohnmachtsanfällen einhergehen. "
+      },
+      {
+        "DrugPair": "Ranexa - Bilol comp.",
+        "Substances": [
+          "Ranexa",
+          "Bilol comp."
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Ranexa und Bilol comp.: Bei gleichzeitiger Behandlung kann sich das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöhen. Diese können mit Schwindel oder Ohnmachtsanfällen einhergehen. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3040,
+    "DrugCategoryPair": "Beta-Sympathomimetika - Kardioselektive Betablocker",
+    "Interactions": [
+      {
+        "DrugPair": "Symbicort - Mezo Zerok",
+        "Substances": [
+          "Symbicort",
+          "Mezo Zerok"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Symbicort und Meto Zerok: bronchienerweitende Wirkung von Symbicort kann vermindert sein."
+      },
+      {
+        "DrugPair": "Trimbow - Concor (Bisoprolol)",
+        "Substances": [
+          "Trimbow",
+          "Concor (Bisoprolol)"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Trimbow und Concor: bronchienerweitende Wirkung von Trimbow kann vermindert sein."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 3041,
+    "DrugCategoryPair": "Salbutamol - Nicht kardioselektive Betablocker",
+    "Interactions": [
+      {
+        "DrugPair": "Ventolin - Carvedilol",
+        "Substances": [
+          "Ventolin",
+          "Carvedilol"
+        ],
+        "InteractionClassExtracted": 1,
+        "InteractionDescription": "Wechselwirkung der Klasse 1 (KONTRAINDIZIERT- schwerwiegende Folgen wahrscheinlich) zwischen Ventolin und Carvedilol: Carvedilol kann die bronchienerweiternden Wirkungen von Ventolin abschwächen oder aufheben. Bei Asthmatikern kann dies zu schweren Anfällen und bei COPD zu einer Abnahme der Lungenfunktion führen."
+      }
+    ],
+    "ClassLevel": [
+      1.0
+    ]
+  },
+  {
+    "IA_Nr": 3173,
+    "DrugCategoryPair": "Benzodiazepine, «Z-Drugs» - Melatonin",
+    "Interactions": [
+      {
+        "DrugPair": "Zolpidem - Melatonin",
+        "Substances": [
+          "Zolpidem",
+          "Melatonin"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Zolpidem und Melatonin: Melatonin kann die Wirkung von Zolpidem verstärken."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 3259,
+    "DrugCategoryPair": "Bupropion - Neuroleptika",
+    "Interactions": [
+      {
+        "DrugPair": "Wellbutrin - Dipiperon",
+        "Substances": [
+          "Wellbutrin",
+          "Dipiperon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Wellbutrin und Dipiperon: Die gleichzeitige Behandlung erhöht das Risiko von Krampfanfällen. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3267,
+    "DrugCategoryPair": "Levetiracetam - QT-verlängernde Substanzen",
+    "Interactions": [
+      {
+        "DrugPair": "Keppra - Trittico",
+        "Substances": [
+          "Keppra",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": " Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Keppra und Trittico: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      },
+      {
+        "DrugPair": "Keppra - Motilium lingual",
+        "Substances": [
+          "Keppra",
+          "Motilium lingual"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": " Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung bzw. Anpassung nötig) zwischen Keppra und Motiium lingual: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3321,
+    "DrugCategoryPair": "Levothyroxin - Protonenpumpeninhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Eltroxin - Pantoprazol",
+        "Substances": [
+          "Eltroxin",
+          "Pantoprazol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Eltroxin und Pantoprazol: Die gleichzeitige Behandlung mit Protonenpumpeninhibitoren kann die Wirksamkeit von Levothyroxin möglicherweise beeinträchtigen."
+      },
+      {
+        "DrugPair": "Euthyrox - Pantoprazol",
+        "Substances": [
+          "Euthyrox",
+          "Pantoprazol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Euthyrox und Pantoprazol: Die gleichzeitige Behandlung mit Protonenpumpeninhibitoren kann die Wirksamkeit von Levothyroxin möglicherweise beeinträchtigen."
+      },
+      {
+        "DrugPair": "Euthyrox - Dexilant",
+        "Substances": [
+          "Euthyrox",
+          "Dexilant"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Euthyrox und Dexilant: Die gleichzeitige Behandlung mit Protonenpumpeninhibitoren kann die Wirksamkeit von Levothyroxin möglicherweise beeinträchtigen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3326,
+    "DrugCategoryPair": "QT-verlängernde trizyklische Antidepressiva - Neuroleptika",
+    "Interactions": [
+      {
+        "DrugPair": "Mirtazapin - Sequase",
+        "Substances": [
+          "Mirtazapin",
+          "Sequase"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Mirtazapin und Sequase: verstärkte anticholinerge Nebenwirkungen wie Mundtrockenheit, Verstopfung, Probleme bei der Blasenentleerung) und vermehrtes Auftreten von Herzrhythmusstörungen (Torsades de pointes)."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3395,
+    "DrugCategoryPair": "Neuroleptika - Solifenacin",
+    "Interactions": [
+      {
+        "DrugPair": "Zyprexa - Solifenacin",
+        "Substances": [
+          "Zyprexa",
+          "Solifenacin"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Zyprexa und Solifenacin: Bei gleichzeitiger Behandlung kann eine verstärkte anticholinerge Wirkung auftreten wie Akkomodationsstörung beim Sehen, Mundtrockenheit, Verstopfung, Herzrasen, Blasenentleerungsstörungen. Bei älteren Patienten ist das Sturzrisiko erhöht."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 3432,
+    "DrugCategoryPair": "Domperidon - QT-verlängernde mässige CYP3A-Inhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Domperidon - Fluconazol",
+        "Substances": [
+          "Domperidon",
+          "Fluconazol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Domperidon und Fluconazol: Die gleichzeitige Behandlungkann die Wirkungen von Domperidon verstärken. Zudem ist das Risiko für EKG-Veränderungen und Herzrhythmusstörungen erhöht."
+      },
+      {
+        "DrugPair": "Motilium - Dilzem",
+        "Substances": [
+          "Motilium",
+          "Dilzem"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Motilium und Dilzem: Die gleichzeitige Behandlungkann die Wirkungen von Domperidon verstärken. Zudem ist das Risiko für EKG-Veränderungen und Herzrhythmusstörungen erhöht."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3470,
+    "DrugCategoryPair": "Statine - Bempedoinsäure",
+    "Interactions": [
+      {
+        "DrugPair": "Atorvastatin - Nilemdo",
+        "Substances": [
+          "Atorvastatin",
+          "Nilemdo"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atorvastatin und Nilemdo: erhöhtes Risiko für Myopathie (Entzündung von Muskelgewebe) und Rhabdomyolyse (Zerfall von Muskelfasern)."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3533,
+    "DrugCategoryPair": "Cholecalciferol - CYP3A-induzierende Antiepileptika",
+    "Interactions": [
+      {
+        "DrugPair": "Vitamin D3 - Tegretol (Carbamazepin)",
+        "Substances": [
+          "Vitamin D3",
+          "Tegretol (Carbamazepin)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vitamin D3 und Tegretol: Bei gleichzeitiger Behandlung ist eine verminderte Wirkung von Vitamin D3 möglich."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3589,
+    "DrugCategoryPair": "Rosuvastatin - Leflunomid",
+    "Interactions": [
+      {
+        "DrugPair": "Rosuvastatin - Leflunomid",
+        "Substances": [
+          "Rosuvastatin",
+          "Leflunomid"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Rosuvastatin und Leflunomid: Bei gleichzeitiger Behandlung werden vermehrt Myopathien (Entzündung im Muskelgewebe)und Rhabdomyolysen (Zerfall der quergestreiften Muskulatur) befürchtet."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 3671,
+    "DrugCategoryPair": "Bupropion - Arzneimittel, die die Krampfschwelle senken",
+    "Interactions": [
+      {
+        "DrugPair": "Zyban - Trittico",
+        "Substances": [
+          "Zyban",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Zyban und Trittico: erhöhtes Risiko von Krampfanfällen."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 3688,
+    "DrugCategoryPair": "Acetylsalicylsäure (analgetische Dosierung) - Antiphlogistika, nicht steroidale",
+    "Interactions": [
+      {
+        "DrugPair": "Aspirin - Saridon",
+        "Substances": [
+          "Aspirin",
+          "Saridon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin und Saridon: Die gleichzeitige Behandlung kann die unerwünschten Wirkungen verstärken, wie z.B. gastrointestinale Blutungen, Ulzerationen oder Perforationen."
+      },
+      {
+        "DrugPair": "Aspirin Complex - Ibuprofen",
+        "Substances": [
+          "Aspirin Complex",
+          "Ibuprofen"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Aspirin Complex und Ibuprofen: Die gleichzeitige Behandlung kann die unerwünschten Wirkungen verstärken, wie z.B. gastrointestinale Blutungen, Ulzerationen oder Perforationen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3691,
+    "DrugCategoryPair": "Piroxicam - Acetylsalicylsäure",
+    "Interactions": [
+      {
+        "DrugPair": "Felden - ASS cardio",
+        "Substances": [
+          "Felden",
+          "ASS cardio"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Felden und ASS cardio: Die gleichzeitige Behandlung kann die unerwünschten Wirkungen verstärken, wie z.B. Blutungen oder Geschwürbildung im Magendarmtrakt."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 3925,
+    "DrugCategoryPair": "Lacosamid - Arzneimittel mit Einfluss auf die kardiale Erregungsleitung",
+    "Interactions": [
+      {
+        "DrugPair": "Vimpat - Nexium",
+        "Substances": [
+          "Vimpat",
+          "Nexium"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vimpat und Nexium: Das Risiko, dass Herzarrhythmien ausgelöst werden, kann sich erhöhen."
+      },
+      {
+        "DrugPair": "Vimpat - Motilium lingual",
+        "Substances": [
+          "Vimpat",
+          "Motilium lingual"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Vimpat und Motilium lingual: Das Risiko, dass Herzarrhythmien ausgelöst werden, kann sich erhöhen."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3965,
+    "DrugCategoryPair": "Atorvastatin - Ranolazin",
+    "Interactions": [
+      {
+        "DrugPair": "Atorvastatin - Ranexa",
+        "Substances": [
+          "Atorvastatin",
+          "Ranexa"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Atorvastatin und Ranexa: Die gleichzeitige Behandlung kann die Plasmakonzentration von Atorvastatin erhöhen und damit auch das Risiko für Myopathien (Muskelschwund) mit Muskelschmerzen und -schwäche. "
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 3996,
+    "DrugCategoryPair": "QT-verlängernde Substanzen - Citalopram, Escitalopram",
+    "Interactions": [
+      {
+        "DrugPair": "Sirdalud - Escitalopram",
+        "Substances": [
+          "Sirdalud",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Sirdalud und Escitalopram: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      },
+      {
+        "DrugPair": "Keppra - Escitalopram",
+        "Substances": [
+          "Keppra",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Keppra und Escitalopram: erhöhte Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 4009,
+    "DrugCategoryPair": "Lansoprazol, Pantoprazol - Citalopram, Escitalopram",
+    "Interactions": [
+      {
+        "DrugPair": "Pantoprazol - Escitalopram",
+        "Substances": [
+          "Pantoprazol",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Pantoprazol und Escitalopram: bei gleichzeitiger Behandlung steigt die Gefahr von Herzrhythmusstörungen vom Typ Torsade de pointes. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 4076,
+    "DrugCategoryPair": "Neuroleptika - Citalopram, Escitalopram",
+    "Interactions": [
+      {
+        "DrugPair": "Sequase - Escitalopram",
+        "Substances": [
+          "Sequase",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Sequase und Escitalopram: Bei gleichzeitiger Behandlung können bei einzelnen Patienten verstärkte extrapyramidal-motorische Nebenwirkungen wie Tremor (Zittern), Rigor (Muskelsteifheit) und Akathisie (Sitzunruhe, Rastlosigkeit) auftreten. Ausserdem ist das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      },
+      {
+        "DrugPair": "Risperidon - Escitalopram",
+        "Substances": [
+          "Risperidon",
+          "Escitalopram"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Risperidon und Escitalopram: Bei gleichzeitiger Behandlung können bei einzelnen Patienten verstärkte extrapyramidal-motorische Nebenwirkungen wie Tremor (Zittern), Rigor (Muskelsteifheit) und Akathisie (Sitzunruhe, Rastlosigkeit) auftreten. Ausserdem ist das Risiko von Herzrhythmusstörungen vom Typ Torsade de pointes erhöht. Symptomatische Schwindel- oder Ohnmachtsanfälle können auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 4109,
+    "DrugCategoryPair": "Serotonerge Antidepressiva - Oxycodon",
+    "Interactions": [
+      {
+        "DrugPair": "Escitalopram - Oxycodon",
+        "Substances": [
+          "Escitalopram",
+          "Oxycodon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Escitalopram und Oxycodon: Bei gleichzeitiger Behandlung kann sich in seltenen Fällen ein Serotonin-Syndrom entwickeln. Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      },
+      {
+        "DrugPair": "Trittico - Oxycodon/Naloxon",
+        "Substances": [
+          "Trittico",
+          "Oxycodon/Naloxon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Trittico und Oxycodon-Naloxon: Bei gleichzeitiger Behandlung kann sich in seltenen Fällen ein Serotonin-Syndrom entwickeln. Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      },
+      {
+        "DrugPair": "Mirtazapin - Oxycodon/Naloxon",
+        "Substances": [
+          "Mirtazapin",
+          "Oxycodon/Naloxon"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Mirtazapin und Oxycodon-Naloxon: Bei gleichzeitiger Behandlung kann sich in seltenen Fällen ein Serotonin-Syndrom entwickeln. Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 4113,
+    "DrugCategoryPair": "Oxycodon - Serotonerge, starke CYP2D6-Inhibitoren",
+    "Interactions": [
+      {
+        "DrugPair": "Oxynorm - Wellbutrin",
+        "Substances": [
+          "Oxynorm",
+          "Wellbutrin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Oxynorm und Wellbutrin: erhöhtes Risiko eines Serotoninsyndroms Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      },
+      {
+        "DrugPair": "Targin - Deroxat (Paroxetin)",
+        "Substances": [
+          "Targin",
+          "Deroxat (Paroxetin)"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Targin und Deroxat: erhöhtes Risiko eines Serotoninsyndroms Als Symptome können u.a.Verhaltensstörungen (Angst, Unruhe, Verwirrtheit), Herzrasen, Schwindel, Zittern, Koordinationsstörungen auftreten."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 4139,
+    "DrugCategoryPair": "Kaliumsalze - Olmesartan",
+    "Interactions": [
+      {
+        "DrugPair": "KCl Hausmann - Olmesartan",
+        "Substances": [
+          "KCl Hausmann",
+          "Olmesartan"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen KCl Hausmann und Olmesartan: Die gleichzeitige Behandlung kann eine Hyperkaliämie (zu hoher Kaliumspiegel) begünstigen. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie und EKG-Veränderungen. Eine schwere Hyperkaliämie ist lebensbedrohend."
+      },
+      {
+        "DrugPair": "KCl Hausmann - Sevikar HCT",
+        "Substances": [
+          "KCl Hausmann",
+          "Sevikar HCT"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen KCl Hausmann und Sevikar HCT: Die gleichzeitige Behandlung kann eine Hyperkaliämie (zu hoher Kaliumspiegel) begünstigen. Symptome einer Hyperkaliämie sind Parästhesien (unangenehme Körperempfindungen wie Kribbeln, „Ameisenlaufen“, Pelzigkeit), Muskelschwäche, Bradykardie und EKG-Veränderungen. Eine schwere Hyperkaliämie ist lebensbedrohend."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 4395,
+    "DrugCategoryPair": "Moxonidin - Antidepressiva",
+    "Interactions": [
+      {
+        "DrugPair": "Physiotens - Trittico",
+        "Substances": [
+          "Physiotens",
+          "Trittico"
+        ],
+        "InteractionClassExtracted": 2,
+        "InteractionDescription": "Wechselwirkung der Klasse 2 (Schwerwiegende Folgen möglich-nicht empfohlen oder Anpassung nötig) zwischen Physiotens und Trittico: Bei gleichzeitiger Behandlung kann die blutdrucksenkende Wirkung von Physiotens stark abgeschwächt oder aufgehoben werden. Zudem kann nach Absetzen von Physiotens ein vertärkter Entzungshochdruck auftreten. Ausserdem kann die beruhigende Wirkung von Trittico bei gleichzeitiger Einnahme verstärkt werden."
+      }
+    ],
+    "ClassLevel": [
+      2.0
+    ]
+  },
+  {
+    "IA_Nr": 4453,
+    "DrugCategoryPair": "Antihypertensiva - Amphetamin-Derivate",
+    "Interactions": [
+      {
+        "DrugPair": "Candesartan - Atomoxetin",
+        "Substances": [
+          "Candesartan",
+          "Atomoxetin"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Candesartan und Atomoxetin: Die gleichzeitige Behandlung könnte die Wirksamkeit der Antihypertensiva beeinträchtigen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 4454,
+    "DrugCategoryPair": "Antihypertensiva - Methylphenidat, Dexmethylphenidat",
+    "Interactions": [
+      {
+        "DrugPair": "Lisitril - Medikinet",
+        "Substances": [
+          "Lisitril",
+          "Medikinet"
+        ],
+        "InteractionClassExtracted": 5,
+        "InteractionDescription": "Wechselwirkung der Klasse 5 (Produktspezifische Warnmeldung-vorsichtshalber überwachen) zwischen Lisitril und Medikinet: Die gleichzeitige Behandlung könnte die Wirksamkeit von Lisitril beeinträchtigen."
+      }
+    ],
+    "ClassLevel": [
+      5.0
+    ]
+  },
+  {
+    "IA_Nr": 4514,
+    "DrugCategoryPair": "Ondansetron - Starke CYP3A-Induktoren",
+    "Interactions": [
+      {
+        "DrugPair": "Zofran - Tegretol",
+        "Substances": [
+          "Zofran",
+          "Tegretol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Zofran und Tegretol: Bei gleichzeitiger Behandlung ist eine verminderte Wirksamkeit von Zofran möglich."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 4536,
+    "DrugCategoryPair": "Apixaban, Rivaroxaban - Metamizol",
+    "Interactions": [
+      {
+        "DrugPair": "Eliquis - Minalgin",
+        "Substances": [
+          "Eliquis",
+          "Minalgin"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Eliquis und Minalgin: Bei gleichzeitiger Bahandlung ist eine erhöhte Blutungsneigung möglich."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  },
+  {
+    "IA_Nr": 4539,
+    "DrugCategoryPair": "Levothyroxin, Liothyronin - Carbamazepin",
+    "Interactions": [
+      {
+        "DrugPair": "Euthyrox - Tegretol",
+        "Substances": [
+          "Euthyrox",
+          "Tegretol"
+        ],
+        "InteractionClassExtracted": 3,
+        "InteractionDescription": "Wechselwirkung der Klasse 3 (Mittelschwer-Überwachung nötig) zwischen Euthyrox und Tegretol: Tegretol kann die Wirksamkeit der Schilddrüsenhormone in Euthyrox vermindern. Ausserdem kann das Risiko für Herzrythmusstörungen erhöht sein."
+      }
+    ],
+    "ClassLevel": [
+      3.0
+    ]
+  }
+]
