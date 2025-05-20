@@ -32,7 +32,7 @@ if page == "Apotheker Assistent":
     use_ema       = st.sidebar.checkbox("EMA", value=True)
 
     # --- MAIN HEADER ---
-    st.title(" KING – Medizinischer Assistent")
+    st.title(" KING – Apotheker Assistent")
     st.write("Nutze eine Auswahl an Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
 
     # --- CHOICE: Strukturierte Frage vs. Freie Frage ---
