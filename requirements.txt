@@ -205,7 +205,7 @@ python-oxmsg==0.0.2
 pytz==2025.2
 pyuca==1.2
 pyvis==0.3.2
-pywin32==310
+#pywin32==310
 PyYAML==6.0.2
 pyzmq==26.4.0
 RapidFuzz==3.13.0
