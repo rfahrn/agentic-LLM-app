@@ -9,11 +9,11 @@ from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
 
 # your tool imports
-from Tools_agent.compendium_tool import get_compendium_info
-from Tools_agent.faiss_tool import search_faiss
-from Tools_agent.openfda_tool import search_openfda
-from Tools_agent.tavily_tool import smart_tavily_answer
-from Tools_agent.alerts_tool import search_medication_alerts
+#from Tools_agent.compendium_tool import get_compendium_info
+#from Tools_agent.faiss_tool import search_faiss
+#from Tools_agent.openfda_tool import search_openfda
+#from Tools_agent.tavily_tool import smart_tavily_answer
+#from Tools_agent.alerts_tool import search_medication_alerts
 
 load_dotenv()
 st.set_page_config(page_title="KING – Streamed Multi-Tool Agent", layout="wide")
@@ -71,36 +71,30 @@ elif run:
 
     # Assemble selected tools
     tools = []
-    if use_compendium:
-        tools.append(Tool(
-            name="CompendiumTool",
-            func=get_compendium_info,
-            description="Hole offizielle Medikamenteninfos von Compendium.ch"
-        ))
-    if use_faiss:
-        tools.append(Tool(
-            name="FAISSRetrieverTool",
-            func=search_faiss,
-            description="Durchsuche lokale medizinische FAISS-Datenbank"
-        ))
-    if use_openfda:
-        tools.append(Tool(
-            name="OpenFDATool",
-            func=search_openfda,
-            description="Hole Infos aus OpenFDA"
-        ))
-    if use_web:
-        tools.append(Tool(
-            name="TavilySearchTool",
-            func=smart_tavily_answer,
-            description="Websuche für aktuelle Forschungsergebnisse"
-        ))
-    if use_alerts:
-        tools.append(Tool(
-            name="MedicationAlertsTool",
-            func=search_medication_alerts,
-            description="Medikamentenwarnungen abrufen"
-        ))
+    #if use_compendium:
+    #    tools.append(Tool(
+    #        name="CompendiumTool",
+    #        func=get_compendium_info,
+    #        description="Hole offizielle Medikamenteninfos von Compendium.ch"
+     #    ))
+    #if use_faiss:
+    #    tools.append(Tool(
+    #        name="FAISSRetrieverTool",
+    #        func=search_faiss,
+    #        description="Durchsuche lokale medizinische FAISS-Datenbank"
+    #    ))
+   # if use_openfda:
+   #     tools.append(Tool(
+   #         name="OpenFDATool",
+   #         func=search_openfda,
+   #         description="Hole Infos aus OpenFDA"
+    #    ))
+    #if use_web:
+    #    tools.append(Tool(
+    #        name="TavilySearchTool",
+    #        func=smart_tavily_answer,
+    #        description="Websuche für aktuelle Forschungsergebnisse"
+     #   ))
 
     # Initialize LLM & Agent
     llm = ChatOpenAI(
