@@ -34,15 +34,14 @@ if page == "Apotheker Assistent":
     # --- MAIN HEADER ---
     st.title(" KING – Apotheker Assistent")
     st.write("Nutze eine Auswahl an Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
-
-    # --- CHOICE: Strukturierte Frage vs. Freie Frage ---
     mode = st.radio(
         "Fragemodus wählen:",
-        ("Strukturierte Frage", " Freie Frage / offene Fragen")
+        ("Strukturierte Frage", "Freie Frage / offene Fragen")
     )
 
-    if mode == "🔧 Strukturierte Frage":
-        # structured: dropdowns + med name
+    # build `prompt` based on selection
+    prompt = ""
+    if mode == "Strukturierte Frage":
         question_types = {
             "💊 Wirkung":        "Was ist die Wirkung von",
             "🩺 Nebenwirkungen": "Welche Nebenwirkungen hat",
@@ -65,13 +64,10 @@ if page == "Apotheker Assistent":
             "Name des Medikaments / Wirkstoffs",
             placeholder="z.B. Dafalgan"
         )
-        prompt = (
-            f"{question_types[question_label]} {med_name}? "
-            f"({input_type_options[input_label]})"
-        )
-
-    else:
-        # free-form question
+        prompt = f"{question_types[question_label]} {med_name}? ({input_type_options[input_label]})"
+        st.write(f"**Frage:** {prompt}")
+        
+    else:  # Freie Frage
         prompt = st.text_area(
             "Freie Frage an das LLM:",
             placeholder="Stelle hier deine beliebige Frage…",
