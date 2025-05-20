@@ -24,10 +24,11 @@ with st.sidebar:
     st.markdown("---")
     st.markdown("**Select which tools to enable:**")
     use_compendium = st.checkbox("Compendium.ch", value=True)
-    use_faiss      = st.checkbox("Local FAISS DB", value=True)
+    use_internDB      = st.checkbox("Local FAISS DB", value=True)
     use_openfda    = st.checkbox("OpenFDA", value=True)
     use_web        = st.checkbox("Web Search (Tavily)", value=True)
     use_alerts     = st.checkbox("Medication Alerts", value=True)
+    use_ema        = st.checkbox("EMA", value=True)
 
 # --- MAIN HEADER ---
 st.title("💊 KING – Medizinischer Assistent")
