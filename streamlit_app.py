@@ -35,44 +35,63 @@ if page == "Apotheker Assistent":
     st.title(" KING – Medizinischer Assistent")
     st.write("Nutze eine Auswahl an Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
 
-    # --- QUESTION TYPE & INPUT TYPE ---
-    question_types = {
-        "💊 Wirkung":        "Was ist die Wirkung von",
-        "🩺 Nebenwirkungen": "Welche Nebenwirkungen hat",
-        "⚠️ Warnungen":      "Welche Warnungen gibt es für",
-        "💉 Anwendung":      "Wie wird",
-        "📏 Dosierung":      "Wie lautet die empfohlene Dosierung von",
-    }
-    input_type_options = {
-        "💊 Medikament": "Medikament",
-        "🧪 Wirkstoff":   "Wirkstoff",
-    }
+    # --- CHOICE: Strukturierte Frage vs. Freie Frage ---
+    mode = st.radio(
+        "Fragemodus wählen:",
+        ("🔧 Strukturierte Frage", "✏️ Freie Frage")
+    )
 
+    if mode == "🔧 Strukturierte Frage":
+        # structured: dropdowns + med name
+        question_types = {
+            "💊 Wirkung":        "Was ist die Wirkung von",
+            "🩺 Nebenwirkungen": "Welche Nebenwirkungen hat",
+            "⚠️ Warnungen":      "Welche Warnungen gibt es für",
+            "💉 Anwendung":      "Wie wird",
+            "📏 Dosierung":      "Wie lautet die empfohlene Dosierung von",
+        }
+        input_type_options = {
+            "💊 Medikament": "Medikament",
+            "🧪 Wirkstoff":   "Wirkstoff",
+        }
 
-    col1, col2 = st.columns(2)
-    with col1:
-        question_label = st.selectbox("Fragetyp", list(question_types.keys()))
-    with col2:
-        input_label = st.selectbox("Eingabetyp", list(input_type_options.keys()))
+        col1, col2 = st.columns(2)
+        with col1:
+            question_label = st.selectbox("Fragetyp", list(question_types.keys()))
+        with col2:
+            input_label = st.selectbox("Eingabetyp", list(input_type_options.keys()))
 
-    med_name = st.text_input("Name des Medikaments / Wirkstoffs", placeholder="z.B. Dafalgan")
+        med_name = st.text_input(
+            "Name des Medikaments / Wirkstoffs",
+            placeholder="z.B. Dafalgan"
+        )
+        prompt = (
+            f"{question_types[question_label]} {med_name}? "
+            f"({input_type_options[input_label]})"
+        )
 
-    # --- RUN BUTTON ---
+    else:
+        # free-form question
+        prompt = st.text_area(
+            "Freie Frage an das LLM:",
+            placeholder="Stelle hier deine beliebige Frage…",
+            height=150
+        )
+
     run = st.button("🚀 Anfrage starten")
+    if run:
+        # validation
+        if not openai_api_key.startswith("sk-"):
+            st.warning("Bitte gib deinen OpenAI API-Key ein (muss mit sk- beginnen).")
+        elif not prompt or prompt.strip() == "":
+            st.warning("Bitte formuliere eine Frage.")
+        else:
+            # show prompt back
+            st.subheader("🧠 Deine Frage")
+            st.info(prompt)
 
-    # Validate
-    if run and not openai_api_key.startswith("sk-"):
-        st.warning("Bitte gib deinen OpenAI API-Key ein (muss mit sk- beginnen).")
-    elif run and not med_name:
-        st.warning("Bitte gib einen Medikamenten- oder Wirkstoffnamen ein.")
-    elif run:
-        # Build prompt
-        prompt = f"{question_types[question_label]} {med_name}? ({input_type_options[input_label]})"
-        st.subheader("🧠 Deine Frage")
-        st.info(prompt)
-
-        # Assemble selected tools
-        tools = []
+            # assemble tools (as before)…
+            tools = []
         #if use_compendium:
         #    tools.append(Tool(
         #        name="CompendiumTool",
@@ -98,55 +117,55 @@ if page == "Apotheker Assistent":
         #        description="Websuche für aktuelle Forschungsergebnisse"
         #   ))
 
-        # Initialize LLM & Agent
-        llm = ChatOpenAI(
-            api_key=openai_api_key,
-            model="gpt-4o",
-            temperature=0.2,
-            streaming=True,
-        )
-        agent = initialize_agent(
-            tools=tools,
-            llm=llm,
-            agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-            verbose=False,
-            handle_parsing_errors=True,
-            agent_kwargs={
-                "system_message": (
-                    "Du bist ein klinischer Assistent. "
-                    "Antworte auf Deutsch, benutze nur relevante Infos."
-                ),
-                "return_intermediate_steps": True,
-                "max_iterations": 5,
-            }
-        )
-
-        st.subheader("🔍 Agent läuft…")
-        placeholder = st.empty()
-        callback = StreamlitCallbackHandler(placeholder)
-
-        try:
-            result = agent.invoke(
-                {"input": prompt},
-                callbacks=[callback],
-                return_only_outputs=False
+            # Initialize LLM & Agent
+            llm = ChatOpenAI(
+                api_key=openai_api_key,
+                model="gpt-4o",
+                temperature=0.2,
+                streaming=True,
             )
-            final = result["output"]
-            steps = result.get("intermediate_steps", [])
+            agent = initialize_agent(
+                tools=tools,
+                llm=llm,
+                agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+                verbose=False,
+                handle_parsing_errors=True,
+                agent_kwargs={
+                    "system_message": (
+                        "Du bist ein klinischer Assistent. "
+                        "Antworte auf Deutsch, benutze nur relevante Infos."
+                    ),
+                    "return_intermediate_steps": True,
+                    "max_iterations": 5,
+                }
+            )
 
-            st.success("✅ Fertig!")
-            st.subheader("📋 Endgültige Antwort")
-            st.markdown(final)
+            st.subheader("🔍 Agent läuft…")
+            placeholder = st.empty()
+            callback = StreamlitCallbackHandler(placeholder)
 
-            if steps:
-                st.subheader("🧰 Zwischenschritte")
-                for i, (thought, action) in enumerate(steps):
-                    st.markdown(f"**Gedanke {i+1}:** {thought.log}")
-                    st.markdown(f"- Tool: `{action.tool}`")
-                    st.markdown(f"- Input: `{action.tool_input}`")
+            try:
+                result = agent.invoke(
+                    {"input": prompt},
+                    callbacks=[callback],
+                    return_only_outputs=False
+                )
+                final = result["output"]
+                steps = result.get("intermediate_steps", [])
 
-        except Exception as e:
-            st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
+                st.success("✅ Fertig!")
+                st.subheader("📋 Endgültige Antwort")
+                st.markdown(final)
+
+                if steps:
+                    st.subheader("🧰 Zwischenschritte")
+                    for i, (thought, action) in enumerate(steps):
+                        st.markdown(f"**Gedanke {i+1}:** {thought.log}")
+                        st.markdown(f"- Tool: `{action.tool}`")
+                        st.markdown(f"- Input: `{action.tool_input}`")
+
+            except Exception as e:
+                st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
 
 elif page == "Post-Sendungen":
     # --- POST-SENDUNGEN PAGE ---
