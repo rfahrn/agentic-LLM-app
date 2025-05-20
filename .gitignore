@@ -186,5 +186,4 @@ docs/docs_skeleton/yarn.lock
 
 secrets.toml
 streamlit/secrets.toml
-streamlit/secrets.toml.example
 
