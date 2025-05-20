@@ -23,6 +23,7 @@ if page == "Apotheker Assistent":
     # --- API Key & Tool Toggles ---
     st.sidebar.markdown("---")
     openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
+    openai_api_key = st.secrets.OPENAI.OPENAI_API_KEY
     st.sidebar.markdown("**Tools aktivieren:**")
     use_compendium = st.sidebar.checkbox("Compendium.ch", value=True)
     use_internDB  = st.sidebar.checkbox("Local FAISS DB", value=True)
@@ -33,7 +34,7 @@ if page == "Apotheker Assistent":
 
     # --- MAIN HEADER ---
     st.title(" KING – Apotheker Assistent")
-    st.write("Nutze eine Auswahl an Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
+    st.write("Nutze eine Auswahl an Agenten-Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
     mode = st.radio(
         "Fragemodus wählen:",
         ("Strukturierte Frage", "Freie Frage / offene Fragen")
