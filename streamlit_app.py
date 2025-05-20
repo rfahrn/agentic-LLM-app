@@ -148,7 +148,7 @@ if page == "Apotheker Assistent":
         except Exception as e:
             st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
 
-elif page == "📦 Post-Sendungen":
+elif page == "Post-Sendungen":
     # --- POST-SENDUNGEN PAGE ---
     st.title("📦 Post-Sendungen für Kundennummer")
     st.write("Suche alle Post-Sendungen (Pakete) für eine gegebene Kundennummer im ERP.")
