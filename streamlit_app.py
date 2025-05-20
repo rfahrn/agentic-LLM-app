@@ -17,132 +17,176 @@ from langchain.callbacks.streamlit import StreamlitCallbackHandler
 
 load_dotenv()
 st.set_page_config(page_title="KING – Streamed Multi-Tool Agent", layout="wide")
+# --- SIDEBAR NAVIGATION ---
+page = st.sidebar.selectbox("Seite wählen:", ["💊 Medizinischer Assistent", "📦 Post-Sendungen"])
+if page == "💊 Medizinischer Assistent":
+    # --- API Key & Tool Toggles ---
+    st.sidebar.markdown("---")
+    openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
+    st.sidebar.markdown("**Tools aktivieren:**")
+    use_compendium = st.sidebar.checkbox("Compendium.ch", value=True)
+    use_internDB  = st.sidebar.checkbox("Local FAISS DB", value=True)
+    use_openfda   = st.sidebar.checkbox("OpenFDA", value=True)
+    use_web       = st.sidebar.checkbox("Web Search (Tavily)", value=True)
+    use_alerts    = st.sidebar.checkbox("Medication Alerts", value=True)
+    use_ema       = st.sidebar.checkbox("EMA", value=True)
 
-# --- SIDEBAR: API Key & Global Options ---
-with st.sidebar:
-    openai_api_key = st.text_input("OpenAI API Key", type="password")
-    st.markdown("---")
-    st.markdown("**Select which tools to enable:**")
-    use_compendium = st.checkbox("Compendium.ch", value=True)
-    use_internDB      = st.checkbox("Local FAISS DB", value=True)
-    use_openfda    = st.checkbox("OpenFDA", value=True)
-    use_web        = st.checkbox("Web Search (Tavily)", value=True)
-    use_alerts     = st.checkbox("Medication Alerts", value=True)
-    use_ema        = st.checkbox("EMA", value=True)
+    # --- MAIN HEADER ---
+    st.title("💊 KING – Medizinischer Assistent")
+    st.write("Nutze eine Auswahl an Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
 
-# --- MAIN HEADER ---
-st.title("💊 KING – Medizinischer Assistent")
-st.write("Nutze eine Auswahl an Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
+    # --- QUESTION TYPE & INPUT TYPE ---
+    question_types = {
+        "💊 Wirkung":        "Was ist die Wirkung von",
+        "🩺 Nebenwirkungen": "Welche Nebenwirkungen hat",
+        "⚠️ Warnungen":      "Welche Warnungen gibt es für",
+        "💉 Anwendung":      "Wie wird",
+        "📏 Dosierung":      "Wie lautet die empfohlene Dosierung von",
+    }
+    input_type_options = {
+        "💊 Medikament": "Medikament",
+        "🧪 Wirkstoff":   "Wirkstoff",
+    }
 
-# --- QUESTION TYPE & INPUT TYPE DROPDOWNS ---
-question_types = {
-    "💊 Wirkung":             "Was ist die Wirkung von",
-    "🩺 Nebenwirkungen":      "Welche Nebenwirkungen hat",
-    "⚠️ Warnungen":           "Welche Warnungen gibt es für",
-    "💉 Anwendung":           "Wie wird",
-    "📏 Dosierung":           "Wie lautet die empfohlene Dosierung von",
-}
 
-input_type_options = {
-    "💊 Medikament": "Medikament",
-    "🧪 Wirkstoff":   "Wirkstoff",
-}
+    col1, col2 = st.columns(2)
+    with col1:
+        question_label = st.selectbox("Fragetyp", list(question_types.keys()))
+    with col2:
+        input_label = st.selectbox("Eingabetyp", list(input_type_options.keys()))
 
-col1, col2 = st.columns(2)
-with col1:
-    question_label = st.selectbox("Fragetyp", list(question_types.keys()))
-with col2:
-    input_label = st.selectbox("Eingabetyp", list(input_type_options.keys()))
+    med_name = st.text_input("Name des Medikaments / Wirkstoffs", placeholder="z.B. Dafalgan")
 
-med_name = st.text_input("Name des Medikaments / Wirkstoffs", placeholder="z.B. Dafalgan")
+    # --- RUN BUTTON ---
+    run = st.button("🚀 Anfrage starten")
 
-# --- RUN BUTTON ---
-run = st.button("🚀 Anfrage starten")
+    # Validate
+    if run and not openai_api_key.startswith("sk-"):
+        st.warning("Bitte gib deinen OpenAI API-Key ein (muss mit sk- beginnen).")
+    elif run and not med_name:
+        st.warning("Bitte gib einen Medikamenten- oder Wirkstoffnamen ein.")
+    elif run:
+        # Build prompt
+        prompt = f"{question_types[question_label]} {med_name}? ({input_type_options[input_label]})"
+        st.subheader("🧠 Deine Frage")
+        st.info(prompt)
 
-# Validate
-if run and not openai_api_key.startswith("sk-"):
-    st.warning("Bitte gib deinen OpenAI API-Key ein (muss mit sk- beginnen).")
-elif run and not med_name:
-    st.warning("Bitte gib einen Medikamenten- oder Wirkstoffnamen ein.")
-elif run:
-    # Build prompt
-    prompt = f"{question_types[question_label]} {med_name}? ({input_type_options[input_label]})"
-    st.subheader("🧠 Deine Frage")
-    st.info(prompt)
+        # Assemble selected tools
+        tools = []
+        #if use_compendium:
+        #    tools.append(Tool(
+        #        name="CompendiumTool",
+        #        func=get_compendium_info,
+        #        description="Hole offizielle Medikamenteninfos von Compendium.ch"
+        #    ))
+        #if use_faiss:
+        #    tools.append(Tool(
+        #        name="FAISSRetrieverTool",
+        #        func=search_faiss,
+        #        description="Durchsuche lokale medizinische FAISS-Datenbank"
+        #    ))
+    # if use_openfda:
+    #     tools.append(Tool(
+    #         name="OpenFDATool",
+    #         func=search_openfda,
+    #         description="Hole Infos aus OpenFDA"
+        #    ))
+        #if use_web:
+        #    tools.append(Tool(
+        #        name="TavilySearchTool",
+        #        func=smart_tavily_answer,
+        #        description="Websuche für aktuelle Forschungsergebnisse"
+        #   ))
 
-    # Assemble selected tools
-    tools = []
-    #if use_compendium:
-    #    tools.append(Tool(
-    #        name="CompendiumTool",
-    #        func=get_compendium_info,
-    #        description="Hole offizielle Medikamenteninfos von Compendium.ch"
-     #    ))
-    #if use_faiss:
-    #    tools.append(Tool(
-    #        name="FAISSRetrieverTool",
-    #        func=search_faiss,
-    #        description="Durchsuche lokale medizinische FAISS-Datenbank"
-    #    ))
-   # if use_openfda:
-   #     tools.append(Tool(
-   #         name="OpenFDATool",
-   #         func=search_openfda,
-   #         description="Hole Infos aus OpenFDA"
-    #    ))
-    #if use_web:
-    #    tools.append(Tool(
-    #        name="TavilySearchTool",
-    #        func=smart_tavily_answer,
-    #        description="Websuche für aktuelle Forschungsergebnisse"
-     #   ))
-
-    # Initialize LLM & Agent
-    llm = ChatOpenAI(
-        api_key=openai_api_key,
-        model="gpt-4o",
-        temperature=0.2,
-        streaming=True,
-    )
-    agent = initialize_agent(
-        tools=tools,
-        llm=llm,
-        agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-        verbose=False,
-        handle_parsing_errors=True,
-        agent_kwargs={
-            "system_message": (
-                "Du bist ein klinischer Assistent. "
-                "Antworte auf Deutsch, benutze nur relevante Infos."
-            ),
-            "return_intermediate_steps": True,
-            "max_iterations": 5,
-        }
-    )
-
-    st.subheader("🔍 Agent läuft…")
-    placeholder = st.empty()
-    callback = StreamlitCallbackHandler(placeholder)
-
-    try:
-        result = agent.invoke(
-            {"input": prompt},
-            callbacks=[callback],
-            return_only_outputs=False
+        # Initialize LLM & Agent
+        llm = ChatOpenAI(
+            api_key=openai_api_key,
+            model="gpt-4o",
+            temperature=0.2,
+            streaming=True,
         )
-        final = result["output"]
-        steps = result.get("intermediate_steps", [])
+        agent = initialize_agent(
+            tools=tools,
+            llm=llm,
+            agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+            verbose=False,
+            handle_parsing_errors=True,
+            agent_kwargs={
+                "system_message": (
+                    "Du bist ein klinischer Assistent. "
+                    "Antworte auf Deutsch, benutze nur relevante Infos."
+                ),
+                "return_intermediate_steps": True,
+                "max_iterations": 5,
+            }
+        )
 
-        st.success("✅ Fertig!")
-        st.subheader("📋 Endgültige Antwort")
-        st.markdown(final)
+        st.subheader("🔍 Agent läuft…")
+        placeholder = st.empty()
+        callback = StreamlitCallbackHandler(placeholder)
 
-        if steps:
-            st.subheader("🧰 Zwischenschritte")
-            for i, (thought, action) in enumerate(steps):
-                st.markdown(f"**Gedanke {i+1}:** {thought.log}")
-                st.markdown(f"- Tool: `{action.tool}`")
-                st.markdown(f"- Input: `{action.tool_input}`")
+        try:
+            result = agent.invoke(
+                {"input": prompt},
+                callbacks=[callback],
+                return_only_outputs=False
+            )
+            final = result["output"]
+            steps = result.get("intermediate_steps", [])
 
-    except Exception as e:
-        st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
+            st.success("✅ Fertig!")
+            st.subheader("📋 Endgültige Antwort")
+            st.markdown(final)
+
+            if steps:
+                st.subheader("🧰 Zwischenschritte")
+                for i, (thought, action) in enumerate(steps):
+                    st.markdown(f"**Gedanke {i+1}:** {thought.log}")
+                    st.markdown(f"- Tool: `{action.tool}`")
+                    st.markdown(f"- Input: `{action.tool_input}`")
+
+        except Exception as e:
+            st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
+
+elif page == "📦 Post-Sendungen":
+    # --- POST-SENDUNGEN PAGE ---
+    st.title("📦 Post-Sendungen für Kundennummer")
+    st.write("Suche alle Post-Sendungen (Pakete) für eine gegebene Kundennummer im ERP.")
+
+    # Input field for customer number
+    kundennummer = st.text_input("Kundennummer eingeben", placeholder="z.B. 123456")
+    search = st.button("🔍 Pakete suchen")
+
+    if search:
+        if not kundennummer:
+            st.warning("Bitte gib eine Kundennummer ein.")
+        else:
+            st.info(f"Suche Post-Sendungen für Kundennummer **{kundennummer}**…")
+            #try:
+                # Example: connect via python-oracledb in thin mode
+                #pw = getpass.getpass("Oracle Passwort eingeben: ")
+                #conn = oracledb.connect(
+                    #user="YOUR_ERP_USER",
+                    #password=pw,
+                    #dsn="erp.host:1521/servicename"
+                #)
+                #cur = conn.cursor()
+                # Replace with your actual ERP table/query
+                #cur.execute("""
+                    #SELECT paket_id, versanddatum, status
+                    #FROM post_sendungen
+                    #WHERE kundennummer = :1
+                    #ORDER BY versanddatum DESC
+                #""", [kundennummer])
+                #rows = cur.fetchall()
+                #cur.close()
+                #conn.close()
+
+                #if not rows:
+                #    st.warning("Keine Post-Sendungen gefunden.")
+                #else:
+                #    st.subheader("Gefundene Pakete:")
+                #    for paket_id, versanddatum, status in rows:
+                #        st.write(f"- **Paket {paket_id}** | Datum: {versanddatum} | Status: {status}")
+            #except Exception as e:
+            #    st.error(f"Fehler bei der ERP-Abfrage: {e}")
