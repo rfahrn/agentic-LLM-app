@@ -108,6 +108,8 @@ if page == "Apotheker Assistent":
                 result = llm.invoke(prompt)
                 st.success("✅ Fertig!")
                 st.subheader("📋 Antwort")
+                # only content of LLM response
+                st.markdown(result["content"])
                 st.markdown(result)
 
             except Exception as e:
