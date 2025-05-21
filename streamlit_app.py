@@ -9,15 +9,6 @@ from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
 from streamlit_option_menu import option_menu
 
-with st.sidebar:
-    page = option_menu(
-        "Navigation",
-        ["Apotheker Assistent", "Post-Sendungen"],
-        icons=["stethoscope", "box"],
-        menu_icon="cast",
-        default_index=0,
-        orientation="vertical",
-    )
     
 # your tool imports
 #from Tools_agent.compendium_tool import get_compendium_info
