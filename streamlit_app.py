@@ -100,7 +100,7 @@ if page == "Apotheker Assistent":
             callback = StreamlitCallbackHandler(placeholder)
 
             try:
-                result = llm.invoke(prompt, callbacks=[callback])
+                result = llm.invoke(prompt)
                 st.success("✅ Fertig!")
                 st.subheader("📋 Antwort")
                 st.markdown(result)
