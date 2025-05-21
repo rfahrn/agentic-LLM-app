@@ -85,7 +85,7 @@ if page == "Apotheker Assistent":
             st.warning("Bitte formuliere eine Frage.")
         else:
             # show prompt back
-            st.subheader("🧠 Deine Frage")
+            st.subheader("Frage")
             st.info(prompt, icon="ℹ️")
             
             # --- INIT LLM DIRECTLY ---
