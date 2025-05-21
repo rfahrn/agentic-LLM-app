@@ -106,6 +106,7 @@ if page == "Apotheker Assistent":
 
             try:
                 result = llm.invoke(prompt)
+                result = result.content
                 st.success("✅ Fertig!")
                 st.subheader("📋 Antwort")
                 # only content of LLM response
