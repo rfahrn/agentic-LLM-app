@@ -109,7 +109,7 @@ if page == "Apotheker Assistent":
                 st.success("✅ Fertig!")
                 st.subheader("📋 Antwort")
                 # only content of LLM response
-                st.markdown(result, print(type(result)))
+                st.markdown(result)
 
             except Exception as e:
                 st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
