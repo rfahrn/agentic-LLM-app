@@ -18,13 +18,19 @@ from langchain.callbacks.streamlit import StreamlitCallbackHandler
 load_dotenv()
 st.set_page_config(page_title="KING – Streamed Multi-Tool Agent", layout="wide")
 # --- SIDEBAR NAVIGATION ---
-page = st.sidebar.selectbox("Seite wählen:", ["Apotheker Assistent", " Post-Sendungen"])
+page = st.sidebar.radio("Seite wählen:", ["Apotheker Assistent", " Post-Sendungen"])
 if page == "Apotheker Assistent":
     # --- API Key & Tool Toggles ---
     st.sidebar.markdown("---")
     openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
     openai_api_key = st.secrets.OPENAI.OPENAI_API_KEY
     st.sidebar.markdown("**Tools aktivieren:**")
+    st.sidebar.caption(
+        "Aktiviere hier externe Tools, die dem LLM zusätzliche Informationen liefern können – "
+        "z. B. aus Compendium.ch, einer lokalen medizinischen Datenbank oder dem Web.\n\n"
+        "**Diese Tools werden später von einem Agenten verwendet**, der entscheidet, "
+        "wann welches Tool gebraucht wird. Aktuell ist nur die direkte LLM-Nutzung aktiv."
+    )
     use_compendium = st.sidebar.checkbox("Compendium.ch", value=True)
     use_internDB  = st.sidebar.checkbox("Local FAISS DB", value=True)
     use_openfda   = st.sidebar.checkbox("OpenFDA", value=True)
