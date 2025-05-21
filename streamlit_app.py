@@ -86,83 +86,89 @@ if page == "Apotheker Assistent":
             # show prompt back
             st.subheader("🧠 Deine Frage")
             st.info(prompt)
-
-            # assemble tools (as before)…
-            tools = []
-        #if use_compendium:
-        #    tools.append(Tool(
-        #        name="CompendiumTool",
-        #        func=get_compendium_info,
-        #        description="Hole offizielle Medikamenteninfos von Compendium.ch"
-        #    ))
-        #if use_faiss:
-        #    tools.append(Tool(
-        #        name="FAISSRetrieverTool",
-        #        func=search_faiss,
-        #        description="Durchsuche lokale medizinische FAISS-Datenbank"
-        #    ))
-    # if use_openfda:
-    #     tools.append(Tool(
-    #         name="OpenFDATool",
-    #         func=search_openfda,
-    #         description="Hole Infos aus OpenFDA"
-        #    ))
-        #if use_web:
-        #    tools.append(Tool(
-        #        name="TavilySearchTool",
-        #        func=smart_tavily_answer,
-        #        description="Websuche für aktuelle Forschungsergebnisse"
-        #   ))
-
-            # Initialize LLM & Agent
+            
+            # --- INIT LLM DIRECTLY ---
             llm = ChatOpenAI(
                 api_key=openai_api_key,
                 model="gpt-4o",
                 temperature=0.2,
                 streaming=True,
             )
-            agent = initialize_agent(
-                tools=tools,
-                llm=llm,
-                agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-                verbose=False,
-                handle_parsing_errors=True,
-                agent_kwargs={
-                    "system_message": (
-                        "Du bist ein klinischer Assistent. "
-                        "Antworte auf Deutsch, benutze nur relevante Infos."
-                    ),
-                    "return_intermediate_steps": True,
-                    "max_iterations": 5,
-                }
-            )
 
-            st.subheader("🔍 Agent läuft…")
+            st.subheader("🔍 LLM läuft…")
             placeholder = st.empty()
             callback = StreamlitCallbackHandler(placeholder)
 
             try:
-                result = agent.invoke(
-                    {"input": prompt},
-                    callbacks=[callback],
-                    return_only_outputs=False
-                )
-                final = result["output"]
-                steps = result.get("intermediate_steps", [])
-
+                result = llm.invoke(prompt, callbacks=[callback])
                 st.success("✅ Fertig!")
-                st.subheader("📋 Endgültige Antwort")
-                st.markdown(final)
-
-                if steps:
-                    st.subheader("🧰 Zwischenschritte")
-                    for i, (thought, action) in enumerate(steps):
-                        st.markdown(f"**Gedanke {i+1}:** {thought.log}")
-                        st.markdown(f"- Tool: `{action.tool}`")
-                        st.markdown(f"- Input: `{action.tool_input}`")
+                st.subheader("📋 Antwort")
+                st.markdown(result)
 
             except Exception as e:
                 st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
+                
+
+            # --- Future Tool-based Setup (commented for now) ---
+            # tools = []
+            # if use_compendium:
+            #     tools.append(Tool(
+            #         name="CompendiumTool",
+            #         func=get_compendium_info,
+            #         description="Hole offizielle Medikamenteninfos von Compendium.ch"
+            #     ))
+            # if use_internDB:
+            #     tools.append(Tool(
+            #         name="FAISSRetrieverTool",
+            #         func=search_faiss,
+            #         description="Durchsuche lokale medizinische FAISS-Datenbank"
+            #     ))
+            # if use_openfda:
+            #     tools.append(Tool(
+            #         name="OpenFDATool",
+            #         func=search_openfda,
+            #         description="Hole Infos aus OpenFDA"
+            #     ))
+            # if use_web:
+            #     tools.append(Tool(
+            #         name="TavilySearchTool",
+            #         func=smart_tavily_answer,
+            #         description="Websuche für aktuelle Forschungsergebnisse"
+            #     ))
+
+            # agent = initialize_agent(
+            #     tools=tools,
+            #     llm=llm,
+            #     agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+            #     verbose=False,
+            #     handle_parsing_errors=True,
+            #     agent_kwargs={
+            #         "system_message": (
+            #             "Du bist ein klinischer Assistent. "
+            #             "Antworte auf Deutsch, benutze nur relevante Infos."
+            #         ),
+            #         "return_intermediate_steps": True,
+            #         "max_iterations": 5,
+            #     }
+            # )
+
+            # result = agent.invoke(
+            #     {"input": prompt},
+            #     callbacks=[callback],
+            #     return_only_outputs=False
+            # )
+            # final = result["output"]
+            # steps = result.get("intermediate_steps", [])
+            # st.success("✅ Fertig!")
+            # st.subheader("📋 Endgültige Antwort")
+            # st.markdown(final)
+            # if steps:
+            #     st.subheader("🧰 Zwischenschritte")
+            #     for i, (thought, action) in enumerate(steps):
+            #         st.markdown(f"**Gedanke {i+1}:** {thought.log}")
+            #         st.markdown(f"- Tool: `{action.tool}`")
+            #         st.markdown(f"- Input: `{action.tool_input}`")
+
 
 elif page == "Post-Sendungen":
     # --- POST-SENDUNGEN PAGE ---
