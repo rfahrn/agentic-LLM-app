@@ -76,6 +76,7 @@ if page == "Apotheker Assistent":
         )
 
     run = st.button("🚀 Anfrage starten")
+    st.sidebar.markdown("---")
     if run:
         # validation
         if not openai_api_key.startswith("sk-"):
@@ -85,7 +86,7 @@ if page == "Apotheker Assistent":
         else:
             # show prompt back
             st.subheader("🧠 Deine Frage")
-            st.info(prompt)
+            st.info(prompt, icon="ℹ️")
             
             # --- INIT LLM DIRECTLY ---
             llm = ChatOpenAI(
