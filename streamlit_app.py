@@ -26,10 +26,8 @@ if page == "Apotheker Assistent":
     openai_api_key = st.secrets.OPENAI.OPENAI_API_KEY
     st.sidebar.markdown("**Tools aktivieren:**")
     st.sidebar.caption(
-        "Aktiviere hier externe Tools, die dem LLM zusätzliche Informationen liefern können – "
-        "z. B. aus Compendium.ch, einer lokalen medizinischen Datenbank oder dem Web.\n\n"
-        "**Diese Tools werden später von einem Agenten verwendet**, der entscheidet, "
-        "wann welches Tool gebraucht wird. Aktuell ist nur die direkte LLM-Nutzung aktiv."
+        "Aktiviere externe Tools, welche der LLM Agent durchforsten soll – "
+        "z. B. aus Compendium.ch, einer lokalen medizinischen Datenbank (pdf), EMAoder dem Web.\n\n"
     )
     use_compendium = st.sidebar.checkbox("Compendium.ch", value=True)
     use_internDB  = st.sidebar.checkbox("Local FAISS DB", value=True)
