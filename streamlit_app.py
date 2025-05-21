@@ -7,7 +7,18 @@ from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
+from streamlit_option_menu import option_menu
 
+with st.sidebar:
+    page = option_menu(
+        "Navigation",
+        ["Apotheker Assistent", "Post-Sendungen"],
+        icons=["stethoscope", "box"],
+        menu_icon="cast",
+        default_index=0,
+        orientation="vertical",
+    )
+    
 # your tool imports
 #from Tools_agent.compendium_tool import get_compendium_info
 #from Tools_agent.faiss_tool import search_faiss
@@ -18,8 +29,8 @@ from langchain.callbacks.streamlit import StreamlitCallbackHandler
 load_dotenv()
 st.set_page_config(page_title="KING – Streamed Multi-Tool Agent", layout="wide")
 # --- SIDEBAR NAVIGATION ---
-page = st.sidebar.radio("Seite wählen:", ["Apotheker Assistent", " Post-Sendungen"])
-if page == "Apotheker Assistent":
+tab1,tab2  = st.tabs(["Apotheker Assistent", " Post-Sendungen"])
+with tab1:
     # --- API Key & Tool Toggles ---
     st.sidebar.markdown("---")
     openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
@@ -175,7 +186,7 @@ if page == "Apotheker Assistent":
             #         st.markdown(f"- Input: `{action.tool_input}`")
 
 
-elif page == "Post-Sendungen":
+with tab2:
     # --- POST-SENDUNGEN PAGE ---
     st.title("📦 Post-Sendungen für Kundennummer")
     st.write("Suche alle Post-Sendungen (Pakete) für eine gegebene Kundennummer im ERP.")
