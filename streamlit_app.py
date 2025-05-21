@@ -7,9 +7,7 @@ from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
-from streamlit_option_menu import option_menu
-
-    
+ 
 # your tool imports
 #from Tools_agent.compendium_tool import get_compendium_info
 #from Tools_agent.faiss_tool import search_faiss
