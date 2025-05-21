@@ -29,7 +29,7 @@ with st.sidebar:
 load_dotenv()
 st.set_page_config(page_title="KING – Streamed Multi-Tool Agent", layout="wide")
 # --- SIDEBAR NAVIGATION ---
-page = st.sidebar.tabs("Seite wählen:", ["Apotheker Assistent", " Post-Sendungen"])
+page = st.sidebar.selectbox("Seite wählen:", ["Apotheker Assistent", " Post-Sendungen"])
 if page == "Apotheker Assistent":
     # --- API Key & Tool Toggles ---
     st.sidebar.markdown("---")
