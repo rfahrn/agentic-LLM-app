@@ -116,7 +116,7 @@ if page == "Apotheker Assistent":
             llm = ChatOpenAI(
                 api_key=openai_api_key,
                 model="gpt-4o",
-                temperature=0.2,
+                temperature=0,
                 streaming=True,
             )
 
