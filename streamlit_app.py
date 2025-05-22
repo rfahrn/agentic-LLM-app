@@ -29,12 +29,12 @@ if page == "Apotheker Assistent":
         "Aktiviere externe Tools, welche der LLM Agent durchforsten soll – "
         "z. B. aus Compendium.ch, einer lokalen medizinischen Datenbank (pdf), EMAoder dem Web.\n\n"
     )
-    use_compendium = st.sidebar.checkbox("Compendium.ch", value=True)
-    use_internDB  = st.sidebar.checkbox("Local FAISS DB", value=True)
-    use_openfda   = st.sidebar.checkbox("OpenFDA", value=True)
+    use_compendium = st.sidebar.checkbox("Compendium.ch", value=False)
+    use_internDB  = st.sidebar.checkbox("Local FAISS DB", value=False)
+    use_openfda   = st.sidebar.checkbox("OpenFDA", value=False)
     use_web       = st.sidebar.checkbox("Web Search (Tavily)", value=True)
-    use_alerts    = st.sidebar.checkbox("Medication Alerts", value=True)
-    use_ema       = st.sidebar.checkbox("EMA", value=True)
+    use_alerts    = st.sidebar.checkbox("Medication Alerts", value=False)
+    use_ema       = st.sidebar.checkbox("EMA", value=False)
 
     # --- MAIN HEADER ---
     st.title(" KING – Apotheker Assistent")
