@@ -29,7 +29,7 @@ if page == "Apotheker Assistent":
         "Aktiviere externe Tools, welche der LLM Agent durchforsten soll – "
         "z. B. aus Compendium.ch, einer lokalen medizinischen Datenbank (pdf), EMAoder dem Web.\n\n"
     )
-    st.sidebar.markdown("### 🛠️ Tools")
+    st.sidebar.markdown("###  Tools")
     with st.sidebar.expander("Agenten-Tools aktivieren"):
         st.checkbox("Compendium.ch", value=False)
         st.checkbox("Local PDFs Database", value=False)
