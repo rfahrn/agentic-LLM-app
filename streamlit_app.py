@@ -64,7 +64,7 @@ if page == "Apotheker Assistent":
             "💊 Wirkung":        "Was ist die Wirkung von",
             "🩺 Nebenwirkungen": "Welche Nebenwirkungen hat",
             "⚠️ Warnungen":      "Welche Warnungen gibt es für",
-            "💉 Anwendung":      "Wie ist die Anwendung von",
+            "💉 Anwendung":      "Wie sollte man ... anwenden",
             "📏 Dosierung":      "Wie lautet die empfohlene standard Dosierung von",
             "🧪 Wechselwirkungen": "Welche Wechselwirkungen hat",
             "📦 Lagerung":       "Wie ist die Lagerung von" ,
