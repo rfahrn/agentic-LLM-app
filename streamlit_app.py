@@ -179,8 +179,8 @@ if page == "Apotheker Assistent":
 
 elif page == "Post-Sendungen":
     # --- POST-SENDUNGEN PAGE ---
-    st.title("📦 Post-Sendungen für Kundennummer")
-    st.write("Suche alle Post-Sendungen (Pakete) für eine gegebene Kundennummer im ERP.")
+    st.title("📦 Post-Sendungen")
+    st.write("Suche Post-Sendungen (Pakete) für eine gegebene Kundennummer im ERP.")
 
     # Input field for customer number
     kundennummer = st.text_input("Kundennummer eingeben", placeholder="z.B. 123456")
