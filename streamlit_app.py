@@ -31,12 +31,16 @@ if page == "Apotheker Assistent":
     )
     st.sidebar.markdown("###  Tools")
     with st.sidebar.expander("Agenten-Tools aktivieren"):
-        st.checkbox("Compendium.ch", value=False)
-        st.checkbox("Local PDFs Database", value=False)
+        st.checkbox("Compendium", value=False)
+        st.checkbox("EMA", value=False)
         st.checkbox("OpenFDA", value=False)
+        st.checkbox("Local PDFs Database", value=False)
         st.checkbox("Open Web Search (Tavily)", value=True)
         st.checkbox("Medication Alerts", value=False)
-        st.checkbox("EMA", value=False)
+        st.checkbox("MediQ", value=False)
+        st.checkbox("Pharmdkg", value=False)
+        st.checkbox("pedeus", value=False)
+        st.checkbox("PubMed", value=False)
         
     #use_compendium = st.sidebar.checkbox("Compendium.ch", value=False)
     #use_internDB  = st.sidebar.checkbox("Local FAISS DB", value=False)
@@ -61,7 +65,14 @@ if page == "Apotheker Assistent":
             "🩺 Nebenwirkungen": "Welche Nebenwirkungen hat",
             "⚠️ Warnungen":      "Welche Warnungen gibt es für",
             "💉 Anwendung":      "Wie wird",
-            "📏 Dosierung":      "Wie lautet die empfohlene Dosierung von",
+            "📏 Dosierung":      "Wie lautet die empfohlene standard Dosierung von",
+            "🧪 Wechselwirkungen": "Welche Wechselwirkungen hat",
+            "📦 Lagerung":       "Wie ist die Lagerung von" ,
+            "🧪 Wirkstoff":      "Was ist der Wirkstoff von",
+            "💊 Interaktionen":  "Welche Interaktionen hat", 
+            "📦 Haltbarkeit":  "Was weiss man bezüglich der Haltbarkeit von",
+
+            
         }
         input_type_options = {
             "💊 Medikament": "Medikament",
