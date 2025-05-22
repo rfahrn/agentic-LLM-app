@@ -38,8 +38,8 @@ if page == "Apotheker Assistent":
         st.checkbox("Open Web Search (Tavily)", value=True)
         st.checkbox("Medication Alerts", value=False)
         st.checkbox("MediQ", value=False)
-        st.checkbox("Pharmdkg", value=False)
-        st.checkbox("pedeus", value=False)
+        st.checkbox("PharmGKB", value=False)
+        st.checkbox("Pedeus", value=False)
         st.checkbox("PubMed", value=False)
         
     #use_compendium = st.sidebar.checkbox("Compendium.ch", value=False)
