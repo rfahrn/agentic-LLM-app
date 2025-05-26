@@ -8,7 +8,7 @@ from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
 
-from backend.app.tools.pinecone_tool import search_medguides_with_rag
+from backend.app.tools.pinecone_tool import search_medguides_with_rag, get_pdf_page_as_base64_image
 def pinecone_wrapper(prompt: str) -> str:
     answer, sources, avg_score = search_medguides_with_rag(prompt)
     return f"{answer}\n\n\n---\n📈 *Durchschnittlicher Score: {avg_score}*"
@@ -135,10 +135,23 @@ if page == "Apotheker Assistent":
             if tools:
                 if use_medguides and len(tools) == 1:
                     try:
-                        final = search_medguides_with_rag(prompt)
+                        answer, sources = search_medguides_with_rag(prompt)
                         st.success("✅ Antwort abgeschlossen.")
-                        with st.expander("📋 Antwort anzeigen", expanded=True):
-                            st.markdown(final, unsafe_allow_html=True)
+                        #with st.expander("📋 Antwort anzeigen", expanded=True):
+                            #st.markdown(answer, unsafe_allow_html=True)
+                        st.subheader("📸 Wichtigste Seitenvorschauen")
+                        cols = st.columns(3)
+                        for i, s in enumerate(sources[:3]):
+                            filename = s["filename"]
+                            page = s["page"]
+                            score = s["score"]
+                            img_html = get_pdf_page_as_base64_image(filename, page)
+                            with cols[i % 3]:
+                                st.markdown(img_html, unsafe_allow_html=True)
+                                st.caption(f"{filename} – Seite {page} (Score: {score})")
+
+                        with st.expander("📋 Vollständige Antwort anzeigen", expanded=True):
+                            st.markdown(answer, unsafe_allow_html=True)
                     except Exception as e:
                         st.error(f"❌ Fehler bei Pinecone-RAG: {e}")
                 else:

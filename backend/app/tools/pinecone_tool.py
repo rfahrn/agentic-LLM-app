@@ -6,6 +6,8 @@ from openai import OpenAI
 from pinecone.grpc import PineconeGRPC as Pinecone
 from pinecone import ServerlessSpec
 import streamlit as st
+import base64
+from io import BytesIO
 # Load environment variables (for API keys)
 load_dotenv()
 
@@ -27,6 +29,19 @@ def embed_query(query: str):
     res = openai_client.embeddings.create(model=EMBEDDING_MODEL, input=query)
     return res.data[0].embedding
 
+
+# ─── Convert PDF Page to Base64 Image ───────────────────────────────
+from pdf2image import convert_from_path
+def get_pdf_page_as_base64_image(filename: str, page_num: int):
+    try:
+        pdf_path = os.path.join(r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\MedicationGuides_2025_05_19", filename)
+        images = convert_from_path(pdf_path, first_page=int(page_num), last_page=int(page_num))
+        buffered = BytesIO()
+        images[0].save(buffered, format="PNG")
+        img_base64 = base64.b64encode(buffered.getvalue()).decode("utf-8")
+        return f"<img src='data:image/png;base64,{img_base64}' width='700'/>"
+    except Exception as e:
+        return f"⚠️ Fehler beim Generieren der Seitenvorschau ({filename}, S. {page_num}): {e}"
 
 # ─── Context Retrieval ───────────────────────────────────────────────
 def retrieve_context(query: str, top_k=8):
@@ -101,4 +116,4 @@ def search_medguides_with_rag(query: str, top_k=8) -> str:
 **Durchschnittlicher Übereinstimmungswert:** `{avg_score}`  
 {citation_block}
 """
-    return final_md
+    return final_md, sources
