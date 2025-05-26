@@ -156,24 +156,7 @@ if page == "Apotheker Assistent":
 
                     st.success("✅ Antwort abgeschlossen.")
                     st.subheader("📋 Antwort")
-
-                    # Extract citations if available
-                    citations = set()
-                    for thought, action in steps:
-                        if hasattr(action, "log") and isinstance(action.log, str):
-                            matches = re.findall(r"From \*\*(.*?)\*\*, page \*\*(.*?)\*\*", action.log)
-                            for filename, page in matches:
-                                citations.add((filename, page))
-
-                    # Display answer
                     st.markdown(final)
-
-                    # Display citation block (if any)
-                    if citations:
-                        st.markdown("---")
-                        st.markdown("**🔍 Verwendete Quellen:**")
-                        for filename, page in sorted(citations):
-                            st.markdown(f"- **{filename}**, Seite {page}")
 
                     if steps:
                         st.subheader("🔎 Zwischenschritte")
