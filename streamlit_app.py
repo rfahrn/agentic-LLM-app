@@ -161,23 +161,21 @@ if page == "Apotheker Assistent":
                     )
                     result = agent.invoke({"input": prompt}, callbacks=[callback], return_only_outputs=False)
                     final = result["output"]
-                
-                steps = result.get("intermediate_steps", [])
+                    
+                    steps = result.get("intermediate_steps", [])
 
-                st.success("✅ Antwort abgeschlossen.")
-                st.subheader("📋 Antwort")
-                st.markdown(final, unsafe_allow_html=True)
+                    st.success("✅ Antwort abgeschlossen.")
+                    st.subheader("📋 Antwort")
+                    st.markdown(final, unsafe_allow_html=True)
 
-                if steps:
-                    st.subheader("🔎 Zwischenschritte")
-                    for i, (thought, action) in enumerate(steps):
-                        if "pinecone" in action.tool.lower():  # or better filtering logic
-                            st.markdown(f"**Gedanke {i+1}:** {thought.log}")
-                            st.markdown(f"- Tool: `{action.tool}`")
-                            st.markdown(f"- Input: `{action.tool_input}`")
+                    if steps:
+                        st.subheader("🔎 Zwischenschritte")
+                        for i, (thought, action) in enumerate(steps):
+                            if "pinecone" in action.tool.lower():  # or better filtering logic
+                                st.markdown(f"**Gedanke {i+1}:** {thought.log}")
+                                st.markdown(f"- Tool: `{action.tool}`")
+                                st.markdown(f"- Input: `{action.tool_input}`")
 
-            else:
-                st.warning("Bitte aktiviere mindestens ein Tool.")
                 
 
             # --- Future Tool-based Setup (commented for now) ---
