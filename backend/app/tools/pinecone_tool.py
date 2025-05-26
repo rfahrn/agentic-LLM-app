@@ -30,7 +30,7 @@ def embed_query(query: str):
     return res.data[0].embedding
 
 
-def get_pdf_page_as_base64_image_fitz(filename: str, page_num: int):
+def get_pdf_page_as_base64_image(filename: str, page_num: int):
     import fitz  # PyMuPDF
     try:
         page_num = int(float(page_num)) - 1  # fitz is 0-indexed
