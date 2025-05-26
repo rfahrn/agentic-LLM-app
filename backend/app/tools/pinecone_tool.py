@@ -5,13 +5,14 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from pinecone.grpc import PineconeGRPC as Pinecone
 from pinecone import ServerlessSpec
+import streamlit as st
 
 # Load environment variables (for API keys)
 load_dotenv()
 
 # Configuration
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-PINECONE_API_KEY = os.getenv("PINECONE_API_KEY")
+OPENAI_API_KEY = st.secrets.OPENAI.OPENAI_API_KEY
+PINECONE_API_KEY = st.secrets.PINECONE.PINECONE_API_KEY
 PINECONE_INDEX = "medguides-index"
 EMBEDDING_MODEL = "text-embedding-3-large"
 GPT_MODEL = "gpt-4o-mini"
