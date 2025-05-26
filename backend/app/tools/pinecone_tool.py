@@ -30,18 +30,25 @@ def embed_query(query: str):
     return res.data[0].embedding
 
 
-# ─── Convert PDF Page to Base64 Image ───────────────────────────────
-from pdf2image import convert_from_path
-def get_pdf_page_as_base64_image(filename: str, page_num: int):
+def get_pdf_page_as_base64_image_fitz(filename: str, page_num: int):
+    import fitz  # PyMuPDF
     try:
-        pdf_path = os.path.join(r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\MedicationGuides_2025_05_19", filename)
-        images = convert_from_path(pdf_path, first_page=int(page_num), last_page=int(page_num),poppler_path=r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\poppler-23.11.0\Library\bin")
-        buffered = BytesIO()
-        images[0].save(buffered, format="PNG")
+        page_num = int(float(page_num)) - 1  # fitz is 0-indexed
+        fixed_dir = r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\MedicationGuides_2025_05_19_FIXED"
+        pdf_path = os.path.join(fixed_dir, filename)
+
+        doc = fitz.open(pdf_path)
+        if page_num < 0 or page_num >= len(doc):
+            return f"⚠️ Seite {page_num+1} existiert nicht (PDF hat {len(doc)} Seiten)."
+
+        page = doc[page_num]
+        pix = page.get_pixmap(dpi=150)
+        buffered = BytesIO(pix.tobytes("png"))
         img_base64 = base64.b64encode(buffered.getvalue()).decode("utf-8")
         return f"<img src='data:image/png;base64,{img_base64}' width='700'/>"
+
     except Exception as e:
-        return f"⚠️ Fehler beim Generieren der Seitenvorschau ({filename}, S. {page_num}): {e}"
+        return f"⚠️ Fehler beim Generieren der Seitenvorschau ({filename}, S. {page_num+1}): {e}"
 
 # ─── Context Retrieval ───────────────────────────────────────────────
 def retrieve_context(query: str, top_k=8):

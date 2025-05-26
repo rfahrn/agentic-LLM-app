@@ -368,3 +368,4 @@ data/faiss_embeddings.pkl
 *.idx
 backend/data/poppler-23.11.0/
 backend/data/poppler.zip
+backend/data/MedicationGuides_2025_05_19_FIXED/
