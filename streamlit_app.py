@@ -133,42 +133,49 @@ if page == "Apotheker Assistent":
             callback = StreamlitCallbackHandler(placeholder)
 
             if tools:
-                agent = initialize_agent(
-                    tools=tools,
-                    llm=llm,
-                    agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
-                    handle_parsing_errors=True,
-                    verbose=False,
-                    agent_kwargs={
-                        "system_message": (
-                            "Du bist ein pharmazeutischer Assistent. "
-                            "Beantworte Fragen nur auf Basis vertrauenswürdiger Quellen wie PDFs oder Datenbanken. "
-                            "Antworte ausschließlich auf Deutsch."
-                        ),
-                        "max_iterations": 5,
-                        "return_intermediate_steps": True,
-                    },
-                )
-
-                try:
+                if use_medguides and len(tools) == 1:
+                    try:
+                        st.subheader("🔍 Pinecone-RAG wird direkt ausgeführt...")
+                        final = search_medguides_with_rag(prompt)
+                        st.success("✅ Antwort abgeschlossen.")
+                        with st.expander("📋 Antwort anzeigen", expanded=True):
+                            st.markdown(final, unsafe_allow_html=True)
+                    except Exception as e:
+                        st.error(f"❌ Fehler bei Pinecone-RAG: {e}")
+                else:
+                    agent = initialize_agent(
+                        tools=tools,
+                        llm=llm,
+                        agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+                        handle_parsing_errors=True,
+                        verbose=False,
+                        agent_kwargs={
+                            "system_message": (
+                                "Du bist ein pharmazeutischer Assistent. "
+                                "Beantworte Fragen nur auf Basis vertrauenswürdiger Quellen wie PDFs oder Datenbanken. "
+                                "Antworte ausschließlich auf Deutsch."
+                            ),
+                            "max_iterations": 5,
+                            "return_intermediate_steps": True,
+                        },
+                    )
                     result = agent.invoke({"input": prompt}, callbacks=[callback], return_only_outputs=False)
                     final = result["output"]
-                    
-                    steps = result.get("intermediate_steps", [])
+                
+                steps = result.get("intermediate_steps", [])
 
-                    st.success("✅ Antwort abgeschlossen.")
-                    st.subheader("📋 Antwort")
-                    st.markdown(final, unsafe_allow_html=True)
+                st.success("✅ Antwort abgeschlossen.")
+                st.subheader("📋 Antwort")
+                st.markdown(final, unsafe_allow_html=True)
 
-                    if steps:
-                        st.subheader("🔎 Zwischenschritte")
-                        for i, (thought, action) in enumerate(steps):
-                            if "pinecone" in action.tool.lower():  # or better filtering logic
-                                st.markdown(f"**Gedanke {i+1}:** {thought.log}")
-                                st.markdown(f"- Tool: `{action.tool}`")
-                                st.markdown(f"- Input: `{action.tool_input}`")
-                except Exception as e:
-                    st.error(f"❌ Fehler: {e}")
+                if steps:
+                    st.subheader("🔎 Zwischenschritte")
+                    for i, (thought, action) in enumerate(steps):
+                        if "pinecone" in action.tool.lower():  # or better filtering logic
+                            st.markdown(f"**Gedanke {i+1}:** {thought.log}")
+                            st.markdown(f"- Tool: `{action.tool}`")
+                            st.markdown(f"- Input: `{action.tool_input}`")
+
             else:
                 st.warning("Bitte aktiviere mindestens ein Tool.")
                 
