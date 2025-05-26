@@ -9,7 +9,9 @@ from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
 
 from backend.app.tools.pinecone_tool import search_medguides_with_rag
-
+def pinecone_wrapper(prompt: str) -> str:
+    answer, sources, avg_score = search_medguides_with_rag(prompt)
+    return f"{answer}\n\n\n---\n📈 *Durchschnittlicher Score: {avg_score}*"
 # your tool imports
 #from Tools_agent.compendium_tool import get_compendium_info
 #from Tools_agent.faiss_tool import search_faiss
@@ -156,14 +158,15 @@ if page == "Apotheker Assistent":
 
                     st.success("✅ Antwort abgeschlossen.")
                     st.subheader("📋 Antwort")
-                    st.markdown(final)
+                    st.markdown(final, unsafe_allow_html=True)
 
                     if steps:
                         st.subheader("🔎 Zwischenschritte")
                         for i, (thought, action) in enumerate(steps):
-                            st.markdown(f"**Gedanke {i+1}:** {thought.log}")
-                            st.markdown(f"- Tool: `{action.tool}`")
-                            st.markdown(f"- Input: `{action.tool_input}`")
+                            if "pinecone" in action.tool.lower():  # or better filtering logic
+                                st.markdown(f"**Gedanke {i+1}:** {thought.log}")
+                                st.markdown(f"- Tool: `{action.tool}`")
+                                st.markdown(f"- Input: `{action.tool_input}`")
                 except Exception as e:
                     st.error(f"❌ Fehler: {e}")
             else:
