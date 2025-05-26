@@ -144,6 +144,7 @@ if page == "Apotheker Assistent":
                             st.markdown(answer, unsafe_allow_html=False)
                         
                         with st.expander("📸 Wichtigste Seitenvorschauen", expanded=False):
+    
                             cols = st.columns(3)
                             for i, s in enumerate(sources[:3]):
                                 filename = s["filename"]
