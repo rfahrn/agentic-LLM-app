@@ -7,7 +7,9 @@ from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
- 
+
+from backend.app.tools.pinecone_tool import search_medguides_with_rag
+
 # your tool imports
 #from Tools_agent.compendium_tool import get_compendium_info
 #from Tools_agent.faiss_tool import search_faiss
@@ -34,8 +36,8 @@ if page == "Apotheker Assistent":
         st.checkbox("Compendium", value=False)
         st.checkbox("EMA", value=False)
         st.checkbox("OpenFDA", value=False)
-        st.checkbox("Local PDFs Database", value=False)
-        st.checkbox("Open Web Search (Tavily)", value=True)
+        use_medguides = st.sidebar.checkbox("Local PDFs Database (Pinecone)", value=True)
+        st.checkbox("Open Web Search (Tavily)", value=False)
         st.checkbox("Medication Alerts", value=False)
         st.checkbox("MediQ", value=False)
         st.checkbox("PharmGKB", value=False)
@@ -110,30 +112,61 @@ if page == "Apotheker Assistent":
         else:
             # show prompt back
             st.subheader("Frage")
-            st.info(prompt, icon="ℹ️")
-            
-            # --- INIT LLM DIRECTLY ---
+            st.info(prompt, icon="💬")
             llm = ChatOpenAI(
                 api_key=openai_api_key,
-                model="gpt-4o",
+                model="gpt-4o-mini",
                 temperature=0,
-                streaming=True,
-            )
-
-            st.subheader("🔍 LLM läuft…")
+                streaming=True, )
+            # Collect activated tools
+            tools = []
+            if use_medguides:
+                tools.append(Tool(
+                    name="Medikamenten-PDF-RAG",
+                    func=search_medguides_with_rag,
+                    description="Durchsucht lokale Medikamenten-Guides via Pinecone und gibt GPT-Antworten zurück.",
+                ))
+            st.subheader("🔍 Agent läuft...")
             placeholder = st.empty()
             callback = StreamlitCallbackHandler(placeholder)
 
-            try:
-                result = llm.invoke(prompt)
-                result = result.content
-                st.success("✅ Fertig!")
-                st.subheader("📋 Antwort")
-                # only content of LLM response
-                st.markdown(result)
+            if tools:
+                agent = initialize_agent(
+                    tools=tools,
+                    llm=llm,
+                    agent=AgentType.ZERO_SHOT_REACT_DESCRIPTION,
+                    handle_parsing_errors=True,
+                    verbose=False,
+                    agent_kwargs={
+                        "system_message": (
+                            "Du bist ein pharmazeutischer Assistent. "
+                            "Beantworte Fragen nur auf Basis vertrauenswürdiger Quellen wie PDFs oder Datenbanken. "
+                            "Antworte ausschließlich auf Deutsch."
+                        ),
+                        "max_iterations": 5,
+                        "return_intermediate_steps": True,
+                    },
+                )
 
-            except Exception as e:
-                st.error(f"❌ Ein Fehler ist aufgetreten: {e}")
+                try:
+                    result = agent.invoke({"input": prompt}, callbacks=[callback], return_only_outputs=False)
+                    final = result["output"]
+                    steps = result.get("intermediate_steps", [])
+
+                    st.success("✅ Antwort abgeschlossen.")
+                    st.subheader("📋 Antwort")
+                    st.markdown(final)
+
+                    if steps:
+                        st.subheader("🔎 Zwischenschritte")
+                        for i, (thought, action) in enumerate(steps):
+                            st.markdown(f"**Gedanke {i+1}:** {thought.log}")
+                            st.markdown(f"- Tool: `{action.tool}`")
+                            st.markdown(f"- Input: `{action.tool_input}`")
+                except Exception as e:
+                    st.error(f"❌ Fehler: {e}")
+            else:
+                st.warning("Bitte aktiviere mindestens ein Tool.")
                 
 
             # --- Future Tool-based Setup (commented for now) ---
