@@ -170,9 +170,10 @@ if page == "Apotheker Assistent":
 
                     # Display citation block (if any)
                     if citations:
-                        with st.expander("📄 Verwendete Quellen anzeigen"):
-                            for filename, page in sorted(citations):
-                                st.markdown(f"- **{filename}**, Seite {page}")
+                        st.markdown("---")
+                        st.markdown("**🔍 Verwendete Quellen:**")
+                        for filename, page in sorted(citations):
+                            st.markdown(f"- **{filename}**, Seite {page}")
 
                     if steps:
                         st.subheader("🔎 Zwischenschritte")
