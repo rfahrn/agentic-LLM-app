@@ -135,7 +135,6 @@ if page == "Apotheker Assistent":
             if tools:
                 if use_medguides and len(tools) == 1:
                     try:
-                        st.subheader("🔍 Pinecone-RAG wird direkt ausgeführt...")
                         final = search_medguides_with_rag(prompt)
                         st.success("✅ Antwort abgeschlossen.")
                         with st.expander("📋 Antwort anzeigen", expanded=True):
@@ -166,7 +165,7 @@ if page == "Apotheker Assistent":
 
                     st.success("✅ Antwort abgeschlossen.")
                     st.subheader("📋 Antwort")
-                    st.markdown(final, unsafe_allow_html=True)
+                    st.markdown(final, unsafe_allow_html=False)
 
                     if steps:
                         st.subheader("🔎 Zwischenschritte")

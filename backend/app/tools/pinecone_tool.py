@@ -47,14 +47,15 @@ def retrieve_context(query: str, top_k=8):
         page = meta.get("page", "?")
         score = round(match.get("score", 0), 2)
         scores.append(score)
-
-        context_blocks.append(f"From **{filename}**, page **{page}**:\n{text}")
+        short_filename = filename.split('_TABLET_')[0].replace('_', ' ').title()
+        context_blocks.append(f"From **{short_filename}**, page **{page}**:\n{text}")
         sources.append({
             "filename": filename,
             "page": page,
             "score": score,
             "preview": text[:250] + ("..." if len(text) > 250 else "")
         })
+    sources = sorted(sources, key=lambda x: x['score'], reverse=True)[:5]
 
     context = "\n\n---\n\n".join(context_blocks)
     avg_score = round(sum(scores) / len(scores), 2) if scores else 0
@@ -70,15 +71,15 @@ def search_medguides_with_rag(query: str, top_k=8) -> str:
         return "⚠️ Keine passenden Informationen im lokalen PDF-Vektorindex gefunden."
 
     prompt = f"""Du bist ein pharmazeutischer Assistent. Beantworte die folgende Frage **ausschließlich basierend auf dem untenstehenden Kontext**.
-Antworte in **Markdown**, gegliedert in eine **Zusammenfassung**, eine **Detailanalyse** (Text oder Tabelle), und schließe mit **Quellenangaben** ab. Wenn Tabellen im Kontext enthalten sind, stelle sie als Markdown-Tabelle dar. Zitiere die Quelle jeder Information als (Quelle: DATEI.pdf, S. X).
+            Antworte in **Markdown**, gegliedert in eine **Zusammenfassung**, eine **Detailanalyse** (Text oder Tabelle), und schließe mit **Quellenangaben** ab. Wenn Tabellen im Kontext enthalten sind, stelle sie als Markdown-Tabelle dar. Zitiere die Quelle jeder Information als (Quelle: DATEI.pdf, S. X).
 
-### Kontext:
-{context}
+            ### Kontext:
+            {context}
 
-### Frage:
-{query}
+            ### Frage:
+            {query}
 
-### Antwort:"""
+            ### Antwort:"""
 
     res = openai_client.chat.completions.create(
         model=GPT_MODEL,
