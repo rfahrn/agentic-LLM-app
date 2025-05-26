@@ -70,10 +70,7 @@ if page == "Apotheker Assistent":
             "📦 Lagerung":       "Wie ist die Lagerung von" ,
             "🧪 Wirkstoff":      "Was ist der Wirkstoff von",
             "💊 Interaktionen":  "Welche Interaktionen hat", 
-            "📦 Haltbarkeit":  "Was weiss man bezüglich der Haltbarkeit von",
-
-            
-        }
+            "📦 Haltbarkeit":  "Was weiss man bezüglich der Haltbarkeit von",}
         input_type_options = {
             "💊 Medikament": "Medikament",
             "🧪 Wirkstoff":   "Wirkstoff",
@@ -102,23 +99,18 @@ if page == "Apotheker Assistent":
     run = st.button("🚀 Anfrage starten")
     st.sidebar.markdown("---")
     if run:
-        # validation
         if not openai_api_key.startswith("sk-"):
             st.warning("Bitte gib deinen OpenAI API-Key ein (muss mit sk- beginnen).")
         elif not prompt or prompt.strip() == "":
             st.warning("Bitte formuliere eine Frage.")
         else:
-            # show prompt back
             st.subheader("Frage")
             st.info(prompt, icon="ℹ️")
-            
-            # --- INIT LLM DIRECTLY ---
             llm = ChatOpenAI(
                 api_key=openai_api_key,
                 model="gpt-4o",
                 temperature=0,
-                streaming=True,
-            )
+                streaming=True, )
 
             st.subheader("🔍 LLM läuft…")
             placeholder = st.empty()
@@ -129,7 +121,6 @@ if page == "Apotheker Assistent":
                 result = result.content
                 st.success("✅ Fertig!")
                 st.subheader("📋 Antwort")
-                # only content of LLM response
                 st.markdown(result)
 
             except Exception as e:
