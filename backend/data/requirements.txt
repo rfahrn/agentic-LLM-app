@@ -28,7 +28,7 @@ cffi==1.17.1
 chardet==5.2.0
 charset-normalizer==3.4.2
 chromadb==1.0.9
-click==8.1.8
+click==7.1.2
 colorama==0.4.6
 coloredlogs==15.0.1
 comm==0.2.2
@@ -42,6 +42,8 @@ decorator==5.2.1
 defusedxml==0.7.1
 Deprecated==1.2.18
 distro==1.9.0
+docker==4.2.0
+dockerpty==0.4.1
 docopt==0.6.2
 docx==0.2.4
 docy==0.0.0.0
@@ -65,7 +67,7 @@ fsspec==2025.3.2
 future==1.0.0
 gensim==4.3.3
 gitdb==4.0.12
-GitPython==3.1.44
+GitPython==3.1.0
 google-auth==2.40.1
 googleapis-common-protos==1.70.0
 graspologic==3.4.1
@@ -178,6 +180,7 @@ pinecone-plugin-interface==0.0.7
 pipmaster==0.7.2
 pipreqs==0.5.0
 platformdirs==4.3.7
+popper==2.7.0
 posthog==4.0.1
 POT==0.9.5
 prompt_toolkit==3.0.51
@@ -196,15 +199,18 @@ pydantic_core==2.33.2
 pydeck==0.9.1
 Pygments==2.19.1
 PyJWT==2.10.1
+pykwalify==1.7.0
 PyMuPDF==1.25.5
 pynndescent==0.5.13
 pyparsing==3.2.3
 pypdf==5.5.0
 pypdfium2==4.30.1
 PyPika==0.48.9
+pypiwin32==223
 pyproject_hooks==1.2.0
 pyreadline3==3.5.4
 pyspellchecker==0.8.3
+python-box==4.2.3
 python-dateutil==2.9.0.post0
 python-docx==1.1.2
 python-dotenv==1.1.0
@@ -217,7 +223,7 @@ pytz==2025.2
 pyuca==1.2
 pyvis==0.3.2
 pywin32==310
-PyYAML==6.0.2
+PyYAML==5.3.1
 pyzmq==26.4.0
 RapidFuzz==3.13.0
 referencing==0.36.2
@@ -229,10 +235,13 @@ requests-toolbelt==1.0.0
 rich==14.0.0
 rpds-py==0.24.0
 rsa==4.9.1
+ruamel.yaml==0.18.11
+ruamel.yaml.clib==0.2.12
 safetensors==0.5.3
 scikit-learn==1.6.1
 scipy==1.12.0
 seaborn==0.13.2
+semver==3.0.4
 sentence-transformers==4.1.0
 setuptools==80.4.0
 shellingham==1.5.4
@@ -241,6 +250,7 @@ smart-open==7.1.0
 smmap==5.0.2
 sniffio==1.3.1
 soupsieve==2.7
+spython==0.0.79
 SQLAlchemy==2.0.40
 stack-data==0.6.3
 starlette==0.45.3
