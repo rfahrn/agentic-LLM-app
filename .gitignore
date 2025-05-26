@@ -366,3 +366,5 @@ data/faiss_metadata.pkl
 data/faiss_embeddings.pkl
 
 *.idx
+backend/data/poppler-23.11.0/
+backend/data/poppler.zip

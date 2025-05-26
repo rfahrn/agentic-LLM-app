@@ -35,7 +35,7 @@ from pdf2image import convert_from_path
 def get_pdf_page_as_base64_image(filename: str, page_num: int):
     try:
         pdf_path = os.path.join(r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\MedicationGuides_2025_05_19", filename)
-        images = convert_from_path(pdf_path, first_page=int(page_num), last_page=int(page_num))
+        images = convert_from_path(pdf_path, first_page=int(page_num), last_page=int(page_num),poppler_path=r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\poppler-23.11.0\Library\bin")
         buffered = BytesIO()
         images[0].save(buffered, format="PNG")
         img_base64 = base64.b64encode(buffered.getvalue()).decode("utf-8")
