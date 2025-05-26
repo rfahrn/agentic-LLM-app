@@ -151,11 +151,28 @@ if page == "Apotheker Assistent":
                 try:
                     result = agent.invoke({"input": prompt}, callbacks=[callback], return_only_outputs=False)
                     final = result["output"]
+                    
                     steps = result.get("intermediate_steps", [])
 
                     st.success("✅ Antwort abgeschlossen.")
                     st.subheader("📋 Antwort")
+
+                    # Extract citations if available
+                    citations = set()
+                    for thought, action in steps:
+                        if hasattr(action, "log") and isinstance(action.log, str):
+                            matches = re.findall(r"From \*\*(.*?)\*\*, page \*\*(.*?)\*\*", action.log)
+                            for filename, page in matches:
+                                citations.add((filename, page))
+
+                    # Display answer
                     st.markdown(final)
+
+                    # Display citation block (if any)
+                    if citations:
+                        with st.expander("📄 Verwendete Quellen anzeigen"):
+                            for filename, page in sorted(citations):
+                                st.markdown(f"- **{filename}**, Seite {page}")
 
                     if steps:
                         st.subheader("🔎 Zwischenschritte")
