@@ -3,9 +3,10 @@ from langchain.tools import Tool
 from backend.app.tools.compendium_api_runner import run_compendium_cache_build
 
 #BASE_PATH = r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\Compendium_database"
-BASE_PATH = os.path.join(os.path.dirname(__file__), "backend", "data", "Compendium_database")
-BASE_PATH = os.path.abspath(BASE_PATH)
-os.makedirs(BASE_PATH, exist_ok=True)
+from pathlib import Path
+
+BASE_PATH = Path(__file__).resolve().parents[2] / "data" / "Compendium_database"
+BASE_PATH.mkdir(parents=True, exist_ok=True)
 
 def extract_from_md_cache(drug_name: str, query: str) -> str:
     file_path = os.path.join(BASE_PATH, f"{drug_name.lower().replace(' ', '_')}.md")
