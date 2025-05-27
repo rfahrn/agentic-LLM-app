@@ -9,20 +9,16 @@ from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
 
 from backend.app.tools.pinecone_tool import search_medguides_with_rag, get_pdf_page_as_base64_image
+from backend.app.tools.post_sendungen import fetch_sendungen
+
 def pinecone_wrapper(prompt: str) -> str:
     answer, sources, avg_score = search_medguides_with_rag(prompt)
     return f"{answer}\n\n\n---\n📈 *Durchschnittlicher Score: {avg_score}*"
-# your tool imports
-#from Tools_agent.compendium_tool import get_compendium_info
-#from Tools_agent.faiss_tool import search_faiss
-#from Tools_agent.openfda_tool import search_openfda
-#from Tools_agent.tavily_tool import smart_tavily_answer
-#from Tools_agent.alerts_tool import search_medication_alerts
 
 load_dotenv()
 st.set_page_config(page_title="KING – Streamed Multi-Tool Agent", layout="wide")
-# --- SIDEBAR NAVIGATION ---
 page = st.sidebar.selectbox("Seite wählen:", ["Apotheker Assistent", "Post-Sendungen"])
+
 if page == "Apotheker Assistent":
     # --- API Key & Tool Toggles ---
     st.sidebar.markdown("---")
@@ -38,8 +34,8 @@ if page == "Apotheker Assistent":
         st.checkbox("Compendium", value=False)
         st.checkbox("EMA", value=False)
         st.checkbox("OpenFDA", value=False)
-        use_medguides = st.sidebar.checkbox("Local PDFs Database (Pinecone)", value=True)
-        st.checkbox("Open Web Search (Tavily)", value=False)
+        use_medguides = st.checkbox("Local PDFs Database", value=True)
+        st.checkbox("Open Web Search", value=False)
         st.checkbox("Medication Alerts", value=False)
         st.checkbox("MediQ", value=False)
         st.checkbox("PharmGKB", value=False)
@@ -254,44 +250,24 @@ if page == "Apotheker Assistent":
 
 
 elif page == "Post-Sendungen":
-    # --- POST-SENDUNGEN PAGE ---
     st.title("📦 Post-Sendungen")
     st.write("Suche Post-Sendungen (Pakete) für eine gegebene Kundennummer im ERP.")
-
-    # Input field for customer number
     kundennummer = st.text_input("Kundennummer eingeben", placeholder="z.B. 123456")
     search = st.button("🔍 Pakete suchen")
-
     if search:
         if not kundennummer:
             st.warning("Bitte gib eine Kundennummer ein.")
         else:
             st.info(f"Suche Post-Sendungen für Kundennummer **{kundennummer}**…")
-            #try:
-                # Example: connect via python-oracledb in thin mode
-                #pw = getpass.getpass("Oracle Passwort eingeben: ")
-                #conn = oracledb.connect(
-                    #user="YOUR_ERP_USER",
-                    #password=pw,
-                    #dsn="erp.host:1521/servicename"
-                #)
-                #cur = conn.cursor()
-                # Replace with your actual ERP table/query
-                #cur.execute("""
-                    #SELECT paket_id, versanddatum, status
-                    #FROM post_sendungen
-                    #WHERE kundennummer = :1
-                    #ORDER BY versanddatum DESC
-                #""", [kundennummer])
-                #rows = cur.fetchall()
-                #cur.close()
-                #conn.close()
+            try:
+                df = fetch_sendungen(kundennummer)
+                if df.empty:
+                    st.warning("Keine Pakete in den letzten 30 Tagen gefunden.")
+                else:
+                    st.subheader("📦 Gefundene Pakete")
+                    st.write(df.to_markdown(index=False), unsafe_allow_html=True)
+                    st.dataframe(df.drop(columns=["po56paknr"]))  
 
-                #if not rows:
-                #    st.warning("Keine Post-Sendungen gefunden.")
-                #else:
-                #    st.subheader("Gefundene Pakete:")
-                #    for paket_id, versanddatum, status in rows:
-                #        st.write(f"- **Paket {paket_id}** | Datum: {versanddatum} | Status: {status}")
-            #except Exception as e:
-            #    st.error(f"Fehler bei der ERP-Abfrage: {e}")
+            except Exception as e:
+                st.error(f"❌ Fehler: {e}")
+
