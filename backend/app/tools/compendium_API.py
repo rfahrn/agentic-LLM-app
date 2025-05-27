@@ -48,12 +48,15 @@ def extract_section_tables(sec):
     return chunks
 
 def fetch_and_parse(key):
+    import streamlit as st
     """
     Fetches the XML for a given key from the HCIndex API and returns
     the parsed ElementTree root and namespace dict.
     """
-    username = os.getenv("HCI_USERNAME")
-    password = os.getenv("HCI_PASSWORD")
+    #username = os.getenv("HCI_USERNAME")
+    username = st.secrets.HCI.HCI_USERNAME
+    #password = os.getenv("HCI_PASSWORD")
+    password = st.secrets.HCI.HCI_PASSWORD
     url = "https://index.hcisolutions.ch/Index/current/get.aspx"
     params = {
         "schema": "COMPENDIUM",
@@ -70,42 +73,38 @@ def fetch_and_parse(key):
     return root, ns
 
 def build_markdown(root, ns):
-    """
-    Walks through each German-language CP in the XML, extracts name and
-    content sections, and builds a Markdown string.
-    """
     md_lines = []
+    section_links = []
     for cp in root.findall("ns:CP", ns):
         if cp.attrib.get("LANG") != "DE":
             continue
-
-        # Product title
         name_html = cp.find("ns:NAME", ns)
         product_name = BeautifulSoup(name_html.text or "", "html.parser").get_text(strip=True)
         md_lines.append(f"# {product_name}\n")
 
-        # Content HTML
         content_el = cp.find("ns:CONTENT", ns)
         raw_html = content_el.text or ""
         if "<div" not in raw_html:
             continue
 
         soup = BeautifulSoup(raw_html, "html.parser")
-
-        # Extract each section
         for sec in soup.select("div.paragraph"):
             h2 = sec.find(re.compile(r"^h[2]$"))
             if not h2:
                 continue
             section_title = h2.get_text(strip=True)
+            section_anchor = section_title.lower().replace(" ", "-").replace("/", "-")
+            section_links.append((section_title, section_anchor))
             md_lines.append(f"## {section_title}\n")
             for chunk in extract_section_tables(sec):
                 md_lines.append(chunk + "\n")
             md_lines.append("\n")
 
         md_lines.append("\n" + "="*40 + "\n")
+    return "\n".join(md_lines), product_name, section_links
 
-    return "\n".join(md_lines)
+
+
 
 def main():
     parser = argparse.ArgumentParser(

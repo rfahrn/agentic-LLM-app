@@ -16,7 +16,7 @@ OPENAI_API_KEY = st.secrets.OPENAI.OPENAI_API_KEY
 PINECONE_API_KEY = st.secrets.PINECONE.PINECONE_API_KEY
 PINECONE_INDEX = "medguides-index"
 EMBEDDING_MODEL = "text-embedding-3-large"
-GPT_MODEL = "gpt-4o-mini"
+GPT_MODEL = "gpt-4o"
 
 # Initialize clients
 openai_client = OpenAI(api_key=OPENAI_API_KEY)
@@ -119,7 +119,11 @@ def answer_follow_up_question(follow_up: str, top_k=4):
         res = openai_client.chat.completions.create(
             model=GPT_MODEL,
             messages=[{"role": "user", "content": prompt}],
-            temperature=0.3
+            temperature=0.4,
+            max_tokens=2000,  
+            top_p=1,
+            frequency_penalty=0,
+            presence_penalty=0
         )
         response_text = res.choices[0].message.content.strip()
         return f"- **{follow_up}**\n  {response_text}", sources
@@ -153,23 +157,22 @@ def search_medguides_with_rag(query: str, top_k=8, include_followups=True) -> st
     - **Formuliere die Frage neu**
     - **Korrigiere Schreibfehler**
     - Gib an:
-        - **Ursprüngliche Frage**
-        - **Überarbeitete Frage**
-        - **Kurze Begründung**, warum die Umformulierung vorgenommen wurde (z. B. zu allgemein, missverständlich, nicht fachlich genug etc.)
+        - **Überarbeitete Frage & kurze Begründung:**, warum die Umformulierung vorgenommen wurde (z. B. zu allgemein, missverständlich, nicht fachlich genug etc.)
 
-    - Formuliere **bis zu drei sinnvolle Folgefragen**, die sich logisch aus dem Thema ergeben könnten.
+    - Formuliere **bis zu drei sinnvolle Folgefragen**, die sich logisch aus dem Thema ergeben könnten und auch eine **Wichtige Hinweise**-Sektion enthalten, falls relevant**.
+    - Beispiel: "Welche Nebenwirkungen sind bei diesem Medikament bekannt?" oder "Gibt es spezielle Warnhinweise für bestimmte Patientengruppen?"
 
     ---
 
-    ### 2. **Antwort (im Format Markdown)**
+    ### 2. **Antwort**
 
-    #### 🟢 Zusammenfassung  
+    #### Zusammenfassung  
     Gib einen klaren Überblick über die zentrale Erkenntnis.
 
-    #### 🧪 Detailanalyse  
+    #### Detailanalyse  
     Geh fachlich in die Tiefe. Falls Tabellen im Kontext vorhanden sind, stelle sie als **Markdown-Tabelle** dar.
 
-    #### 📚 Quellenangaben  
+    #### Quellenangaben  
     Zitiere jede verwendete Information im Format:  
     `(Quelle: DATEI.pdf, S. X)`
 
@@ -177,7 +180,7 @@ def search_medguides_with_rag(query: str, top_k=8, include_followups=True) -> st
 
     ### 3. **Behandlung der Folgefragen** (sofern möglich)
 
-    - Gehe auf die zuvor genannten Folgefragen kurz ein.
+    - Gehe auf die zuvor genannten Folgefragen kurz ein und erkläre, weshalb die Folgefrage relevant ist.
     - Falls eine fundierte Antwort möglich ist, **nenne nur die relevante Textstelle oder Seitenangabe**, ohne vollständige Analyse.
     - Falls keine ausreichende Information vorhanden ist, sage dies deutlich.
 
@@ -211,7 +214,7 @@ def search_medguides_with_rag(query: str, top_k=8, include_followups=True) -> st
     if include_followups:
         follow_ups = extract_follow_up_questions(answer)
         if follow_ups:
-            follow_up_md += "\n\n---\n\n### 🔄 Folgefragen (Hinweisantworten)\n"
+            follow_up_md += "\n\n---\n\n### 🔄 Folgefragen\n"
             for i, fq in enumerate(follow_ups[:3], 1):
                 fq_answer, fq_sources = answer_follow_up_question(fq)
                 follow_up_md += f"\n**{i}.** {fq_answer}\n"
