@@ -28,7 +28,7 @@ cffi==1.17.1
 chardet==5.2.0
 charset-normalizer==3.4.2
 chromadb
-click==8.0.1
+#click==8.0.1
 colorama==0.4.6
 coloredlogs==15.0.1
 comm==0.2.2
