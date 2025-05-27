@@ -12,11 +12,11 @@ from streamlit import st
 
 load_dotenv()
 
-#HCI_USERNAME = os.getenv("HCI_USERNAME")
-HCI_USERNAME = st.secrets.HCI.HCI_USERNAME
+HCI_USERNAME = os.getenv("HCI_USERNAME")
+#HCI_USERNAME = st.secrets.HCI.HCI_USERNAME
 
-#HCI_PASSWORD = os.getenv("HCI_PASSWORD")
-HCI_PASSWORD = st.secrets.HCI.HCI_PASSWORD
+HCI_PASSWORD = os.getenv("HCI_PASSWORD")
+#HCI_PASSWORD = st.secrets.HCI.HCI_PASSWORD
 HCI_URL = "https://index.hcisolutions.ch/Index/current/get.aspx"
 
 def fetch_compendium_xml(drug_name: str) -> ET.Element:

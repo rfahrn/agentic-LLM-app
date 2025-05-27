@@ -2,7 +2,9 @@ import os
 import re
 import streamlit as st
 from dotenv import load_dotenv
-
+import nest_asyncio
+import asyncio
+nest_asyncio.apply()
 from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
@@ -11,6 +13,7 @@ from langchain.callbacks.streamlit import StreamlitCallbackHandler
 from backend.app.tools.pinecone_tool import search_medguides_with_rag, get_pdf_page_as_base64_image
 from backend.app.tools.post_sendungen import fetch_sendungen
 from backend.app.tools.compendium_langchain_tool  import CompendiumTool
+from backend.app.tools.compendium_ch_search import CompendiumTavilyTool
 
 # === Helper Tool Class with Priority ===
 class PriorityTool:
@@ -43,6 +46,8 @@ if page == "Apotheker Assistent":
         use_ema = st.checkbox("EMA", value=False)
         use_openfda = st.checkbox("OpenFDA", value=False)
         use_medguides = st.checkbox("Local PDFs Database", value=True)
+        use_compendium_tavily = st.checkbox("Compendium (Tavily)", value=False)
+
         # The rest are not integrated yet
         st.checkbox("Open Web Search", value=False)
         st.checkbox("Medication Alerts", value=False)
@@ -159,8 +164,29 @@ if page == "Apotheker Assistent":
             llm = ChatOpenAI(api_key=openai_api_key, model="gpt-4o-mini", temperature=0, streaming=True)
 
             tools = []
+            if use_compendium_tavily and not any([use_medguides, use_compendium, use_ema, use_openfda]):
+                from backend.app.tools.compendium_playwrite_scraper import scrape_compendium_pages
+                from backend.app.tools.compendium_ch_search import get_product_url_only
+
+                base_url = get_product_url_only(prompt)
+
+                if not base_url:
+                    st.warning("⚠️ Kein passender Compendium-Link gefunden.")
+                else:
+                    st.info(f"📦 Lade Informationen von: {base_url}")
+                    result = scrape_compendium_pages(base_url)
+
+                    if not result.strip():
+                        st.warning("⚠️ Kein Inhalt extrahierbar.")
+                    else:
+                        st.success("✅ Informationen extrahiert.")
+                        st.markdown(result, unsafe_allow_html=False)
+
+                # ✅ Skip all other tools and the agent!
+                st.stop()
+
             if use_compendium:
-                tools.append(PriorityTool(CompendiumTool, priority=1))
+                tools.append(PriorityTool(CompendiumTool, priority=2))
             if use_ema:
                 tools.append(PriorityTool(
                     Tool(name="EMA", func=lambda x: "📄 EMA-Tool: Noch nicht implementiert.", description="..."),
@@ -203,6 +229,16 @@ if page == "Apotheker Assistent":
                                 st.caption(f"{filename} – Seite {page} (Score: {score})")
                 except Exception as e:
                     st.error(f"❌ Fehler bei Pinecone-RAG: {e}")
+            # ✅ Run Tavily directly if it's the only tool
+            if use_compendium_tavily and not (use_medguides or use_compendium or use_ema or use_openfda):
+                from backend.app.tools.compendium_ch_search import get_compendium_info
+                result = get_compendium_info(prompt)
+
+                if not result.strip():
+                    st.warning("⚠️ Keine passende Information auf Compendium.ch gefunden.")
+                else:
+                    st.success("✅ Antwort von Compendium.ch (Tavily):")
+                    st.markdown(result, unsafe_allow_html=True)
             else:
                 agent = initialize_agent(
                     tools=sorted_tools,
@@ -214,8 +250,7 @@ if page == "Apotheker Assistent":
                         "system_message": (
                             "Du bist ein pharmazeutischer Assistent. "
                             "Nutze vertrauenswürdige Tools in dieser Reihenfolge: Compendium, EMA, OpenFDA. "
-                            "Antworte ausschließlich auf Deutsch."
-                        ),
+                            "Antworte ausschließlich auf Deutsch."),
                         "max_iterations": 5,
                         "return_intermediate_steps": True,
                     },

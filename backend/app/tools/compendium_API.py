@@ -53,10 +53,10 @@ def fetch_and_parse(key):
     Fetches the XML for a given key from the HCIndex API and returns
     the parsed ElementTree root and namespace dict.
     """
-    #username = os.getenv("HCI_USERNAME")
-    username = st.secrets.HCI.HCI_USERNAME
-    #password = os.getenv("HCI_PASSWORD")
-    password = st.secrets.HCI.HCI_PASSWORD
+    username = os.getenv("HCI_USERNAME")
+    #username = st.secrets.HCI.HCI_USERNAME
+    password = os.getenv("HCI_PASSWORD")
+    #password = st.secrets.HCI.HCI_PASSWORD
     url = "https://index.hcisolutions.ch/Index/current/get.aspx"
     params = {
         "schema": "COMPENDIUM",
@@ -121,7 +121,7 @@ def main():
     args = parser.parse_args()
 
     root, ns = fetch_and_parse(args.key)
-    markdown = build_markdown(root, ns)
+    markdown, product_name, section_links = build_markdown(root, ns)
 
     os.makedirs(args.output_dir, exist_ok=True)
     base_name = args.key.lower().replace(" ", "_")

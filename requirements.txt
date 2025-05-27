@@ -144,6 +144,7 @@ numpy==1.26.4
 oauthlib==3.2.2
 olefile==0.47
 onnx==1.18.0
+playwright
 onnxruntime==1.18.0
 openai==1.77.0
 opencv-python==4.11.0.86
