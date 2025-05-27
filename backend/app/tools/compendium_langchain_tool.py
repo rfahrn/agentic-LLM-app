@@ -3,7 +3,7 @@ from langchain.tools import Tool
 from backend.app.tools.compendium_api_runner import run_compendium_cache_build
 
 #BASE_PATH = r"C:\Users\FahRe\Desktop\agentic-LLM-app\backend\data\Compendium_database"
-BASE_PATH = os.path.join(os.path.dirname(__file__), "data", "Compendium_database")
+BASE_PATH = os.path.join(os.path.dirname(__file__), "backend", "data", "Compendium_database")
 BASE_PATH = os.path.abspath(BASE_PATH)
 os.makedirs(BASE_PATH, exist_ok=True)
 
