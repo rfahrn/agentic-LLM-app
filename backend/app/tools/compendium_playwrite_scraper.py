@@ -44,7 +44,7 @@ from langchain.chains import LLMChain
 
 # backend/app/tools/llm_answer_tool.py
 
-from langchain.chat_models import ChatOpenAI
+from langchain_openai import ChatOpenAI 
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 
