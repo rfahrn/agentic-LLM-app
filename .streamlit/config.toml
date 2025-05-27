@@ -4,6 +4,3 @@ backgroundColor = "#F8FAFC"           # Soft off-white (clean, not stark)
 secondaryBackgroundColor = "#FFFFFF"  # Clear panels (card-like)
 textColor = "#1E293B"                 # Slate gray (high contrast, soft)
 font = "sans serif"
-
-[commands]
-beforeRunScript = "playwright install"

@@ -9,7 +9,8 @@ from langchain.chat_models import ChatOpenAI
 from langchain.agents import initialize_agent, AgentType
 from langchain.tools import Tool
 from langchain.callbacks.streamlit import StreamlitCallbackHandler
-
+import os
+os.system("playwright install")
 from backend.app.tools.pinecone_tool import search_medguides_with_rag, get_pdf_page_as_base64_image
 from backend.app.tools.post_sendungen import fetch_sendungen
 from backend.app.tools.compendium_langchain_tool  import CompendiumTool
