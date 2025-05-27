@@ -166,7 +166,7 @@ if page == "Apotheker Assistent":
 
             tools = []
             if use_compendium_tavily and not any([use_medguides, use_compendium, use_ema, use_openfda]):
-                from backend.app.tools.compendium_playwrite_scraper import scrape_compendium_pages
+                from backend.app.tools.compendium_playwrite_scraper import scrape_compendium_pages, summarize_compendium_with_llm
                 from backend.app.tools.compendium_ch_search import get_product_url_only
 
                 base_url = get_product_url_only(prompt)
@@ -175,13 +175,18 @@ if page == "Apotheker Assistent":
                     st.warning("⚠️ Kein passender Compendium-Link gefunden.")
                 else:
                     st.info(f"📦 Lade Informationen von: {base_url}")
-                    result = scrape_compendium_pages(base_url)
+                    scraped_text, sources = scrape_compendium_pages(base_url)
 
-                    if not result.strip():
+                    if not scraped_text.strip():
                         st.warning("⚠️ Kein Inhalt extrahierbar.")
                     else:
                         st.success("✅ Informationen extrahiert.")
-                        st.markdown(result, unsafe_allow_html=False)
+                        st.markdown("### 📖 Kontextauszug")
+                        st.markdown(scraped_text, unsafe_allow_html=True)
+
+                        llm_answer = summarize_compendium_with_llm(scraped_text, prompt, sources)
+                        st.markdown("### 💬 LLM-Antwort")
+                        st.markdown(llm_answer, unsafe_allow_html=True)
 
                 # ✅ Skip all other tools and the agent!
                 st.stop()
