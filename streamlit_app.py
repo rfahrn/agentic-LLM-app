@@ -180,12 +180,8 @@ if page == "Apotheker Assistent":
                     if not scraped_text.strip():
                         st.warning("⚠️ Kein Inhalt extrahierbar.")
                     else:
-                        st.success("✅ Informationen extrahiert.")
-                        st.markdown("### 📖 Kontextauszug")
-                        st.markdown(scraped_text, unsafe_allow_html=True)
-
+                        scraped_text, sources = scrape_compendium_pages(base_url)
                         llm_answer = summarize_compendium_with_llm(scraped_text, prompt, sources)
-                        st.markdown("### 💬 LLM-Antwort")
                         st.markdown(llm_answer, unsafe_allow_html=True)
 
                 # ✅ Skip all other tools and the agent!
