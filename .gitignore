@@ -76,6 +76,7 @@ coverage.xml
 *.mo
 *.pot
 
+data/chroma*
 # Django stuff:
 *.log
 local_settings.py
@@ -366,3 +367,13 @@ data/faiss_metadata.pkl
 data/faiss_embeddings.pkl
 
 *.idx
+backend/data/faiss_index.idx
+backend/data/chroma_db_openai/65951c6e-373c-49f0-991a-6f560550174f/data_level0.bin
+backend/data/chroma_db_openai/65951c6e-373c-49f0-991a-6f560550174f/header.bin
+backend/data/chroma_db_openai/65951c6e-373c-49f0-991a-6f560550174f/length.bin
+backend/data/chroma_db_openai/65951c6e-373c-49f0-991a-6f560550174f/link_lists.bin
+backend/data/chroma_db_openai2/chroma.sqlite3
+backend/data/chroma_db_openai/65951c6e-373c-49f0-991a-6f560550174f/data_level0.bin
+backend/data/chroma_db_openai/chroma.sqlite3
+backend/data/chroma_db_openai/chroma.sqlite3
+backend/data/chroma_db_openai/*
