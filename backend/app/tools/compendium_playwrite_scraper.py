@@ -47,9 +47,11 @@ from langchain.chains import LLMChain
 from langchain_openai import ChatOpenAI 
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
+import streamlit as st
+openai_api_key = st.secrets.OPENAI.OPENAI_API_KEY
 
 def summarize_compendium_with_llm(scraped_text: str, user_question: str, source_urls: list[str]) -> str:
-    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, streaming=False)
+    llm = ChatOpenAI(model="gpt-4o-mini", temperature=0, streaming=False, openai_api_key=openai_api_key)
 
     prompt = PromptTemplate(
         input_variables=["context", "question"],
