@@ -28,7 +28,7 @@ cffi==1.17.1
 chardet==5.2.0
 charset-normalizer==3.4.2
 chromadb
-#click==8.0.1
+click>=8.0.1,<8.1.0
 colorama==0.4.6
 coloredlogs==15.0.1
 comm==0.2.2
@@ -180,7 +180,7 @@ pinecone-plugin-interface==0.0.7
 pipmaster==0.7.2
 pipreqs==0.5.0
 platformdirs==4.3.7
-popper==2.7.0
+popper
 posthog==4.0.1
 POT==0.9.5
 prompt_toolkit==3.0.51
