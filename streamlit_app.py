@@ -148,7 +148,40 @@ if page == "Apotheker Assistent":
             input_label = st.selectbox("Eingabetyp", list(input_type_options.keys()))
 
         med_name = st.text_input("Name des Medikaments / Wirkstoffs", placeholder="z.B. Dafalgan")
-        prompt = f"{question_types[question_label]} {med_name}? ({input_type_options[input_label]})"
+        
+        # Zusatzinfos für pharmazeutische Einschätzung
+        st.markdown("#### 🧑‍⚕️ Patientengruppe auswählen:")
+        col_age1, col_age2, col_age3, col_age4 = st.columns(4)
+        with col_age1:
+            is_child = st.checkbox("👶 Kind", key="age_child")
+        with col_age2:
+            is_teen = st.checkbox("🧒 Jugendlich", key="age_teen")
+        with col_age3:
+            is_adult = st.checkbox("🧑 Erwachsen", key="age_adult")
+        with col_age4:
+            is_senior = st.checkbox("👴 Senior", key="age_senior")
+
+        col_spec1, col_spec2, col_spec3, col_spec4 = st.columns(4)
+        with col_spec1:
+            is_pregnant = st.checkbox("🤰 Schwanger", key="pregnant")
+        with col_spec2:
+            is_breastfeeding = st.checkbox("🍼 Stillend", key="breastfeeding")
+        with col_spec3:
+            has_liver_issues = st.checkbox("🫀 Leberinsuffizienz", key="liver")
+        with col_spec4:
+            has_kidney_issues = st.checkbox("💧 Niereninsuffizienz", key="kidney")
+        extra_context = []
+        if is_child: extra_context.append("Kind")
+        if is_teen: extra_context.append("Jugendlicher")
+        if is_adult: extra_context.append("Erwachsener")
+        if is_senior: extra_context.append("Senior")
+        if is_pregnant: extra_context.append("schwangere Person")
+        if is_breastfeeding: extra_context.append("stillende Person")
+        if has_liver_issues: extra_context.append("Leberinsuffizienz")
+        if has_kidney_issues: extra_context.append("Niereninsuffizienz")
+
+        context_str = f" [Patient: {', '.join(extra_context)}]" if extra_context else ""
+        prompt = f"{question_types[question_label]} {med_name}? ({input_type_options[input_label]}){context_str}"
         st.write(f"**Frage:** {prompt}")
     else:
         prompt = st.text_area("Freie Frage an das LLM:", placeholder="Stelle hier deine beliebige Frage…", height=150)

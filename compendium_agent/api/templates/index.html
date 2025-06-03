@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <title>Compendium Assistant</title>
+  <script>
+    async function sendQuery() {
+      const prompt = document.getElementById("prompt").value;
+      const output = document.getElementById("output");
+      const details = document.getElementById("details");
+
+      output.innerHTML = "";
+      details.innerHTML = "";
+
+      const response = await fetch("/query", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ prompt }),
+      });
+
+      const reader = response.body.getReader();
+      const decoder = new TextDecoder();
+      let buffer = "";
+
+      while (true) {
+        const { done, value } = await reader.read();
+        if (done) break;
+        buffer += decoder.decode(value, { stream: true });
+
+        const lines = buffer.split("\n\n");
+        buffer = lines.pop(); // keep incomplete part
+
+        for (const line of lines) {
+          if (line.startsWith("data:")) {
+            const text = line.slice(5).trim();
+
+            if (text.startsWith("✅ Final Answer:")) {
+              output.innerText = text.replace("✅ Final Answer:", "").trim();
+            } else {
+              const entry = document.createElement("details");
+              entry.innerHTML = `<summary>${text.split(":")[0]}</summary><pre>${text.split(":").slice(1).join(":").trim()}</pre>`;
+              details.appendChild(entry);
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900 p-6 space-y-6">
+  <div class="max-w-2xl mx-auto space-y-4">
+    <h1 class="text-2xl font-bold">💊 Swissmedic Compendium Assistent</h1>
+    <textarea id="prompt" rows="4" class="w-full p-3 border rounded" placeholder="Frage eingeben..."></textarea>
+    <button onclick="sendQuery()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700">Senden</button>
+
+    <div>
+      <h2 class="text-xl font-semibold mt-6">🟩 Antwort:</h2>
+      <div id="output" class="bg-white p-4 border rounded mt-2"></div>
+    </div>
+
+    <div>
+      <h2 class="text-xl font-semibold mt-6">🛠️ Zwischenschritte:</h2>
+      <div id="details" class="space-y-2 mt-2"></div>
+    </div>
+  </div>
+</body>
+</html>

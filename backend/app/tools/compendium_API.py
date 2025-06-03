@@ -7,6 +7,7 @@ import requests
 import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup
 import re
+import json
 
 def extract_section_tables(sec):
     """
@@ -72,6 +73,32 @@ def fetch_and_parse(key):
     ns = {"ns": "http://www.hcisolutions.ch/index"}
     return root, ns
 
+def build_json(root, ns):
+    products_json = {}
+    for cp in root.findall("ns:CP", ns):
+        if cp.attrib.get("LANG") != "DE":
+            continue
+        name_html = cp.find("ns:NAME", ns)
+        product_name = BeautifulSoup(name_html.text or "", "html.parser").get_text(strip=True)
+        products_json[product_name] = {"sections": {}}
+
+        content_el = cp.find("ns:CONTENT", ns)
+        raw_html = content_el.text or ""
+        if "<div" not in raw_html:
+            continue
+
+        soup = BeautifulSoup(raw_html, "html.parser")
+        for sec in soup.select("div.paragraph"):
+            h2 = sec.find(re.compile(r"^h[2]$"))
+            if not h2:
+                continue
+            section_title = h2.get_text(strip=True)
+            section_chunks = extract_section_tables(sec)
+            if section_chunks:
+                products_json[product_name]["sections"][section_title] = "\n\n".join(section_chunks)
+
+    return products_json
+
 def build_markdown(root, ns):
     md_lines = []
     section_links = []
@@ -122,19 +149,24 @@ def main():
 
     root, ns = fetch_and_parse(args.key)
     markdown, product_name, section_links = build_markdown(root, ns)
+    json_data = build_json(root, ns)
 
     os.makedirs(args.output_dir, exist_ok=True)
     base_name = args.key.lower().replace(" ", "_")
     md_path = os.path.join(args.output_dir, f"{base_name}.md")
     txt_path = os.path.join(args.output_dir, f"{base_name}.txt")
+    json_path = os.path.join(args.output_dir, f"{base_name}.json")
 
     with open(md_path, "w", encoding="utf-8") as f_md:
         f_md.write(markdown)
     with open(txt_path, "w", encoding="utf-8") as f_txt:
         f_txt.write(markdown)
+    with open(json_path, "w", encoding="utf-8") as f_json:
+        json.dump(json_data, f_json, ensure_ascii=False, indent=4)
 
     print(f"Wrote Markdown to {md_path}")
     print(f"Wrote text to {txt_path}")
+    print(f"Wrote JSON to {json_path}")
 
 if __name__ == "__main__":
     main()

@@ -1,64 +1,61 @@
-import re
-import requests
+# compendium_tool.py
+# tools/compendium_scraper_tool.py
+import os, re, requests
 from bs4 import BeautifulSoup
 from langchain.tools import Tool
-from .tavily_tool_ import TavilyTool
-import requests, re
-from bs4 import BeautifulSoup
-from tools.tavily_tool_ import tavily_tool
 
-# compendium_agent/tools/compendium_tool.py
+LOGIN_URL = "https://compendium.ch/account/login"
 
-import requests, re
-from bs4 import BeautifulSoup
+def get_logged_in_session():
+    session = requests.Session()
+    username = os.getenv("HCI_USERNAME")
+    password = os.getenv("HCI_PASSWORD")
+    res = session.get(LOGIN_URL)
+    soup = BeautifulSoup(res.text, "html.parser")
+    token = soup.find("input", {"name": "__RequestVerificationToken"})
+    csrf = token["value"] if token else None
 
-def extract_compendium_links(results):
-    product_url = fachinfo_url = patientinfo_url = None
-    for r in results:
-        url = r.get("url", "")
-        title = r.get("title", "").lower()
-        if not url.startswith("https://compendium.ch"):
-            continue
-        if re.search(r"/product/\d+-", url):
-            if "dolo" in title or "tabl" in title or "500 mg" in title:
-                product_url = url if not product_url else product_url
-        if "/mpro" in url:
-            fachinfo_url = url
-        if "/mpub" in url:
-            patientinfo_url = url
-    return {
-        "Produktseite": product_url,
-        "Fachinformation": fachinfo_url,
-        "Patienteninformation": patientinfo_url,
+    payload = {
+        "__RequestVerificationToken": csrf,
+        "Email": username,
+        "Password": password
     }
 
-def scrape_compendium_product_page(url):
-    try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        res = requests.get(url, headers=headers, timeout=10)
-        res.raise_for_status()
-        soup = BeautifulSoup(res.text, "html.parser")
-        content_div = soup.find("div", class_="productDetail")
-        if not content_div:
-            return "⚠️ Kein relevanter Inhalt gefunden."
-        text_blocks = [
-            p.get_text(separator=" ", strip=True)
-            for p in content_div.find_all(["h1", "h2", "p", "li"])
-        ]
-        filtered = "\n".join([line for line in text_blocks if line and not line.startswith("Drucken")])
-        return filtered[:5000] + "..."
-    except Exception as e:
-        return f"❌ Fehler beim Abrufen von Compendium-Seite: {e}"
+    headers = {"Content-Type": "application/x-www-form-urlencoded"}
+    login_resp = session.post(LOGIN_URL, data=payload, headers=headers)
+    if "abmelden" not in login_resp.text.lower():
+        raise Exception("Login failed")
+    return session
 
-# Public lookup function
-def get_compendium_info_with_scraping(prompt, tavily_tool):
-    query = f"site:compendium.ch {prompt}"
+def scrape_page(session, url):
+    res = session.get(url)
+    soup = BeautifulSoup(res.text, "html.parser")
+    content = soup.find("div", class_="product-detail-content")
+    return content.get_text("\n", strip=True)[:2000] if content else "❌ Kein lesbarer Inhalt gefunden."
+
+def compendium_scraper_func(url: str) -> str:
     try:
-        results = tavily_tool.run(query)
-        links = extract_compendium_links(results)
-        if not links["Produktseite"]:
-            return f"⚠️ Kein Produktlink gefunden für {prompt}."
-        summary = scrape_compendium_product_page(links["Produktseite"])
-        return f"### 📦 Informationen zu **{prompt}**\n\n{summary}\n\n🔗 [Produktlink]({links['Produktseite']})"
+        session = get_logged_in_session()
+        base = scrape_page(session, url)
+        fach = scrape_page(session, f"{url}/mpro")
+        patient = scrape_page(session, f"{url}/mpub")
+        return f"""
+📦 **Produktseite**: {url}
+
+{base}
+
+📄 **Fachinformation**:
+{fach}
+
+👥 **Patienteninformation**:
+{patient}
+"""
     except Exception as e:
-        return f"❌ Fehler bei Tavily- oder Scrape-Suche: {e}"
+        return f"❌ Fehler beim Scraper: {str(e)}"
+
+compendium_scraper_tool = Tool(
+    name="compendium_scraper",
+    func=compendium_scraper_func,
+    description="Scrapes detailed pharma information from compendium.ch URLs. Requires full product URL."
+)
+
