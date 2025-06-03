@@ -46,7 +46,7 @@ if page == "Apotheker Assistent":
         use_compendium = st.checkbox("Compendium", value=False)
         use_ema = st.checkbox("EMA", value=False)
         use_openfda = st.checkbox("OpenFDA", value=False)
-        use_medguides = st.checkbox("Local PDFs Database", value=True)
+        use_medguides = st.checkbox("Local PDFs Database", value=False)
         use_compendium_tavily = st.checkbox("Compendium (Tavily)", value=False)
 
         # The rest are not integrated yet
@@ -146,30 +146,33 @@ if page == "Apotheker Assistent":
             question_label = st.selectbox("Fragetyp", list(question_types.keys()))
         with col2:
             input_label = st.selectbox("Eingabetyp", list(input_type_options.keys()))
+        st.sidebar.markdown("---")
 
-        med_name = st.text_input("Name des Medikaments / Wirkstoffs", placeholder="z.B. Dafalgan")
-        
-        # Zusatzinfos für pharmazeutische Einschätzung
-        st.markdown("#### 🧑‍⚕️ Patientengruppe auswählen:")
-        col_age1, col_age2, col_age3, col_age4 = st.columns(4)
-        with col_age1:
-            is_child = st.checkbox("👶 Kind", key="age_child")
-        with col_age2:
-            is_teen = st.checkbox("🧒 Jugendlich", key="age_teen")
-        with col_age3:
-            is_adult = st.checkbox("🧑 Erwachsen", key="age_adult")
-        with col_age4:
-            is_senior = st.checkbox("👴 Senior", key="age_senior")
+        col1, col2 = st.columns(2)
 
-        col_spec1, col_spec2, col_spec3, col_spec4 = st.columns(4)
-        with col_spec1:
-            is_pregnant = st.checkbox("🤰 Schwanger", key="pregnant")
-        with col_spec2:
-            is_breastfeeding = st.checkbox("🍼 Stillend", key="breastfeeding")
-        with col_spec3:
-            has_liver_issues = st.checkbox("🫀 Leberinsuffizienz", key="liver")
-        with col_spec4:
-            has_kidney_issues = st.checkbox("💧 Niereninsuffizienz", key="kidney")
+        with col1:
+            st.markdown("**Altersgruppe**")
+            is_child = st.checkbox("Kind", key="child")
+            is_teen = st.checkbox("Jugendlich", key="teen")
+            is_adult = st.checkbox("Erwachsen", key="adult")
+            is_senior = st.checkbox("Senior", key="senior")
+
+        with col2:
+            st.markdown("**Spezielle Faktoren**")
+            is_pregnant = st.checkbox("Schwanger", key="pregnant")
+            is_breastfeeding = st.checkbox("Stillend", key="breastfeeding")
+            has_liver_issues = st.checkbox("Leberinsuffizienz", key="liver")
+            has_kidney_issues = st.checkbox(" Niereninsuffizienz", key="kidney")
+
+        # med_name = st.text_input("Name des Medikaments / Wirkstoffs", placeholder="z.B. Dafalgan")
+
+        med_name = st.text_input(
+            label="",
+            placeholder="z.B. Dafalgan, Paracetamol, Ibuprofen",
+            label_visibility="collapsed"
+        )
+        st.markdown("<hr style='margin-top: -5px;'>", unsafe_allow_html=True)
+
         extra_context = []
         if is_child: extra_context.append("Kind")
         if is_teen: extra_context.append("Jugendlicher")
