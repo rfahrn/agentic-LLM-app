@@ -1,0 +1,9 @@
+[[pages]]
+name = "LLM Agenten"
+icon = "🤖"
+path = "pages/page1.py"
+
+[[pages]]
+name = "Post"
+icon = "📯"
+path = "pages/page2.py"
