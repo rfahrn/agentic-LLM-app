@@ -14,6 +14,10 @@ os.system("playwright install")
 from backend.app.tools.pinecone_tool import search_medguides_with_rag, get_pdf_page_as_base64_image
 from backend.app.tools.post_sendungen import fetch_sendungen
 from agents import Runner
+import streamlit as st
+import os
+
+os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI"]["OPENAI_API_KEY"]
 #from backend.app.tools.compendium_langchain_tool  import CompendiumTool
 #from backend.app.tools.compendium_ch_search import CompendiumTavilyTool
 #use openai tool for compendium instead of langchain tool
