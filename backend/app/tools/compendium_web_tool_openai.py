@@ -8,10 +8,10 @@ import asyncio
 from agents import Runner
 
 from agents import Agent, WebSearchTool
-
+import streamlit as st
 
     
-
+openai_api_key = st.secrets.OPENAI.OPENAI_API_KEY
 compendium_web_agent = Agent(
     name="CompendiumWebAgent",
     model="gpt-4.1",

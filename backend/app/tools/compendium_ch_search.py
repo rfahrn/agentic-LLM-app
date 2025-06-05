@@ -4,10 +4,10 @@ from langchain.tools import Tool
 from tavily import TavilyClient
 
 # Load Tavily API key
-api_key = os.getenv("TAVILY_API_KEY")
+#api_key = os.getenv("TAVILY_API_KEY")
 try:
     import streamlit as st
-    api_key = api_key or st.secrets["TAVILY"]["TAVILY_API_KEY"]
+    api_key = st.secrets["TAVILY"]["TAVILY_API_KEY"]
 except Exception:
     pass
 
