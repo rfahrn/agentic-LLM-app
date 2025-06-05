@@ -36,7 +36,7 @@ compendium_web_agent = Agent(
         "- 'Nebenwirkungen'\n"
         "- 'Zusammensetzung'\n\n"
         
-        "Extrahiere die relevanten Textstellen vollständig und zitiere sie wörtlich. "
+        "Extrahiere die relevanten Textstellen vollständig und zitiere sie wörtlich. Mit den dazugehörigen Links "
         "Beziehe dich dabei **so präzise wie möglich auf den originalen Abschnitt**, ohne zu interpretieren.\n\n"
         "Verwende ausschließlich Seiten Informationen auf den oben genannten Compendium.ch-Unterseiten, "
         "sage klar und deutlich:\n"
