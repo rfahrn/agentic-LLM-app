@@ -25,12 +25,41 @@ os.environ["OPENAI_API_KEY"] = st.secrets["OPENAI"]["OPENAI_API_KEY"]
 # === compendium web agent ===
 from backend.app.tools.compendium_web_tool_openai import compendium_web_agent, extract_compendium_links
 
-async def run_compendium_query(prompt):
-    result = await Runner.run(compendium_web_agent, input=prompt)
-    output = result.final_output
-    links = extract_compendium_links(output)
-    return output, links
+import json
 
+import json
+
+async def run_compendium_query(prompt: str):
+    result = await Runner.run(compendium_web_agent, input=prompt)
+
+    # Try the expected (dict) way first
+    output = result.final_output
+    if isinstance(output, dict):
+        return output.get("answer", ""), output.get("sources", [])
+
+    # If final_output is not a dict (e.g. False), parse from raw_responses
+    for response in getattr(result, "raw_responses", []):
+        # The raw_responses are typically a list of ModelResponse (see your log)
+        output_list = getattr(response, "output", [])
+        for item in output_list:
+            # Looking for output_text fields (type='output_text')
+            content_list = getattr(item, "content", [])
+            for content in content_list:
+                # Should be ResponseOutputText, has .text
+                text = getattr(content, "text", None)
+                if text:
+                    # Sometimes the text field is already a dict, but usually a string
+                    try:
+                        parsed = json.loads(text)
+                        return parsed.get("answer", ""), parsed.get("sources", [])
+                    except Exception:
+                        continue  # try next
+
+    # If all else fails, fallback to some safe value
+    return "❌ Antwort konnte nicht extrahiert werden.", []
+
+
+ 
 
 
 # === STREAMLIT UI ===
@@ -65,7 +94,7 @@ if page == "Apotheker Assistent":
         
     st.title(" KING – Apotheker Assistent")
     st.write("Nutze eine Auswahl an Agenten-Tools und gestreamte Antworten für schnelle, interaktive Q&A.")
-    mode = st.radio("Fragemodus wählen:", ("Strukturierte Frage", "Freie Frage / offene Fragen"))
+    mode = st.radio("Fragemodus wählen:", ("Strukturierte Frage", "Freie Frage / offene Fragen","Rückfrage - Nachrecherche"))
 
     prompt = ""
     if mode == "Strukturierte Frage":
@@ -194,9 +223,37 @@ if page == "Apotheker Assistent":
         #st.markdown('''#:red[Streamlit] :orange[can] :green[write] :blue[text] :violet[in]  #:gray[pretty] :rainbow[colors] and :blue-background[highlight] text.''')
         prompt = f"{question_types[question_label]} {med_name}? ({input_type_options[input_label]}){context_str}"
         st.markdown(f":blue-background[**Frage:** {prompt}]")
-    else:
-        prompt = st.text_area("Freie Frage an das LLM:", placeholder="Stelle hier deine beliebige Frage…", height=150)
+    elif mode == "Freie Frage / offene Fragen":
+        prompt = st.text_area("Freie Frage an das LLM:", placeholder="Stelle hier deine beliebige Frage… z.B Ich betreue einen Patienten, der über einen längeren Zeitraum wiederholt hohe Dosen Paracetamol eingenommen hat und nun gesundheitliche Beschwerden entwickelt. Können bei einer solchen Einnahmeweise auch über die bekannten Nebenwirkungen hinaus langfristige gesundheitliche Risiken auftreten? ", height=150)
+    elif mode == "Rückfrage - Nachrecherche":
+        st.markdown("**Bitte ergänze die fehlenden Angaben für die Rückfrage:**")
+        col1, col2 = st.columns(2)
+        produkte = ["Dafalgan", "Panadol", "Paracetamol", "Novalgin"]
+        dosierungen = {
+            "Dafalgan": ["500 mg", "1'000 mg"],
+            "Panadol": ["500 mg", "1'000 mg"],
+            "Paracetamol": ["500 mg", "1'000 mg"],
+            "Novalgin": ["500 mg", "1'000 mg"]
+        }
+        with col1:
+            selected_product = st.selectbox("Produktname", produkte)
+            selected_dose = st.selectbox("Wirkstärke", dosierungen[selected_product])
+            zusatz = st.text_input("Zusätzlicher Kontext (optional)", "")
 
+        with col2:
+            patienten_rolle = st.selectbox("Patientengruppe", ["Erwachsener", "Kind", "Senior"])
+            rueckfrage_typ = st.selectbox("Rückfrage-Typ", [
+                "Dosierung prüfen",
+                "Nebenwirkungen prüfen",
+                "Kontraindikationen prüfen",
+                "Wechselwirkungen prüfen",
+                "Anwendungshinweise prüfen"
+                ])
+
+        prompt = f"{rueckfrage_typ} für {selected_product} {selected_dose} bei {patienten_rolle}."
+        if zusatz.strip():
+            prompt += f" Zusatzinfo: {zusatz.strip()}"
+        st.markdown(f":blue-background[**Frage:** {prompt}]")
     run = st.button("🚀 Anfrage starten")
     if run:
         if not use_compendium:
@@ -217,14 +274,15 @@ if page == "Apotheker Assistent":
             output_text, links = asyncio.run(run_compendium_query(prompt))
             st.success("✅ Antwort abgeschlossen.")
             st.subheader("📋 Antwort")
-            st.markdown(output_text, unsafe_allow_html=True)
+            st.markdown(output_text, unsafe_allow_html=False)
 
-            if links:
-                st.markdown("### 🔗 Quellen:")
-                for url in links:
-                    st.markdown(f"- [compendium.ch]({url})")
-            else:
-                st.markdown("⚠️ *Keine direkten Links von [compendium.ch](https://compendium.ch) gefunden.*")
+            #if links:
+            #    st.markdown("### 🔗 Quellen:")
+            #    for url in links:
+            #        for url in links:
+            #            st.markdown(f"- [{url}]({url})")
+
+            
         except Exception as e:
             st.error(f"❌ Fehler bei der Compendium-Abfrage: {e}")
 
