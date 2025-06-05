@@ -12,6 +12,10 @@ import streamlit as st
 
     
 openai_api_key = st.secrets.OPENAI.OPENAI_API_KEY
+# set enviroment variable
+OPEN_API_KEY = openai_api_key
+import os
+os.environ["OPENAI_API_KEY"] = openai_api_key
 compendium_web_agent = Agent(
     name="CompendiumWebAgent",
     model="gpt-4.1",
