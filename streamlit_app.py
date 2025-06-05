@@ -170,7 +170,7 @@ if page == "Apotheker Assistent":
         # med_name = st.text_input("Name des Medikaments / Wirkstoffs", placeholder="z.B. Dafalgan")
 
         med_name = st.text_input(
-            label="",
+            label="Search",
             placeholder="z. B. Dafalgan, Paracetamol", 
             label_visibility="collapsed"
         )
