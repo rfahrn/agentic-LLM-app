@@ -1,3 +1,4 @@
+protobuf==3.20.3
 aiofiles==24.1.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.11.18
@@ -186,7 +187,6 @@ posthog==4.0.1
 POT==0.9.5
 prompt_toolkit==3.0.51
 propcache==0.3.1
-protobuf
 protoc-gen-openapiv2==0.0.1
 psutil==7.0.0
 pure_eval==0.2.3
